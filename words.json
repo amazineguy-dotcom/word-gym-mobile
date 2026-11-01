@@ -1,0 +1,13267 @@
+{
+"topics": [
+{
+"id": "people",
+"zh": "人與感受",
+"region": "shoulders"
+},
+{
+"id": "food",
+"zh": "吃吃喝喝",
+"region": "abs"
+},
+{
+"id": "home",
+"zh": "居家生活",
+"region": "back"
+},
+{
+"id": "places",
+"zh": "出門旅行",
+"region": "calves"
+},
+{
+"id": "work",
+"zh": "學校工作",
+"region": "arms"
+},
+{
+"id": "time",
+"zh": "時間天氣",
+"region": "glutes"
+},
+{
+"id": "actions",
+"zh": "常用動作",
+"region": "thighs"
+},
+{
+"id": "describe",
+"zh": "形容小字",
+"region": "waist"
+}
+],
+"words": [
+{
+"id": 0,
+"w": "man",
+"pos": "n",
+"zh": "男人",
+"ex": "The man is my teacher.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 1,
+"w": "woman",
+"pos": "n",
+"zh": "女人",
+"ex": "That woman is very tall.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 2,
+"w": "boy",
+"pos": "n",
+"zh": "男孩",
+"ex": "The boy is playing football.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 3,
+"w": "girl",
+"pos": "n",
+"zh": "女孩",
+"ex": "The girl has long hair.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 4,
+"w": "baby",
+"pos": "n",
+"zh": "嬰兒",
+"ex": "The baby is sleeping.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 5,
+"w": "child",
+"pos": "n",
+"zh": "小孩",
+"ex": "Every child likes ice cream.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 6,
+"w": "friend",
+"pos": "n",
+"zh": "朋友",
+"ex": "She is my best friend.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 7,
+"w": "family",
+"pos": "n",
+"zh": "家人；家庭",
+"ex": "I love my family.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 8,
+"w": "mother",
+"pos": "n",
+"zh": "媽媽",
+"ex": "My mother is a nurse.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 9,
+"w": "father",
+"pos": "n",
+"zh": "爸爸",
+"ex": "My father cooks dinner.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 10,
+"w": "parent",
+"pos": "n",
+"zh": "父親或母親",
+"ex": "My parents live in Tainan.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 11,
+"w": "brother",
+"pos": "n",
+"zh": "兄弟",
+"ex": "I have one brother.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 12,
+"w": "sister",
+"pos": "n",
+"zh": "姊妹",
+"ex": "My sister is twelve.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 13,
+"w": "son",
+"pos": "n",
+"zh": "兒子",
+"ex": "Their son is a doctor.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 14,
+"w": "daughter",
+"pos": "n",
+"zh": "女兒",
+"ex": "She has two daughters.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 15,
+"w": "husband",
+"pos": "n",
+"zh": "丈夫",
+"ex": "Her husband is very kind.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 16,
+"w": "wife",
+"pos": "n",
+"zh": "妻子",
+"ex": "His wife works in a bank.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 17,
+"w": "grandmother",
+"pos": "n",
+"zh": "祖母；外婆",
+"ex": "My grandmother makes great soup.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 18,
+"w": "grandfather",
+"pos": "n",
+"zh": "祖父；外公",
+"ex": "My grandfather is eighty.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 19,
+"w": "aunt",
+"pos": "n",
+"zh": "阿姨；姑姑",
+"ex": "My aunt lives in Japan.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 20,
+"w": "uncle",
+"pos": "n",
+"zh": "叔叔；舅舅",
+"ex": "My uncle has a big dog.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 21,
+"w": "cousin",
+"pos": "n",
+"zh": "堂／表兄弟姊妹",
+"ex": "My cousin is coming to visit.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 22,
+"w": "name",
+"pos": "n",
+"zh": "名字",
+"ex": "What is your name?",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 23,
+"w": "person",
+"pos": "n",
+"zh": "人",
+"ex": "She is a nice person.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 24,
+"w": "people",
+"pos": "n",
+"zh": "人們",
+"ex": "Many people like music.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 25,
+"w": "mum",
+"pos": "n",
+"zh": "媽媽（英式口語）",
+"ex": "Mum, can I go out?",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 26,
+"w": "dad",
+"pos": "n",
+"zh": "爸爸（口語）",
+"ex": "My dad drives a taxi.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 27,
+"w": "happy",
+"pos": "adj",
+"zh": "快樂的",
+"ex": "I am happy today.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 28,
+"w": "sad",
+"pos": "adj",
+"zh": "難過的",
+"ex": "Why are you sad?",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 29,
+"w": "angry",
+"pos": "adj",
+"zh": "生氣的",
+"ex": "My boss is angry.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 30,
+"w": "tired",
+"pos": "adj",
+"zh": "累的",
+"ex": "I am very tired after work.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 31,
+"w": "hungry",
+"pos": "adj",
+"zh": "餓的",
+"ex": "Are you hungry?",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 32,
+"w": "thirsty",
+"pos": "adj",
+"zh": "口渴的",
+"ex": "I'm thirsty. Can I have some water?",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 33,
+"w": "afraid",
+"pos": "adj",
+"zh": "害怕的",
+"ex": "She is afraid of dogs.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 34,
+"w": "love",
+"pos": "v",
+"zh": "愛",
+"ex": "I love my cat.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 35,
+"w": "like",
+"pos": "v",
+"zh": "喜歡",
+"ex": "I like coffee.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 36,
+"w": "feel",
+"pos": "v",
+"zh": "感覺",
+"ex": "I feel good today.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 37,
+"w": "want",
+"pos": "v",
+"zh": "想要",
+"ex": "I want a new phone.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 38,
+"w": "hope",
+"pos": "v",
+"zh": "希望",
+"ex": "I hope you are well.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 39,
+"w": "smile",
+"pos": "v",
+"zh": "微笑",
+"ex": "She smiles a lot.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 40,
+"w": "laugh",
+"pos": "v",
+"zh": "笑",
+"ex": "We laughed at the joke.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 41,
+"w": "cry",
+"pos": "v",
+"zh": "哭",
+"ex": "The baby is crying.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 42,
+"w": "head",
+"pos": "n",
+"zh": "頭",
+"ex": "My head hurts.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 43,
+"w": "face",
+"pos": "n",
+"zh": "臉",
+"ex": "Wash your face.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 44,
+"w": "eye",
+"pos": "n",
+"zh": "眼睛",
+"ex": "She has blue eyes.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 45,
+"w": "ear",
+"pos": "n",
+"zh": "耳朵",
+"ex": "The rabbit has long ears.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 46,
+"w": "nose",
+"pos": "n",
+"zh": "鼻子",
+"ex": "My nose is cold.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 47,
+"w": "mouth",
+"pos": "n",
+"zh": "嘴巴",
+"ex": "Open your mouth, please.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 48,
+"w": "hair",
+"pos": "n",
+"zh": "頭髮",
+"ex": "I like your hair.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 49,
+"w": "hand",
+"pos": "n",
+"zh": "手",
+"ex": "Raise your hand.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 50,
+"w": "arm",
+"pos": "n",
+"zh": "手臂",
+"ex": "My arm is tired.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 51,
+"w": "leg",
+"pos": "n",
+"zh": "腿",
+"ex": "The table has four legs.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 52,
+"w": "foot",
+"pos": "n",
+"zh": "腳",
+"ex": "My left foot hurts.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 53,
+"w": "tooth",
+"pos": "n",
+"zh": "牙齒",
+"ex": "Brush your teeth every night.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 54,
+"w": "body",
+"pos": "n",
+"zh": "身體",
+"ex": "Exercise is good for your body.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 55,
+"w": "sick",
+"pos": "adj",
+"zh": "生病的",
+"ex": "I'm sick today, so I'm staying home.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 56,
+"w": "well",
+"pos": "adj",
+"zh": "健康的；身體好的",
+"ex": "I don't feel well.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 57,
+"w": "doctor",
+"pos": "n",
+"zh": "醫生",
+"ex": "You should see a doctor.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 58,
+"w": "neighbour",
+"pos": "n",
+"zh": "鄰居",
+"ex": "Our neighbour has a cute dog.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 59,
+"w": "guest",
+"pos": "n",
+"zh": "客人",
+"ex": "We have two guests tonight.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 60,
+"w": "adult",
+"pos": "n",
+"zh": "成年人",
+"ex": "The ticket is ten dollars for adults.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 61,
+"w": "teenager",
+"pos": "n",
+"zh": "青少年",
+"ex": "My son is a teenager now.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 62,
+"w": "boyfriend",
+"pos": "n",
+"zh": "男朋友",
+"ex": "Her boyfriend is from Canada.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 63,
+"w": "girlfriend",
+"pos": "n",
+"zh": "女朋友",
+"ex": "He met his girlfriend at work.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 64,
+"w": "couple",
+"pos": "n",
+"zh": "一對；情侶",
+"ex": "They are a lovely couple.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 65,
+"w": "partner",
+"pos": "n",
+"zh": "伴侶；搭檔",
+"ex": "I live with my partner.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 66,
+"w": "grandparent",
+"pos": "n",
+"zh": "祖父母",
+"ex": "My grandparents live in the country.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 67,
+"w": "grandchild",
+"pos": "n",
+"zh": "孫子女",
+"ex": "She has five grandchildren.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 68,
+"w": "kid",
+"pos": "n",
+"zh": "小孩（口語）",
+"ex": "The kids are at school.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 69,
+"w": "lady",
+"pos": "n",
+"zh": "女士",
+"ex": "The lady at the desk helped me.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 70,
+"w": "member",
+"pos": "n",
+"zh": "成員",
+"ex": "She is a member of the club.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 71,
+"w": "crowd",
+"pos": "n",
+"zh": "人群",
+"ex": "There was a big crowd at the concert.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 72,
+"w": "surprised",
+"pos": "adj",
+"zh": "驚訝的",
+"ex": "I was surprised to see him.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 73,
+"w": "excited",
+"pos": "adj",
+"zh": "興奮的",
+"ex": "The kids are excited about the trip.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 74,
+"w": "bored",
+"pos": "adj",
+"zh": "無聊的；厭煩的",
+"ex": "I'm bored. Let's go out.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 75,
+"w": "worried",
+"pos": "adj",
+"zh": "擔心的",
+"ex": "She looks worried.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 76,
+"w": "nervous",
+"pos": "adj",
+"zh": "緊張的",
+"ex": "I'm nervous about the test.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 77,
+"w": "friendly",
+"pos": "adj",
+"zh": "友善的",
+"ex": "The people here are very friendly.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 78,
+"w": "kind",
+"pos": "adj",
+"zh": "親切的；善良的",
+"ex": "Thank you, that's very kind.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 79,
+"w": "polite",
+"pos": "adj",
+"zh": "有禮貌的",
+"ex": "Please be polite to the guests.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 80,
+"w": "funny",
+"pos": "adj",
+"zh": "好笑的；有趣的",
+"ex": "He tells funny stories.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 81,
+"w": "shy",
+"pos": "adj",
+"zh": "害羞的",
+"ex": "My daughter is a little shy.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 82,
+"w": "clever",
+"pos": "adj",
+"zh": "聰明的",
+"ex": "What a clever idea!",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 83,
+"w": "careful",
+"pos": "adj",
+"zh": "小心的",
+"ex": "Be careful on the stairs.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 84,
+"w": "enjoy",
+"pos": "v",
+"zh": "享受；喜歡",
+"ex": "I enjoy cooking.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 85,
+"w": "hate",
+"pos": "v",
+"zh": "討厭",
+"ex": "I hate waiting.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 86,
+"w": "miss",
+"pos": "v",
+"zh": "想念；錯過",
+"ex": "I miss my family.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 87,
+"w": "worry",
+"pos": "v",
+"zh": "擔心",
+"ex": "Don't worry about it.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 88,
+"w": "kiss",
+"pos": "v",
+"zh": "親吻",
+"ex": "She kissed her baby.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 89,
+"w": "marry",
+"pos": "v",
+"zh": "結婚",
+"ex": "They married last year.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 90,
+"w": "married",
+"pos": "adj",
+"zh": "已婚的",
+"ex": "Are you married?",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 91,
+"w": "single",
+"pos": "adj",
+"zh": "單身的",
+"ex": "He is still single.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 92,
+"w": "born",
+"pos": "adj",
+"zh": "出生的",
+"ex": "I was born in 1995.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 93,
+"w": "age",
+"pos": "n",
+"zh": "年齡",
+"ex": "What age is your son?",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 94,
+"w": "feeling",
+"pos": "n",
+"zh": "感覺；情緒",
+"ex": "I have a good feeling about this.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 95,
+"w": "shoulder",
+"pos": "n",
+"zh": "肩膀",
+"ex": "My shoulder hurts.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 96,
+"w": "finger",
+"pos": "n",
+"zh": "手指",
+"ex": "I cut my finger.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 97,
+"w": "knee",
+"pos": "n",
+"zh": "膝蓋",
+"ex": "She hurt her knee.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 98,
+"w": "back",
+"pos": "n",
+"zh": "背",
+"ex": "I have a pain in my back.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 99,
+"w": "stomach",
+"pos": "n",
+"zh": "胃；肚子",
+"ex": "My stomach hurts.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 100,
+"w": "heart",
+"pos": "n",
+"zh": "心臟；心",
+"ex": "Exercise is good for your heart.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 101,
+"w": "blood",
+"pos": "n",
+"zh": "血",
+"ex": "There was blood on his shirt.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 102,
+"w": "skin",
+"pos": "n",
+"zh": "皮膚",
+"ex": "She has soft skin.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 103,
+"w": "health",
+"pos": "n",
+"zh": "健康",
+"ex": "Sleep is important for your health.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 104,
+"w": "healthy",
+"pos": "adj",
+"zh": "健康的",
+"ex": "I want to eat healthy food.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 105,
+"w": "ill",
+"pos": "adj",
+"zh": "生病的",
+"ex": "She was ill last week.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 106,
+"w": "hurt",
+"pos": "v",
+"zh": "受傷；疼痛",
+"ex": "My leg hurts.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 107,
+"w": "pain",
+"pos": "n",
+"zh": "疼痛",
+"ex": "I have a pain in my neck.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 108,
+"w": "headache",
+"pos": "n",
+"zh": "頭痛",
+"ex": "I have a terrible headache.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 109,
+"w": "toothache",
+"pos": "n",
+"zh": "牙痛",
+"ex": "I have a toothache.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 110,
+"w": "cold",
+"pos": "n",
+"zh": "感冒",
+"ex": "I have a cold.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 111,
+"w": "fever",
+"pos": "n",
+"zh": "發燒",
+"ex": "The baby has a fever.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 112,
+"w": "medicine",
+"pos": "n",
+"zh": "藥",
+"ex": "Take this medicine twice a day.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 113,
+"w": "accident",
+"pos": "n",
+"zh": "意外",
+"ex": "He had a car accident.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 114,
+"w": "matter",
+"pos": "n",
+"zh": "問題；事情",
+"ex": "What's the matter?",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 115,
+"w": "neck",
+"pos": "n",
+"zh": "脖子",
+"ex": "A giraffe has a long neck.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 116,
+"w": "beard",
+"pos": "n",
+"zh": "鬍子",
+"ex": "My dad has a beard.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 117,
+"w": "fit",
+"pos": "adj",
+"zh": "健康的；體態好的",
+"ex": "I go to the gym to keep fit.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 118,
+"w": "diet",
+"pos": "n",
+"zh": "飲食；節食",
+"ex": "I'm on a diet.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 119,
+"w": "rest",
+"pos": "n",
+"zh": "休息",
+"ex": "You need some rest.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 120,
+"w": "relax",
+"pos": "v",
+"zh": "放鬆",
+"ex": "I relax by listening to music.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 121,
+"w": "sleepy",
+"pos": "adj",
+"zh": "想睡的",
+"ex": "I feel sleepy after lunch.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 122,
+"w": "joke",
+"pos": "n",
+"zh": "笑話",
+"ex": "He told me a funny joke.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 123,
+"w": "fun",
+"pos": "n",
+"zh": "樂趣",
+"ex": "We had a lot of fun.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 124,
+"w": "beautiful",
+"pos": "adj",
+"zh": "美麗的",
+"ex": "What a beautiful dress!",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 125,
+"w": "pretty",
+"pos": "adj",
+"zh": "漂亮的",
+"ex": "She has a pretty face.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 126,
+"w": "handsome",
+"pos": "adj",
+"zh": "英俊的",
+"ex": "Her brother is very handsome.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 127,
+"w": "ugly",
+"pos": "adj",
+"zh": "醜的",
+"ex": "That's an ugly building.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 128,
+"w": "thin",
+"pos": "adj",
+"zh": "瘦的；薄的",
+"ex": "She is tall and thin.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 129,
+"w": "fat",
+"pos": "adj",
+"zh": "胖的",
+"ex": "My cat is getting fat.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 130,
+"w": "weight",
+"pos": "n",
+"zh": "體重；重量",
+"ex": "I want to lose some weight.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 131,
+"w": "tall",
+"pos": "adj",
+"zh": "高的",
+"ex": "My brother is very tall.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 132,
+"w": "short",
+"pos": "adj",
+"zh": "矮的；短的",
+"ex": "She has short hair.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 133,
+"w": "curly",
+"pos": "adj",
+"zh": "捲的",
+"ex": "She has curly hair.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 134,
+"w": "blonde",
+"pos": "adj",
+"zh": "金髮的",
+"ex": "Her sister is blonde.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 135,
+"w": "dead",
+"pos": "adj",
+"zh": "死的",
+"ex": "The flowers are dead.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 136,
+"w": "die",
+"pos": "v",
+"zh": "死",
+"ex": "Her grandfather died last year.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 137,
+"w": "alive",
+"pos": "adj",
+"zh": "活著的",
+"ex": "Is the fish still alive?",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 138,
+"w": "life",
+"pos": "n",
+"zh": "生命；生活",
+"ex": "I love my life here.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 139,
+"w": "lucky",
+"pos": "adj",
+"zh": "幸運的",
+"ex": "You are so lucky!",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 140,
+"w": "proud",
+"pos": "adj",
+"zh": "驕傲的；自豪的",
+"ex": "I'm proud of you.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 141,
+"w": "hug",
+"pos": "v",
+"zh": "擁抱",
+"ex": "She hugged her mother.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 142,
+"w": "together",
+"pos": "adv",
+"zh": "一起",
+"ex": "Let's have dinner together.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 143,
+"w": "alone",
+"pos": "adj",
+"zh": "單獨的",
+"ex": "She lives alone.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 144,
+"w": "everyone",
+"pos": "pron",
+"zh": "每個人",
+"ex": "Everyone is here.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 145,
+"w": "someone",
+"pos": "pron",
+"zh": "某人",
+"ex": "Someone is at the door.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 146,
+"w": "nobody",
+"pos": "pron",
+"zh": "沒有人",
+"ex": "Nobody knows the answer.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 147,
+"w": "lip",
+"pos": "n",
+"zh": "嘴唇",
+"ex": "My lips are dry.",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 148,
+"w": "thank",
+"pos": "v",
+"zh": "感謝",
+"ex": "Thank you so much!",
+"level": "A1",
+"topic": "people"
+},
+{
+"id": 149,
+"w": "grandson",
+"pos": "n",
+"zh": "孫子",
+"ex": "Her grandson is three.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 150,
+"w": "granddaughter",
+"pos": "n",
+"zh": "孫女",
+"ex": "My granddaughter loves to draw.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 151,
+"w": "niece",
+"pos": "n",
+"zh": "姪女；外甥女",
+"ex": "My niece is visiting today.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 152,
+"w": "nephew",
+"pos": "n",
+"zh": "姪子；外甥",
+"ex": "My nephew is very naughty.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 153,
+"w": "babysitter",
+"pos": "n",
+"zh": "保母",
+"ex": "We need a babysitter tonight.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 154,
+"w": "classmate",
+"pos": "n",
+"zh": "同學",
+"ex": "She was my classmate.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 155,
+"w": "chin",
+"pos": "n",
+"zh": "下巴",
+"ex": "He has a small beard on his chin.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 156,
+"w": "toe",
+"pos": "n",
+"zh": "腳趾",
+"ex": "I hurt my toe.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 157,
+"w": "cough",
+"pos": "n",
+"zh": "咳嗽",
+"ex": "I have a bad cough.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 158,
+"w": "sneeze",
+"pos": "v",
+"zh": "打噴嚏",
+"ex": "I can't stop sneezing.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 159,
+"w": "appointment",
+"pos": "n",
+"zh": "預約",
+"ex": "I have a doctor's appointment.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 160,
+"w": "ambulance",
+"pos": "n",
+"zh": "救護車",
+"ex": "Call an ambulance!",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 161,
+"w": "emergency",
+"pos": "n",
+"zh": "緊急情況",
+"ex": "In an emergency, call 119.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 162,
+"w": "pill",
+"pos": "n",
+"zh": "藥丸",
+"ex": "Take one pill after meals.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 163,
+"w": "upset",
+"pos": "adj",
+"zh": "難過的；不高興的",
+"ex": "She's upset about the test.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 164,
+"w": "scared",
+"pos": "adj",
+"zh": "害怕的",
+"ex": "I'm scared of the dark.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 165,
+"w": "calm",
+"pos": "adj",
+"zh": "冷靜的",
+"ex": "Stay calm.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 166,
+"w": "lonely",
+"pos": "adj",
+"zh": "寂寞的",
+"ex": "She feels lonely in the new city.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 167,
+"w": "naughty",
+"pos": "adj",
+"zh": "頑皮的",
+"ex": "The naughty boy broke the window.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 168,
+"w": "lazy",
+"pos": "adj",
+"zh": "懶惰的",
+"ex": "Don't be lazy.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 169,
+"w": "honest",
+"pos": "adj",
+"zh": "誠實的",
+"ex": "Please be honest with me.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 170,
+"w": "patient",
+"pos": "adj",
+"zh": "有耐心的",
+"ex": "Be patient. The bus is coming.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 171,
+"w": "confident",
+"pos": "adj",
+"zh": "有自信的",
+"ex": "She feels confident about the test.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 172,
+"w": "personality",
+"pos": "n",
+"zh": "個性",
+"ex": "She has a great personality.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 173,
+"w": "look like",
+"pos": "v",
+"zh": "長得像",
+"ex": "She looks like her mother.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 174,
+"w": "get on with",
+"pos": "v",
+"zh": "和…相處融洽",
+"ex": "I get on well with my sister.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 175,
+"w": "fall in love",
+"pos": "v",
+"zh": "愛上",
+"ex": "They fell in love in Paris.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 176,
+"w": "relationship",
+"pos": "n",
+"zh": "關係",
+"ex": "They have a good relationship.",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 177,
+"w": "congratulations",
+"pos": "exc",
+"zh": "恭喜",
+"ex": "Congratulations on your new job!",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 178,
+"w": "welcome",
+"pos": "exc",
+"zh": "歡迎",
+"ex": "Welcome to our home!",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 179,
+"w": "excuse me",
+"pos": "exc",
+"zh": "不好意思；借過",
+"ex": "Excuse me, where's the station?",
+"level": "A2",
+"topic": "people"
+},
+{
+"id": 180,
+"w": "food",
+"pos": "n",
+"zh": "食物",
+"ex": "I love Thai food.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 181,
+"w": "eat",
+"pos": "v",
+"zh": "吃",
+"ex": "We eat dinner at seven.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 182,
+"w": "drink",
+"pos": "v",
+"zh": "喝",
+"ex": "I drink tea every morning.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 183,
+"w": "breakfast",
+"pos": "n",
+"zh": "早餐",
+"ex": "What do you eat for breakfast?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 184,
+"w": "lunch",
+"pos": "n",
+"zh": "午餐",
+"ex": "Let's have lunch together.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 185,
+"w": "dinner",
+"pos": "n",
+"zh": "晚餐",
+"ex": "Dinner is ready!",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 186,
+"w": "meal",
+"pos": "n",
+"zh": "一餐",
+"ex": "We have three meals a day.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 187,
+"w": "water",
+"pos": "n",
+"zh": "水",
+"ex": "Can I have a glass of water?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 188,
+"w": "coffee",
+"pos": "n",
+"zh": "咖啡",
+"ex": "I drink coffee every morning.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 189,
+"w": "tea",
+"pos": "n",
+"zh": "茶",
+"ex": "Would you like some tea?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 190,
+"w": "milk",
+"pos": "n",
+"zh": "牛奶",
+"ex": "The baby drinks milk.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 191,
+"w": "juice",
+"pos": "n",
+"zh": "果汁",
+"ex": "I'd like an orange juice.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 192,
+"w": "bread",
+"pos": "n",
+"zh": "麵包",
+"ex": "I bought some bread.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 193,
+"w": "rice",
+"pos": "n",
+"zh": "米飯",
+"ex": "We eat rice every day.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 194,
+"w": "egg",
+"pos": "n",
+"zh": "蛋",
+"ex": "I had two eggs for breakfast.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 195,
+"w": "meat",
+"pos": "n",
+"zh": "肉",
+"ex": "I don't eat meat.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 196,
+"w": "chicken",
+"pos": "n",
+"zh": "雞肉；雞",
+"ex": "We had chicken for dinner.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 197,
+"w": "fish",
+"pos": "n",
+"zh": "魚",
+"ex": "My mom cooks fish on Fridays.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 198,
+"w": "beef",
+"pos": "n",
+"zh": "牛肉",
+"ex": "This beef is delicious.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 199,
+"w": "pork",
+"pos": "n",
+"zh": "豬肉",
+"ex": "Do you eat pork?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 200,
+"w": "fruit",
+"pos": "n",
+"zh": "水果",
+"ex": "Eat more fruit.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 201,
+"w": "apple",
+"pos": "n",
+"zh": "蘋果",
+"ex": "An apple a day keeps the doctor away.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 202,
+"w": "banana",
+"pos": "n",
+"zh": "香蕉",
+"ex": "Monkeys love bananas.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 203,
+"w": "orange",
+"pos": "n",
+"zh": "柳橙",
+"ex": "This orange is sweet.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 204,
+"w": "vegetable",
+"pos": "n",
+"zh": "蔬菜",
+"ex": "Eat your vegetables.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 205,
+"w": "potato",
+"pos": "n",
+"zh": "馬鈴薯",
+"ex": "I love baked potatoes.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 206,
+"w": "tomato",
+"pos": "n",
+"zh": "番茄",
+"ex": "Add some tomatoes to the salad.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 207,
+"w": "salad",
+"pos": "n",
+"zh": "沙拉",
+"ex": "I'll have a green salad.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 208,
+"w": "soup",
+"pos": "n",
+"zh": "湯",
+"ex": "This soup is too hot.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 209,
+"w": "cake",
+"pos": "n",
+"zh": "蛋糕",
+"ex": "She made a birthday cake.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 210,
+"w": "cheese",
+"pos": "n",
+"zh": "起司",
+"ex": "I love cheese on my pizza.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 211,
+"w": "chocolate",
+"pos": "n",
+"zh": "巧克力",
+"ex": "Do you want some chocolate?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 212,
+"w": "ice cream",
+"pos": "n",
+"zh": "冰淇淋",
+"ex": "The kids want ice cream.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 213,
+"w": "sugar",
+"pos": "n",
+"zh": "糖",
+"ex": "No sugar in my coffee, please.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 214,
+"w": "salt",
+"pos": "n",
+"zh": "鹽",
+"ex": "Pass me the salt, please.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 215,
+"w": "sandwich",
+"pos": "n",
+"zh": "三明治",
+"ex": "I made a sandwich for lunch.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 216,
+"w": "pizza",
+"pos": "n",
+"zh": "披薩",
+"ex": "Let's order a pizza.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 217,
+"w": "noodles",
+"pos": "n",
+"zh": "麵",
+"ex": "I had beef noodles for lunch.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 218,
+"w": "cook",
+"pos": "v",
+"zh": "煮；做菜",
+"ex": "My husband cooks every night.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 219,
+"w": "restaurant",
+"pos": "n",
+"zh": "餐廳",
+"ex": "This restaurant is very popular.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 220,
+"w": "menu",
+"pos": "n",
+"zh": "菜單",
+"ex": "Can I see the menu, please?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 221,
+"w": "cup",
+"pos": "n",
+"zh": "杯子",
+"ex": "A cup of tea, please.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 222,
+"w": "glass",
+"pos": "n",
+"zh": "玻璃杯",
+"ex": "She drank a glass of milk.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 223,
+"w": "bottle",
+"pos": "n",
+"zh": "瓶子",
+"ex": "I bought a bottle of water.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 224,
+"w": "plate",
+"pos": "n",
+"zh": "盤子",
+"ex": "Put the cake on a plate.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 225,
+"w": "bowl",
+"pos": "n",
+"zh": "碗",
+"ex": "I had a bowl of soup.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 226,
+"w": "kitchen",
+"pos": "n",
+"zh": "廚房",
+"ex": "Mom is in the kitchen.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 227,
+"w": "delicious",
+"pos": "adj",
+"zh": "美味的",
+"ex": "This cake is delicious!",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 228,
+"w": "hot",
+"pos": "adj",
+"zh": "熱的；辣的",
+"ex": "Be careful, the soup is hot.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 229,
+"w": "sweet",
+"pos": "adj",
+"zh": "甜的",
+"ex": "This tea is too sweet.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 230,
+"w": "beer",
+"pos": "n",
+"zh": "啤酒",
+"ex": "He had a beer after work.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 231,
+"w": "wine",
+"pos": "n",
+"zh": "葡萄酒",
+"ex": "Would you like red wine?",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 232,
+"w": "snack",
+"pos": "n",
+"zh": "點心；零食",
+"ex": "I have a snack at four.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 233,
+"w": "dessert",
+"pos": "n",
+"zh": "甜點",
+"ex": "What's for dessert?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 234,
+"w": "biscuit",
+"pos": "n",
+"zh": "餅乾",
+"ex": "Would you like a biscuit with your tea?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 235,
+"w": "cookie",
+"pos": "n",
+"zh": "餅乾",
+"ex": "She baked chocolate cookies.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 236,
+"w": "butter",
+"pos": "n",
+"zh": "奶油",
+"ex": "Put some butter on the bread.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 237,
+"w": "oil",
+"pos": "n",
+"zh": "油",
+"ex": "Fry the onions in a little oil.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 238,
+"w": "pepper",
+"pos": "n",
+"zh": "胡椒；甜椒",
+"ex": "Add salt and pepper.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 239,
+"w": "sauce",
+"pos": "n",
+"zh": "醬",
+"ex": "This pasta sauce is great.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 240,
+"w": "onion",
+"pos": "n",
+"zh": "洋蔥",
+"ex": "Cutting onions makes me cry.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 241,
+"w": "carrot",
+"pos": "n",
+"zh": "紅蘿蔔",
+"ex": "Rabbits eat carrots.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 242,
+"w": "bean",
+"pos": "n",
+"zh": "豆子",
+"ex": "I don't like green beans.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 243,
+"w": "mushroom",
+"pos": "n",
+"zh": "蘑菇",
+"ex": "I'd like a mushroom pizza.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 244,
+"w": "lemon",
+"pos": "n",
+"zh": "檸檬",
+"ex": "Tea with lemon, please.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 245,
+"w": "grape",
+"pos": "n",
+"zh": "葡萄",
+"ex": "These grapes are very sweet.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 246,
+"w": "strawberry",
+"pos": "n",
+"zh": "草莓",
+"ex": "I love strawberry ice cream.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 247,
+"w": "pear",
+"pos": "n",
+"zh": "梨子",
+"ex": "Would you like a pear?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 248,
+"w": "watermelon",
+"pos": "n",
+"zh": "西瓜",
+"ex": "Watermelon is perfect in summer.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 249,
+"w": "pineapple",
+"pos": "n",
+"zh": "鳳梨",
+"ex": "Taiwan is famous for pineapple cakes.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 250,
+"w": "mango",
+"pos": "n",
+"zh": "芒果",
+"ex": "Mango ice is my favourite.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 251,
+"w": "seafood",
+"pos": "n",
+"zh": "海鮮",
+"ex": "Let's go out for seafood.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 252,
+"w": "shrimp",
+"pos": "n",
+"zh": "蝦子",
+"ex": "I'm allergic to shrimp.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 253,
+"w": "sausage",
+"pos": "n",
+"zh": "香腸",
+"ex": "He had sausages for breakfast.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 254,
+"w": "steak",
+"pos": "n",
+"zh": "牛排",
+"ex": "How would you like your steak?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 255,
+"w": "pasta",
+"pos": "n",
+"zh": "義大利麵",
+"ex": "Let's make pasta tonight.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 256,
+"w": "burger",
+"pos": "n",
+"zh": "漢堡",
+"ex": "I'll have a burger and fries.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 257,
+"w": "chips",
+"pos": "n",
+"zh": "薯條；洋芋片",
+"ex": "Fish and chips, please.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 258,
+"w": "yogurt",
+"pos": "n",
+"zh": "優格",
+"ex": "I eat yogurt with fruit.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 259,
+"w": "honey",
+"pos": "n",
+"zh": "蜂蜜",
+"ex": "Add some honey to your tea.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 260,
+"w": "flour",
+"pos": "n",
+"zh": "麵粉",
+"ex": "You need flour to make bread.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 261,
+"w": "jam",
+"pos": "n",
+"zh": "果醬",
+"ex": "I like bread with strawberry jam.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 262,
+"w": "cereal",
+"pos": "n",
+"zh": "麥片",
+"ex": "The kids eat cereal for breakfast.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 263,
+"w": "tofu",
+"pos": "n",
+"zh": "豆腐",
+"ex": "Stinky tofu smells strong.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 264,
+"w": "dumpling",
+"pos": "n",
+"zh": "餃子",
+"ex": "We made dumplings together.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 265,
+"w": "bubble tea",
+"pos": "n",
+"zh": "珍珠奶茶",
+"ex": "Let's get some bubble tea.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 266,
+"w": "fry",
+"pos": "v",
+"zh": "煎；炸",
+"ex": "Fry the egg for two minutes.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 267,
+"w": "boil",
+"pos": "v",
+"zh": "煮沸；水煮",
+"ex": "Boil the water first.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 268,
+"w": "bake",
+"pos": "v",
+"zh": "烘烤",
+"ex": "She bakes bread every weekend.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 269,
+"w": "cut",
+"pos": "v",
+"zh": "切",
+"ex": "Cut the apple into pieces.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 270,
+"w": "mix",
+"pos": "v",
+"zh": "混合",
+"ex": "Mix the eggs and flour.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 271,
+"w": "taste",
+"pos": "v",
+"zh": "嚐起來；品嚐",
+"ex": "This soup tastes great.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 272,
+"w": "smell",
+"pos": "v",
+"zh": "聞起來；聞",
+"ex": "The bread smells good.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 273,
+"w": "order",
+"pos": "v",
+"zh": "點餐；訂購",
+"ex": "Are you ready to order?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 274,
+"w": "serve",
+"pos": "v",
+"zh": "供應；上菜",
+"ex": "Breakfast is served at seven.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 275,
+"w": "share",
+"pos": "v",
+"zh": "分享",
+"ex": "Let's share a pizza.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 276,
+"w": "full",
+"pos": "adj",
+"zh": "飽的；滿的",
+"ex": "I'm full, thank you.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 277,
+"w": "fresh",
+"pos": "adj",
+"zh": "新鮮的",
+"ex": "These vegetables are fresh.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 278,
+"w": "spicy",
+"pos": "adj",
+"zh": "辣的",
+"ex": "Is this dish spicy?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 279,
+"w": "sour",
+"pos": "adj",
+"zh": "酸的",
+"ex": "This lemon is very sour.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 280,
+"w": "bitter",
+"pos": "adj",
+"zh": "苦的",
+"ex": "This coffee is bitter.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 281,
+"w": "salty",
+"pos": "adj",
+"zh": "鹹的",
+"ex": "The soup is too salty.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 282,
+"w": "raw",
+"pos": "adj",
+"zh": "生的",
+"ex": "Do you eat raw fish?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 283,
+"w": "vegetarian",
+"pos": "n",
+"zh": "素食者",
+"ex": "My sister is a vegetarian.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 284,
+"w": "recipe",
+"pos": "n",
+"zh": "食譜",
+"ex": "Can you give me the recipe?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 285,
+"w": "waiter",
+"pos": "n",
+"zh": "服務生",
+"ex": "The waiter brought our food.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 286,
+"w": "bill",
+"pos": "n",
+"zh": "帳單",
+"ex": "Can we have the bill, please?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 287,
+"w": "tip",
+"pos": "n",
+"zh": "小費",
+"ex": "We left a tip for the waiter.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 288,
+"w": "cafe",
+"pos": "n",
+"zh": "咖啡廳",
+"ex": "Let's meet at the cafe.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 289,
+"w": "fork",
+"pos": "n",
+"zh": "叉子",
+"ex": "Can I have a fork, please?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 290,
+"w": "knife",
+"pos": "n",
+"zh": "刀子",
+"ex": "Use a knife to cut the bread.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 291,
+"w": "spoon",
+"pos": "n",
+"zh": "湯匙",
+"ex": "I need a spoon for my soup.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 292,
+"w": "chopsticks",
+"pos": "n",
+"zh": "筷子",
+"ex": "Can you use chopsticks?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 293,
+"w": "piece",
+"pos": "n",
+"zh": "一塊；一片",
+"ex": "Would you like a piece of cake?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 294,
+"w": "slice",
+"pos": "n",
+"zh": "一片",
+"ex": "Can I have a slice of pizza?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 295,
+"w": "packet",
+"pos": "n",
+"zh": "一包",
+"ex": "I bought a packet of biscuits.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 296,
+"w": "dish",
+"pos": "n",
+"zh": "菜餚；盤子",
+"ex": "This is my favourite dish.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 297,
+"w": "fridge",
+"pos": "n",
+"zh": "冰箱",
+"ex": "Put the milk in the fridge.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 298,
+"w": "oven",
+"pos": "n",
+"zh": "烤箱",
+"ex": "The cake is in the oven.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 299,
+"w": "picnic",
+"pos": "n",
+"zh": "野餐",
+"ex": "Let's have a picnic in the park.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 300,
+"w": "takeaway",
+"pos": "n",
+"zh": "外帶的餐點",
+"ex": "Let's get a takeaway tonight.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 301,
+"w": "thirst",
+"pos": "n",
+"zh": "口渴",
+"ex": "Water is best for thirst.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 302,
+"w": "lemonade",
+"pos": "n",
+"zh": "檸檬水；汽水",
+"ex": "A glass of lemonade, please.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 303,
+"w": "soft drink",
+"pos": "n",
+"zh": "汽水；軟性飲料",
+"ex": "I don't drink soft drinks.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 304,
+"w": "alcohol",
+"pos": "n",
+"zh": "酒精",
+"ex": "I don't drink alcohol.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 305,
+"w": "bar",
+"pos": "n",
+"zh": "酒吧；一條",
+"ex": "We met at a bar.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 306,
+"w": "candy",
+"pos": "n",
+"zh": "糖果",
+"ex": "Don't eat too much candy.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 307,
+"w": "popcorn",
+"pos": "n",
+"zh": "爆米花",
+"ex": "Let's get popcorn for the movie.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 308,
+"w": "nut",
+"pos": "n",
+"zh": "堅果",
+"ex": "I'm allergic to nuts.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 309,
+"w": "corn",
+"pos": "n",
+"zh": "玉米",
+"ex": "I love grilled corn.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 310,
+"w": "cabbage",
+"pos": "n",
+"zh": "高麗菜",
+"ex": "Cabbage is cheap in winter.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 311,
+"w": "garlic",
+"pos": "n",
+"zh": "大蒜",
+"ex": "This dish has a lot of garlic.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 312,
+"w": "vinegar",
+"pos": "n",
+"zh": "醋",
+"ex": "Add a little vinegar.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 313,
+"w": "hamburger",
+"pos": "n",
+"zh": "漢堡",
+"ex": "The kids want hamburgers.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 314,
+"w": "lunch box",
+"pos": "n",
+"zh": "便當盒",
+"ex": "I bring a lunch box to work.",
+"level": "A1",
+"topic": "food"
+},
+{
+"id": 315,
+"w": "bento",
+"pos": "n",
+"zh": "便當",
+"ex": "I bought a bento at the station.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 316,
+"w": "grill",
+"pos": "v",
+"zh": "燒烤",
+"ex": "Let's grill some fish.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 317,
+"w": "roast",
+"pos": "v",
+"zh": "烤",
+"ex": "We roasted a chicken.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 318,
+"w": "peel",
+"pos": "v",
+"zh": "削皮",
+"ex": "Peel the potatoes.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 319,
+"w": "pour",
+"pos": "v",
+"zh": "倒",
+"ex": "Pour the milk into a glass.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 320,
+"w": "add",
+"pos": "v",
+"zh": "加入",
+"ex": "Add a little salt.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 321,
+"w": "warm up",
+"pos": "v",
+"zh": "加熱；暖身",
+"ex": "Warm up the rice in the microwave.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 322,
+"w": "microwave",
+"pos": "n",
+"zh": "微波爐",
+"ex": "Put it in the microwave.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 323,
+"w": "kettle",
+"pos": "n",
+"zh": "熱水壺",
+"ex": "Put the kettle on.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 324,
+"w": "pan",
+"pos": "n",
+"zh": "平底鍋",
+"ex": "Heat some oil in a pan.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 325,
+"w": "pot",
+"pos": "n",
+"zh": "鍋子",
+"ex": "Cook the soup in a big pot.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 326,
+"w": "tray",
+"pos": "n",
+"zh": "托盤",
+"ex": "Put the cups on a tray.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 327,
+"w": "napkin",
+"pos": "n",
+"zh": "餐巾",
+"ex": "Can I have a napkin?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 328,
+"w": "straw",
+"pos": "n",
+"zh": "吸管",
+"ex": "Can I have a straw?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 329,
+"w": "ingredient",
+"pos": "n",
+"zh": "材料",
+"ex": "What are the ingredients?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 330,
+"w": "tasty",
+"pos": "adj",
+"zh": "好吃的",
+"ex": "This soup is really tasty.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 331,
+"w": "frozen",
+"pos": "adj",
+"zh": "冷凍的",
+"ex": "I bought some frozen dumplings.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 332,
+"w": "homemade",
+"pos": "adj",
+"zh": "自製的",
+"ex": "I love homemade bread.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 333,
+"w": "convenience store",
+"pos": "n",
+"zh": "便利商店",
+"ex": "There's a convenience store on every corner.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 334,
+"w": "allergic",
+"pos": "adj",
+"zh": "過敏的",
+"ex": "I'm allergic to peanuts.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 335,
+"w": "peanut",
+"pos": "n",
+"zh": "花生",
+"ex": "Peanut butter is my favourite.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 336,
+"w": "melon",
+"pos": "n",
+"zh": "甜瓜",
+"ex": "This melon is very sweet.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 337,
+"w": "cherry",
+"pos": "n",
+"zh": "櫻桃",
+"ex": "Cherries are expensive here.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 338,
+"w": "peach",
+"pos": "n",
+"zh": "桃子",
+"ex": "I love fresh peaches.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 339,
+"w": "lettuce",
+"pos": "n",
+"zh": "萵苣；生菜",
+"ex": "Put some lettuce in the sandwich.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 340,
+"w": "cucumber",
+"pos": "n",
+"zh": "小黃瓜",
+"ex": "I eat cucumber in my salad.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 341,
+"w": "toast",
+"pos": "n",
+"zh": "吐司",
+"ex": "I had toast for breakfast.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 342,
+"w": "pie",
+"pos": "n",
+"zh": "派",
+"ex": "Would you like some apple pie?",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 343,
+"w": "cream",
+"pos": "n",
+"zh": "奶油；鮮奶油",
+"ex": "Coffee with cream, please.",
+"level": "A2",
+"topic": "food"
+},
+{
+"id": 344,
+"w": "home",
+"pos": "n",
+"zh": "家",
+"ex": "I'm going home now.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 345,
+"w": "house",
+"pos": "n",
+"zh": "房子",
+"ex": "They live in a big house.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 346,
+"w": "flat",
+"pos": "n",
+"zh": "公寓（英式）",
+"ex": "I live in a small flat.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 347,
+"w": "apartment",
+"pos": "n",
+"zh": "公寓",
+"ex": "Her apartment is on the tenth floor.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 348,
+"w": "room",
+"pos": "n",
+"zh": "房間",
+"ex": "My room is very small.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 349,
+"w": "bedroom",
+"pos": "n",
+"zh": "臥室",
+"ex": "The bedroom has a big window.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 350,
+"w": "bathroom",
+"pos": "n",
+"zh": "浴室；廁所",
+"ex": "Where is the bathroom?",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 351,
+"w": "living room",
+"pos": "n",
+"zh": "客廳",
+"ex": "We watch TV in the living room.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 352,
+"w": "door",
+"pos": "n",
+"zh": "門",
+"ex": "Please close the door.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 353,
+"w": "window",
+"pos": "n",
+"zh": "窗戶",
+"ex": "Open the window, please.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 354,
+"w": "wall",
+"pos": "n",
+"zh": "牆",
+"ex": "There is a clock on the wall.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 355,
+"w": "floor",
+"pos": "n",
+"zh": "地板；樓層",
+"ex": "The keys are on the floor.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 356,
+"w": "stairs",
+"pos": "n",
+"zh": "樓梯",
+"ex": "Take the stairs, not the lift.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 357,
+"w": "garden",
+"pos": "n",
+"zh": "花園",
+"ex": "Grandma works in the garden.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 358,
+"w": "table",
+"pos": "n",
+"zh": "桌子",
+"ex": "Dinner is on the table.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 359,
+"w": "chair",
+"pos": "n",
+"zh": "椅子",
+"ex": "Sit on this chair.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 360,
+"w": "bed",
+"pos": "n",
+"zh": "床",
+"ex": "I go to bed at eleven.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 361,
+"w": "desk",
+"pos": "n",
+"zh": "書桌",
+"ex": "My laptop is on the desk.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 362,
+"w": "sofa",
+"pos": "n",
+"zh": "沙發",
+"ex": "The cat is sleeping on the sofa.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 363,
+"w": "lamp",
+"pos": "n",
+"zh": "燈",
+"ex": "Turn on the lamp.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 364,
+"w": "clock",
+"pos": "n",
+"zh": "時鐘",
+"ex": "The clock is slow.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 365,
+"w": "television",
+"pos": "n",
+"zh": "電視",
+"ex": "We bought a new television.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 366,
+"w": "TV",
+"pos": "n",
+"zh": "電視",
+"ex": "What's on TV tonight?",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 367,
+"w": "phone",
+"pos": "n",
+"zh": "電話；手機",
+"ex": "Can I use your phone?",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 368,
+"w": "key",
+"pos": "n",
+"zh": "鑰匙",
+"ex": "I can't find my keys.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 369,
+"w": "box",
+"pos": "n",
+"zh": "盒子；箱子",
+"ex": "What's in the box?",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 370,
+"w": "bag",
+"pos": "n",
+"zh": "袋子；包包",
+"ex": "My bag is very heavy.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 371,
+"w": "book",
+"pos": "n",
+"zh": "書",
+"ex": "I'm reading a good book.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 372,
+"w": "pen",
+"pos": "n",
+"zh": "原子筆",
+"ex": "Can I borrow a pen?",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 373,
+"w": "picture",
+"pos": "n",
+"zh": "圖片；照片",
+"ex": "There's a picture on the wall.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 374,
+"w": "photo",
+"pos": "n",
+"zh": "照片",
+"ex": "Let's take a photo.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 375,
+"w": "clothes",
+"pos": "n",
+"zh": "衣服",
+"ex": "I need new clothes.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 376,
+"w": "shirt",
+"pos": "n",
+"zh": "襯衫",
+"ex": "He's wearing a white shirt.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 377,
+"w": "T-shirt",
+"pos": "n",
+"zh": "T恤",
+"ex": "I bought a blue T-shirt.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 378,
+"w": "dress",
+"pos": "n",
+"zh": "洋裝",
+"ex": "What a beautiful dress!",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 379,
+"w": "skirt",
+"pos": "n",
+"zh": "裙子",
+"ex": "She's wearing a red skirt.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 380,
+"w": "trousers",
+"pos": "n",
+"zh": "長褲（英式）",
+"ex": "These trousers are too long.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 381,
+"w": "jeans",
+"pos": "n",
+"zh": "牛仔褲",
+"ex": "I always wear jeans.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 382,
+"w": "shoe",
+"pos": "n",
+"zh": "鞋子",
+"ex": "These shoes are new.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 383,
+"w": "hat",
+"pos": "n",
+"zh": "帽子",
+"ex": "Wear a hat in the sun.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 384,
+"w": "coat",
+"pos": "n",
+"zh": "外套；大衣",
+"ex": "Take your coat. It's cold.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 385,
+"w": "jacket",
+"pos": "n",
+"zh": "夾克",
+"ex": "I left my jacket at school.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 386,
+"w": "sock",
+"pos": "n",
+"zh": "襪子",
+"ex": "I can't find my socks.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 387,
+"w": "wear",
+"pos": "v",
+"zh": "穿；戴",
+"ex": "She always wears black.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 388,
+"w": "dog",
+"pos": "n",
+"zh": "狗",
+"ex": "My dog loves walks.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 389,
+"w": "cat",
+"pos": "n",
+"zh": "貓",
+"ex": "The cat is under the table.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 390,
+"w": "pet",
+"pos": "n",
+"zh": "寵物",
+"ex": "Do you have a pet?",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 391,
+"w": "live",
+"pos": "v",
+"zh": "住",
+"ex": "I live in Taipei.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 392,
+"w": "sleep",
+"pos": "v",
+"zh": "睡覺",
+"ex": "I sleep eight hours a night.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 393,
+"w": "wash",
+"pos": "v",
+"zh": "洗",
+"ex": "Wash your hands before dinner.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 394,
+"w": "clean",
+"pos": "v",
+"zh": "打掃；清潔",
+"ex": "I clean my room on Sundays.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 395,
+"w": "open",
+"pos": "v",
+"zh": "打開",
+"ex": "Open the door, please.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 396,
+"w": "close",
+"pos": "v",
+"zh": "關上",
+"ex": "Close your eyes.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 397,
+"w": "money",
+"pos": "n",
+"zh": "錢",
+"ex": "I don't have much money.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 398,
+"w": "thing",
+"pos": "n",
+"zh": "東西；事情",
+"ex": "I have a lot of things to do.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 399,
+"w": "furniture",
+"pos": "n",
+"zh": "家具",
+"ex": "We need new furniture.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 400,
+"w": "shelf",
+"pos": "n",
+"zh": "架子",
+"ex": "Put the books on the shelf.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 401,
+"w": "cupboard",
+"pos": "n",
+"zh": "櫥櫃",
+"ex": "The cups are in the cupboard.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 402,
+"w": "wardrobe",
+"pos": "n",
+"zh": "衣櫃",
+"ex": "My wardrobe is full of clothes.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 403,
+"w": "mirror",
+"pos": "n",
+"zh": "鏡子",
+"ex": "She looked in the mirror.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 404,
+"w": "curtain",
+"pos": "n",
+"zh": "窗簾",
+"ex": "Close the curtains, please.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 405,
+"w": "carpet",
+"pos": "n",
+"zh": "地毯",
+"ex": "The cat sleeps on the carpet.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 406,
+"w": "pillow",
+"pos": "n",
+"zh": "枕頭",
+"ex": "I need a softer pillow.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 407,
+"w": "blanket",
+"pos": "n",
+"zh": "毯子",
+"ex": "Can I have another blanket?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 408,
+"w": "towel",
+"pos": "n",
+"zh": "毛巾",
+"ex": "Here is a clean towel.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 409,
+"w": "soap",
+"pos": "n",
+"zh": "肥皂",
+"ex": "Wash your hands with soap.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 410,
+"w": "toothbrush",
+"pos": "n",
+"zh": "牙刷",
+"ex": "I need a new toothbrush.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 411,
+"w": "toothpaste",
+"pos": "n",
+"zh": "牙膏",
+"ex": "We're out of toothpaste.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 412,
+"w": "shampoo",
+"pos": "n",
+"zh": "洗髮精",
+"ex": "This shampoo smells nice.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 413,
+"w": "shower",
+"pos": "n",
+"zh": "淋浴",
+"ex": "I take a shower every morning.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 414,
+"w": "bath",
+"pos": "n",
+"zh": "泡澡；浴缸",
+"ex": "She's having a bath.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 415,
+"w": "toilet",
+"pos": "n",
+"zh": "馬桶；廁所",
+"ex": "Where is the toilet?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 416,
+"w": "sink",
+"pos": "n",
+"zh": "水槽",
+"ex": "The dishes are in the sink.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 417,
+"w": "roof",
+"pos": "n",
+"zh": "屋頂",
+"ex": "There's a cat on the roof.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 418,
+"w": "gate",
+"pos": "n",
+"zh": "大門",
+"ex": "Close the gate behind you.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 419,
+"w": "balcony",
+"pos": "n",
+"zh": "陽台",
+"ex": "I grow plants on my balcony.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 420,
+"w": "lift",
+"pos": "n",
+"zh": "電梯（英式）",
+"ex": "Take the lift to the fifth floor.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 421,
+"w": "elevator",
+"pos": "n",
+"zh": "電梯",
+"ex": "The elevator is broken.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 422,
+"w": "downstairs",
+"pos": "adv",
+"zh": "在樓下",
+"ex": "Breakfast is downstairs.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 423,
+"w": "upstairs",
+"pos": "adv",
+"zh": "在樓上",
+"ex": "My bedroom is upstairs.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 424,
+"w": "light",
+"pos": "n",
+"zh": "燈；光",
+"ex": "Turn off the light.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 425,
+"w": "heater",
+"pos": "n",
+"zh": "暖氣機",
+"ex": "Turn on the heater.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 426,
+"w": "air conditioner",
+"pos": "n",
+"zh": "冷氣",
+"ex": "The air conditioner is too cold.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 427,
+"w": "fan",
+"pos": "n",
+"zh": "電風扇；粉絲",
+"ex": "Turn on the fan.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 428,
+"w": "washing machine",
+"pos": "n",
+"zh": "洗衣機",
+"ex": "The washing machine is broken.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 429,
+"w": "rubbish",
+"pos": "n",
+"zh": "垃圾（英式）",
+"ex": "Take out the rubbish, please.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 430,
+"w": "garbage",
+"pos": "n",
+"zh": "垃圾",
+"ex": "Don't forget the garbage.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 431,
+"w": "bin",
+"pos": "n",
+"zh": "垃圾桶",
+"ex": "Put it in the bin.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 432,
+"w": "housework",
+"pos": "n",
+"zh": "家事",
+"ex": "I hate housework.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 433,
+"w": "tidy",
+"pos": "adj",
+"zh": "整潔的",
+"ex": "Keep your room tidy.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 434,
+"w": "messy",
+"pos": "adj",
+"zh": "凌亂的",
+"ex": "His desk is so messy.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 435,
+"w": "comfortable",
+"pos": "adj",
+"zh": "舒服的",
+"ex": "This sofa is very comfortable.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 436,
+"w": "cosy",
+"pos": "adj",
+"zh": "溫馨舒適的",
+"ex": "We have a cosy little flat.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 437,
+"w": "rent",
+"pos": "v",
+"zh": "租",
+"ex": "We rent a flat near the station.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 438,
+"w": "move",
+"pos": "v",
+"zh": "搬家；移動",
+"ex": "We moved to Taichung last year.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 439,
+"w": "tidy up",
+"pos": "v",
+"zh": "整理",
+"ex": "Please tidy up your toys.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 440,
+"w": "hang",
+"pos": "v",
+"zh": "掛",
+"ex": "Hang your coat on the door.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 441,
+"w": "iron",
+"pos": "v",
+"zh": "燙衣服",
+"ex": "I need to iron my shirt.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 442,
+"w": "repair",
+"pos": "v",
+"zh": "修理",
+"ex": "Can you repair my bike?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 443,
+"w": "fix",
+"pos": "v",
+"zh": "修理",
+"ex": "My dad can fix anything.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 444,
+"w": "lock",
+"pos": "v",
+"zh": "鎖上",
+"ex": "Lock the door when you leave.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 445,
+"w": "turn on",
+"pos": "v",
+"zh": "打開（電器）",
+"ex": "Turn on the TV.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 446,
+"w": "turn off",
+"pos": "v",
+"zh": "關掉（電器）",
+"ex": "Turn off your phone.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 447,
+"w": "wake up",
+"pos": "v",
+"zh": "醒來",
+"ex": "I wake up at six.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 448,
+"w": "get up",
+"pos": "v",
+"zh": "起床",
+"ex": "I get up at seven.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 449,
+"w": "get dressed",
+"pos": "v",
+"zh": "穿衣服",
+"ex": "Get dressed, we're late!",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 450,
+"w": "sweater",
+"pos": "n",
+"zh": "毛衣",
+"ex": "This sweater is warm.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 451,
+"w": "scarf",
+"pos": "n",
+"zh": "圍巾",
+"ex": "Wear a scarf, it's cold.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 452,
+"w": "glove",
+"pos": "n",
+"zh": "手套",
+"ex": "I lost one glove.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 453,
+"w": "boot",
+"pos": "n",
+"zh": "靴子",
+"ex": "I need new winter boots.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 454,
+"w": "sandal",
+"pos": "n",
+"zh": "涼鞋",
+"ex": "I wear sandals in summer.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 455,
+"w": "trainers",
+"pos": "n",
+"zh": "運動鞋（英式）",
+"ex": "She runs in her new trainers.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 456,
+"w": "sneakers",
+"pos": "n",
+"zh": "運動鞋",
+"ex": "These sneakers are comfortable.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 457,
+"w": "uniform",
+"pos": "n",
+"zh": "制服",
+"ex": "Students wear a uniform.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 458,
+"w": "suit",
+"pos": "n",
+"zh": "西裝",
+"ex": "He wears a suit to work.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 459,
+"w": "tie",
+"pos": "n",
+"zh": "領帶",
+"ex": "That's a nice tie.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 460,
+"w": "belt",
+"pos": "n",
+"zh": "皮帶",
+"ex": "This belt is too long.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 461,
+"w": "pocket",
+"pos": "n",
+"zh": "口袋",
+"ex": "My phone is in my pocket.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 462,
+"w": "button",
+"pos": "n",
+"zh": "鈕扣；按鈕",
+"ex": "Press the green button.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 463,
+"w": "umbrella",
+"pos": "n",
+"zh": "雨傘",
+"ex": "Take an umbrella. It's raining.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 464,
+"w": "glasses",
+"pos": "n",
+"zh": "眼鏡",
+"ex": "I can't read without my glasses.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 465,
+"w": "watch",
+"pos": "n",
+"zh": "手錶",
+"ex": "What a nice watch!",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 466,
+"w": "ring",
+"pos": "n",
+"zh": "戒指",
+"ex": "She wears a gold ring.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 467,
+"w": "necklace",
+"pos": "n",
+"zh": "項鍊",
+"ex": "My mom gave me this necklace.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 468,
+"w": "earring",
+"pos": "n",
+"zh": "耳環",
+"ex": "She lost an earring.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 469,
+"w": "handbag",
+"pos": "n",
+"zh": "手提包",
+"ex": "Her handbag is very expensive.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 470,
+"w": "wallet",
+"pos": "n",
+"zh": "皮夾",
+"ex": "I left my wallet at home.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 471,
+"w": "purse",
+"pos": "n",
+"zh": "錢包",
+"ex": "She opened her purse to pay.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 472,
+"w": "size",
+"pos": "n",
+"zh": "尺寸",
+"ex": "What size are you?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 473,
+"w": "fashion",
+"pos": "n",
+"zh": "流行；時尚",
+"ex": "She loves fashion.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 474,
+"w": "style",
+"pos": "n",
+"zh": "風格",
+"ex": "I like your style.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 475,
+"w": "cotton",
+"pos": "n",
+"zh": "棉",
+"ex": "This shirt is made of cotton.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 476,
+"w": "plastic",
+"pos": "n",
+"zh": "塑膠",
+"ex": "Don't use plastic bags.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 477,
+"w": "paper",
+"pos": "n",
+"zh": "紙",
+"ex": "I need a piece of paper.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 478,
+"w": "scissors",
+"pos": "n",
+"zh": "剪刀",
+"ex": "Can I borrow your scissors?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 479,
+"w": "battery",
+"pos": "n",
+"zh": "電池",
+"ex": "My phone battery is low.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 480,
+"w": "candle",
+"pos": "n",
+"zh": "蠟燭",
+"ex": "Light the candles on the cake.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 481,
+"w": "present",
+"pos": "n",
+"zh": "禮物",
+"ex": "This present is for you.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 482,
+"w": "gift",
+"pos": "n",
+"zh": "禮物",
+"ex": "Thank you for the lovely gift.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 483,
+"w": "toy",
+"pos": "n",
+"zh": "玩具",
+"ex": "The kids are playing with their toys.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 484,
+"w": "plant",
+"pos": "n",
+"zh": "植物",
+"ex": "Water the plants every day.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 485,
+"w": "neighbourhood",
+"pos": "n",
+"zh": "社區；鄰近地區",
+"ex": "It's a quiet neighbourhood.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 486,
+"w": "address",
+"pos": "n",
+"zh": "地址",
+"ex": "What's your address?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 487,
+"w": "cap",
+"pos": "n",
+"zh": "鴨舌帽",
+"ex": "He always wears a cap.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 488,
+"w": "letter",
+"pos": "n",
+"zh": "信；字母",
+"ex": "I wrote her a letter.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 489,
+"w": "card",
+"pos": "n",
+"zh": "卡片",
+"ex": "Thanks for the birthday card.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 490,
+"w": "shorts",
+"pos": "n",
+"zh": "短褲",
+"ex": "It's hot. Wear shorts.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 491,
+"w": "pyjamas",
+"pos": "n",
+"zh": "睡衣",
+"ex": "The kids are in their pyjamas.",
+"level": "A1",
+"topic": "home"
+},
+{
+"id": 492,
+"w": "stamp",
+"pos": "n",
+"zh": "郵票",
+"ex": "I need a stamp for this letter.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 493,
+"w": "envelope",
+"pos": "n",
+"zh": "信封",
+"ex": "Put the letter in an envelope.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 494,
+"w": "post",
+"pos": "v",
+"zh": "寄（信）",
+"ex": "I posted the letter yesterday.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 495,
+"w": "parcel",
+"pos": "n",
+"zh": "包裹",
+"ex": "A parcel came for you.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 496,
+"w": "invitation",
+"pos": "n",
+"zh": "邀請函",
+"ex": "Thanks for the invitation.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 497,
+"w": "drawer",
+"pos": "n",
+"zh": "抽屜",
+"ex": "The spoons are in the drawer.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 498,
+"w": "cushion",
+"pos": "n",
+"zh": "靠墊",
+"ex": "Sit on this cushion.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 499,
+"w": "hairdryer",
+"pos": "n",
+"zh": "吹風機",
+"ex": "Can I borrow your hairdryer?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 500,
+"w": "brush",
+"pos": "n",
+"zh": "刷子；梳子",
+"ex": "Where's my hair brush?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 501,
+"w": "comb",
+"pos": "n",
+"zh": "梳子",
+"ex": "I need a comb.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 502,
+"w": "vacuum cleaner",
+"pos": "n",
+"zh": "吸塵器",
+"ex": "Use the vacuum cleaner on the carpet.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 503,
+"w": "tap",
+"pos": "n",
+"zh": "水龍頭",
+"ex": "Turn off the tap.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 504,
+"w": "plug",
+"pos": "n",
+"zh": "插頭",
+"ex": "Pull out the plug.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 505,
+"w": "charger",
+"pos": "n",
+"zh": "充電器",
+"ex": "I forgot my phone charger.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 506,
+"w": "remote control",
+"pos": "n",
+"zh": "遙控器",
+"ex": "Where's the remote control?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 507,
+"w": "doorbell",
+"pos": "n",
+"zh": "門鈴",
+"ex": "The doorbell is ringing.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 508,
+"w": "landlord",
+"pos": "n",
+"zh": "房東",
+"ex": "Our landlord is very nice.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 509,
+"w": "blouse",
+"pos": "n",
+"zh": "女用襯衫",
+"ex": "She's wearing a white blouse.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 510,
+"w": "leggings",
+"pos": "n",
+"zh": "內搭褲；緊身褲",
+"ex": "I wear leggings to the gym.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 511,
+"w": "swimsuit",
+"pos": "n",
+"zh": "泳衣",
+"ex": "Don't forget your swimsuit.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 512,
+"w": "raincoat",
+"pos": "n",
+"zh": "雨衣",
+"ex": "Wear a raincoat today.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 513,
+"w": "slippers",
+"pos": "n",
+"zh": "拖鞋；室內鞋",
+"ex": "Wear slippers in the house.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 514,
+"w": "underwear",
+"pos": "n",
+"zh": "內衣褲",
+"ex": "Pack enough underwear.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 515,
+"w": "make-up",
+"pos": "n",
+"zh": "化妝品；妝",
+"ex": "She doesn't wear much make-up.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 516,
+"w": "lipstick",
+"pos": "n",
+"zh": "口紅",
+"ex": "I like your lipstick.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 517,
+"w": "perfume",
+"pos": "n",
+"zh": "香水",
+"ex": "What perfume are you wearing?",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 518,
+"w": "hairstyle",
+"pos": "n",
+"zh": "髮型",
+"ex": "I love your new hairstyle.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 519,
+"w": "tight",
+"pos": "adj",
+"zh": "緊的",
+"ex": "These jeans are too tight.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 520,
+"w": "loose",
+"pos": "adj",
+"zh": "寬鬆的",
+"ex": "I like loose T-shirts.",
+"level": "A2",
+"topic": "home"
+},
+{
+"id": 521,
+"w": "city",
+"pos": "n",
+"zh": "城市",
+"ex": "Taipei is a big city.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 522,
+"w": "town",
+"pos": "n",
+"zh": "城鎮",
+"ex": "I grew up in a small town.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 523,
+"w": "village",
+"pos": "n",
+"zh": "村莊",
+"ex": "My grandparents live in a village.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 524,
+"w": "country",
+"pos": "n",
+"zh": "國家；鄉下",
+"ex": "Which country are you from?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 525,
+"w": "street",
+"pos": "n",
+"zh": "街道",
+"ex": "I live on this street.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 526,
+"w": "road",
+"pos": "n",
+"zh": "道路",
+"ex": "Be careful on the road.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 527,
+"w": "shop",
+"pos": "n",
+"zh": "商店",
+"ex": "The shop opens at ten.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 528,
+"w": "store",
+"pos": "n",
+"zh": "商店",
+"ex": "Is there a store near here?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 529,
+"w": "market",
+"pos": "n",
+"zh": "市場",
+"ex": "We buy fruit at the market.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 530,
+"w": "supermarket",
+"pos": "n",
+"zh": "超市",
+"ex": "I'm going to the supermarket.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 531,
+"w": "bank",
+"pos": "n",
+"zh": "銀行",
+"ex": "The bank is closed today.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 532,
+"w": "hospital",
+"pos": "n",
+"zh": "醫院",
+"ex": "She works at a hospital.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 533,
+"w": "hotel",
+"pos": "n",
+"zh": "飯店",
+"ex": "Our hotel is near the beach.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 534,
+"w": "park",
+"pos": "n",
+"zh": "公園",
+"ex": "Let's walk in the park.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 535,
+"w": "school",
+"pos": "n",
+"zh": "學校",
+"ex": "My school is near my house.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 536,
+"w": "station",
+"pos": "n",
+"zh": "車站",
+"ex": "Meet me at the station.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 537,
+"w": "airport",
+"pos": "n",
+"zh": "機場",
+"ex": "How far is the airport?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 538,
+"w": "cinema",
+"pos": "n",
+"zh": "電影院",
+"ex": "Let's go to the cinema.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 539,
+"w": "museum",
+"pos": "n",
+"zh": "博物館",
+"ex": "The museum is free on Sundays.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 540,
+"w": "library",
+"pos": "n",
+"zh": "圖書館",
+"ex": "I study at the library.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 541,
+"w": "beach",
+"pos": "n",
+"zh": "海灘",
+"ex": "We went to the beach.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 542,
+"w": "sea",
+"pos": "n",
+"zh": "海",
+"ex": "I love swimming in the sea.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 543,
+"w": "mountain",
+"pos": "n",
+"zh": "山",
+"ex": "Let's climb the mountain.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 544,
+"w": "river",
+"pos": "n",
+"zh": "河",
+"ex": "There is a river near the town.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 545,
+"w": "car",
+"pos": "n",
+"zh": "汽車",
+"ex": "My car is red.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 546,
+"w": "bus",
+"pos": "n",
+"zh": "公車",
+"ex": "I take the bus to work.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 547,
+"w": "train",
+"pos": "n",
+"zh": "火車",
+"ex": "The train leaves at nine.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 548,
+"w": "plane",
+"pos": "n",
+"zh": "飛機",
+"ex": "The plane is late.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 549,
+"w": "bike",
+"pos": "n",
+"zh": "腳踏車",
+"ex": "I ride my bike to school.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 550,
+"w": "bicycle",
+"pos": "n",
+"zh": "腳踏車",
+"ex": "She has a new bicycle.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 551,
+"w": "taxi",
+"pos": "n",
+"zh": "計程車",
+"ex": "Let's take a taxi.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 552,
+"w": "boat",
+"pos": "n",
+"zh": "船",
+"ex": "We went on a boat trip.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 553,
+"w": "ticket",
+"pos": "n",
+"zh": "票",
+"ex": "Two tickets, please.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 554,
+"w": "holiday",
+"pos": "n",
+"zh": "假期",
+"ex": "We're on holiday next week.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 555,
+"w": "trip",
+"pos": "n",
+"zh": "旅行",
+"ex": "How was your trip?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 556,
+"w": "travel",
+"pos": "v",
+"zh": "旅行",
+"ex": "I love to travel.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 557,
+"w": "visit",
+"pos": "v",
+"zh": "拜訪；參觀",
+"ex": "We visited my aunt.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 558,
+"w": "go",
+"pos": "v",
+"zh": "去",
+"ex": "Let's go to the park.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 559,
+"w": "come",
+"pos": "v",
+"zh": "來",
+"ex": "Can you come to my party?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 560,
+"w": "walk",
+"pos": "v",
+"zh": "走路",
+"ex": "I walk to work.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 561,
+"w": "drive",
+"pos": "v",
+"zh": "開車",
+"ex": "Can you drive?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 562,
+"w": "ride",
+"pos": "v",
+"zh": "騎",
+"ex": "I ride a scooter.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 563,
+"w": "fly",
+"pos": "v",
+"zh": "飛；搭飛機",
+"ex": "We're flying to Tokyo.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 564,
+"w": "map",
+"pos": "n",
+"zh": "地圖",
+"ex": "Can you show me on the map?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 565,
+"w": "left",
+"pos": "n",
+"zh": "左邊",
+"ex": "Turn left at the corner.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 566,
+"w": "right",
+"pos": "n",
+"zh": "右邊",
+"ex": "The bank is on the right.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 567,
+"w": "near",
+"pos": "prep",
+"zh": "在…附近",
+"ex": "I live near the station.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 568,
+"w": "far",
+"pos": "adj",
+"zh": "遠的",
+"ex": "Is it far from here?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 569,
+"w": "here",
+"pos": "adv",
+"zh": "這裡",
+"ex": "Come here, please.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 570,
+"w": "there",
+"pos": "adv",
+"zh": "那裡",
+"ex": "Put it over there.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 571,
+"w": "buy",
+"pos": "v",
+"zh": "買",
+"ex": "I want to buy a new bag.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 572,
+"w": "sell",
+"pos": "v",
+"zh": "賣",
+"ex": "They sell fruit at the market.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 573,
+"w": "pay",
+"pos": "v",
+"zh": "付錢",
+"ex": "Can I pay by card?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 574,
+"w": "price",
+"pos": "n",
+"zh": "價格",
+"ex": "What's the price of this bag?",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 575,
+"w": "cheap",
+"pos": "adj",
+"zh": "便宜的",
+"ex": "This shirt is very cheap.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 576,
+"w": "expensive",
+"pos": "adj",
+"zh": "貴的",
+"ex": "That restaurant is expensive.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 577,
+"w": "world",
+"pos": "n",
+"zh": "世界",
+"ex": "I want to travel around the world.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 578,
+"w": "place",
+"pos": "n",
+"zh": "地方",
+"ex": "This is my favourite place.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 579,
+"w": "area",
+"pos": "n",
+"zh": "地區",
+"ex": "Do you live in this area?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 580,
+"w": "centre",
+"pos": "n",
+"zh": "中心（英式）",
+"ex": "The hotel is in the city centre.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 581,
+"w": "corner",
+"pos": "n",
+"zh": "轉角",
+"ex": "The shop is on the corner.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 582,
+"w": "square",
+"pos": "n",
+"zh": "廣場",
+"ex": "Let's meet in the main square.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 583,
+"w": "bridge",
+"pos": "n",
+"zh": "橋",
+"ex": "Walk across the bridge.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 584,
+"w": "building",
+"pos": "n",
+"zh": "建築物",
+"ex": "That building is very old.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 585,
+"w": "tower",
+"pos": "n",
+"zh": "塔",
+"ex": "You can see the whole city from the tower.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 586,
+"w": "church",
+"pos": "n",
+"zh": "教堂",
+"ex": "There's an old church in the village.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 587,
+"w": "temple",
+"pos": "n",
+"zh": "寺廟",
+"ex": "We visited a temple in Tainan.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 588,
+"w": "castle",
+"pos": "n",
+"zh": "城堡",
+"ex": "We visited an old castle.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 589,
+"w": "zoo",
+"pos": "n",
+"zh": "動物園",
+"ex": "The kids love the zoo.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 590,
+"w": "post office",
+"pos": "n",
+"zh": "郵局",
+"ex": "Where's the post office?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 591,
+"w": "police station",
+"pos": "n",
+"zh": "警察局",
+"ex": "The police station is next to the bank.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 592,
+"w": "pharmacy",
+"pos": "n",
+"zh": "藥局",
+"ex": "I need to go to the pharmacy.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 593,
+"w": "bookshop",
+"pos": "n",
+"zh": "書店",
+"ex": "There's a nice bookshop downtown.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 594,
+"w": "mall",
+"pos": "n",
+"zh": "購物中心",
+"ex": "Let's go to the mall.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 595,
+"w": "night market",
+"pos": "n",
+"zh": "夜市",
+"ex": "We ate at the night market.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 596,
+"w": "car park",
+"pos": "n",
+"zh": "停車場（英式）",
+"ex": "The car park is full.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 597,
+"w": "parking lot",
+"pos": "n",
+"zh": "停車場",
+"ex": "I left my car in the parking lot.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 598,
+"w": "platform",
+"pos": "n",
+"zh": "月台",
+"ex": "The train leaves from platform 2.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 599,
+"w": "underground",
+"pos": "n",
+"zh": "地鐵（英式）",
+"ex": "Take the underground to the station.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 600,
+"w": "subway",
+"pos": "n",
+"zh": "地鐵",
+"ex": "The subway is fast and cheap.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 601,
+"w": "MRT",
+"pos": "n",
+"zh": "捷運",
+"ex": "I take the MRT to work.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 602,
+"w": "motorbike",
+"pos": "n",
+"zh": "機車；摩托車",
+"ex": "He rides a motorbike.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 603,
+"w": "scooter",
+"pos": "n",
+"zh": "機車；滑板車",
+"ex": "Most people in Taiwan ride scooters.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 604,
+"w": "traffic",
+"pos": "n",
+"zh": "交通；車流",
+"ex": "The traffic is terrible today.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 605,
+"w": "traffic light",
+"pos": "n",
+"zh": "紅綠燈",
+"ex": "Turn right at the traffic lights.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 606,
+"w": "crossing",
+"pos": "n",
+"zh": "斑馬線；十字路口",
+"ex": "Use the crossing.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 607,
+"w": "journey",
+"pos": "n",
+"zh": "旅程",
+"ex": "How long is the journey?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 608,
+"w": "tour",
+"pos": "n",
+"zh": "旅遊；參觀",
+"ex": "We went on a tour of the city.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 609,
+"w": "tourist",
+"pos": "n",
+"zh": "觀光客",
+"ex": "The city is full of tourists.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 610,
+"w": "passport",
+"pos": "n",
+"zh": "護照",
+"ex": "Don't forget your passport.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 611,
+"w": "luggage",
+"pos": "n",
+"zh": "行李",
+"ex": "How much luggage do you have?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 612,
+"w": "suitcase",
+"pos": "n",
+"zh": "行李箱",
+"ex": "My suitcase is very heavy.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 613,
+"w": "backpack",
+"pos": "n",
+"zh": "背包",
+"ex": "I travel with just a backpack.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 614,
+"w": "flight",
+"pos": "n",
+"zh": "班機",
+"ex": "Our flight was delayed.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 615,
+"w": "arrive",
+"pos": "v",
+"zh": "抵達",
+"ex": "We arrived at six.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 616,
+"w": "leave",
+"pos": "v",
+"zh": "離開；出發",
+"ex": "The bus leaves at eight.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 617,
+"w": "return",
+"pos": "v",
+"zh": "返回",
+"ex": "When do you return from Japan?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 618,
+"w": "catch",
+"pos": "v",
+"zh": "趕上（車）；接住",
+"ex": "I need to catch the last train.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 619,
+"w": "get on",
+"pos": "v",
+"zh": "上（車）",
+"ex": "Get on the bus here.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 620,
+"w": "get off",
+"pos": "v",
+"zh": "下（車）",
+"ex": "Get off at the next stop.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 621,
+"w": "stop",
+"pos": "n",
+"zh": "站牌；車站",
+"ex": "This is my stop.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 622,
+"w": "stay",
+"pos": "v",
+"zh": "停留；住",
+"ex": "We stayed at a small hotel.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 623,
+"w": "guide",
+"pos": "n",
+"zh": "導遊；指南",
+"ex": "Our guide spoke good English.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 624,
+"w": "abroad",
+"pos": "adv",
+"zh": "在國外",
+"ex": "She studies abroad.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 625,
+"w": "foreign",
+"pos": "adj",
+"zh": "外國的",
+"ex": "Do you speak any foreign languages?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 626,
+"w": "direction",
+"pos": "n",
+"zh": "方向",
+"ex": "Can you give me directions?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 627,
+"w": "straight",
+"pos": "adv",
+"zh": "直直地",
+"ex": "Go straight on.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 628,
+"w": "opposite",
+"pos": "prep",
+"zh": "在…對面",
+"ex": "The bank is opposite the park.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 629,
+"w": "between",
+"pos": "prep",
+"zh": "在…之間",
+"ex": "The shop is between the bank and the cafe.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 630,
+"w": "behind",
+"pos": "prep",
+"zh": "在…後面",
+"ex": "The car park is behind the hotel.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 631,
+"w": "in front of",
+"pos": "prep",
+"zh": "在…前面",
+"ex": "Wait in front of the station.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 632,
+"w": "next to",
+"pos": "prep",
+"zh": "在…旁邊",
+"ex": "The cafe is next to the cinema.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 633,
+"w": "across",
+"pos": "prep",
+"zh": "穿越；在對面",
+"ex": "Walk across the road.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 634,
+"w": "along",
+"pos": "prep",
+"zh": "沿著",
+"ex": "Walk along the river.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 635,
+"w": "outside",
+"pos": "adv",
+"zh": "在外面",
+"ex": "Let's eat outside.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 636,
+"w": "inside",
+"pos": "adv",
+"zh": "在裡面",
+"ex": "It's raining. Let's go inside.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 637,
+"w": "nearby",
+"pos": "adv",
+"zh": "在附近",
+"ex": "Is there a bank nearby?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 638,
+"w": "lost",
+"pos": "adj",
+"zh": "迷路的；遺失的",
+"ex": "I think we're lost.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 639,
+"w": "cost",
+"pos": "v",
+"zh": "花費",
+"ex": "How much does it cost?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 640,
+"w": "sale",
+"pos": "n",
+"zh": "特價；銷售",
+"ex": "Everything is on sale.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 641,
+"w": "discount",
+"pos": "n",
+"zh": "折扣",
+"ex": "Can I get a discount?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 642,
+"w": "customer",
+"pos": "n",
+"zh": "顧客",
+"ex": "The shop has many customers.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 643,
+"w": "cash",
+"pos": "n",
+"zh": "現金",
+"ex": "Do you take cash?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 644,
+"w": "credit card",
+"pos": "n",
+"zh": "信用卡",
+"ex": "Can I pay by credit card?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 645,
+"w": "receipt",
+"pos": "n",
+"zh": "收據",
+"ex": "Can I have the receipt?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 646,
+"w": "change",
+"pos": "n",
+"zh": "零錢；找的錢",
+"ex": "Here's your change.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 647,
+"w": "coin",
+"pos": "n",
+"zh": "硬幣",
+"ex": "I need some coins for the machine.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 648,
+"w": "shopping",
+"pos": "n",
+"zh": "購物",
+"ex": "I go shopping on Saturdays.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 649,
+"w": "try on",
+"pos": "v",
+"zh": "試穿",
+"ex": "Can I try on this dress?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 650,
+"w": "spend",
+"pos": "v",
+"zh": "花（錢、時間）",
+"ex": "I spent too much money.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 651,
+"w": "save",
+"pos": "v",
+"zh": "存（錢）；節省",
+"ex": "I'm saving money for a trip.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 652,
+"w": "queue",
+"pos": "n",
+"zh": "隊伍（英式）",
+"ex": "There's a long queue.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 653,
+"w": "line",
+"pos": "n",
+"zh": "隊伍；線",
+"ex": "Please wait in line.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 654,
+"w": "closed",
+"pos": "adj",
+"zh": "關門的",
+"ex": "The museum is closed on Mondays.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 655,
+"w": "island",
+"pos": "n",
+"zh": "島",
+"ex": "Taiwan is an island.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 656,
+"w": "lake",
+"pos": "n",
+"zh": "湖",
+"ex": "We swam in the lake.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 657,
+"w": "forest",
+"pos": "n",
+"zh": "森林",
+"ex": "We walked through the forest.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 658,
+"w": "countryside",
+"pos": "n",
+"zh": "鄉間",
+"ex": "I love the quiet countryside.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 659,
+"w": "capital",
+"pos": "n",
+"zh": "首都",
+"ex": "Taipei is the capital of Taiwan.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 660,
+"w": "north",
+"pos": "n",
+"zh": "北方",
+"ex": "Keelung is in the north.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 661,
+"w": "south",
+"pos": "n",
+"zh": "南方",
+"ex": "Kaohsiung is in the south.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 662,
+"w": "east",
+"pos": "n",
+"zh": "東方",
+"ex": "The sun rises in the east.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 663,
+"w": "west",
+"pos": "n",
+"zh": "西方",
+"ex": "The sun sets in the west.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 664,
+"w": "swimming pool",
+"pos": "n",
+"zh": "游泳池",
+"ex": "The hotel has a swimming pool.",
+"level": "A1",
+"topic": "places"
+},
+{
+"id": 665,
+"w": "factory",
+"pos": "n",
+"zh": "工廠",
+"ex": "My dad works in a factory.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 666,
+"w": "gas station",
+"pos": "n",
+"zh": "加油站",
+"ex": "We need to stop at a gas station.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 667,
+"w": "airline",
+"pos": "n",
+"zh": "航空公司",
+"ex": "Which airline are you flying with?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 668,
+"w": "check in",
+"pos": "v",
+"zh": "辦理入住；報到",
+"ex": "We checked in at the hotel.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 669,
+"w": "check out",
+"pos": "v",
+"zh": "退房",
+"ex": "We check out at noon.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 670,
+"w": "reception",
+"pos": "n",
+"zh": "櫃台",
+"ex": "Ask at reception.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 671,
+"w": "single room",
+"pos": "n",
+"zh": "單人房",
+"ex": "I'd like a single room.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 672,
+"w": "double room",
+"pos": "n",
+"zh": "雙人房",
+"ex": "We booked a double room.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 673,
+"w": "souvenir",
+"pos": "n",
+"zh": "紀念品",
+"ex": "I bought souvenirs for my friends.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 674,
+"w": "sightseeing",
+"pos": "n",
+"zh": "觀光",
+"ex": "We went sightseeing in Kyoto.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 675,
+"w": "view",
+"pos": "n",
+"zh": "景色",
+"ex": "What a beautiful view!",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 676,
+"w": "visitor",
+"pos": "n",
+"zh": "訪客；遊客",
+"ex": "The museum has many visitors.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 677,
+"w": "entrance",
+"pos": "n",
+"zh": "入口",
+"ex": "Meet me at the main entrance.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 678,
+"w": "exit",
+"pos": "n",
+"zh": "出口",
+"ex": "Where's the exit?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 679,
+"w": "seat",
+"pos": "n",
+"zh": "座位",
+"ex": "Is this seat free?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 680,
+"w": "delay",
+"pos": "n",
+"zh": "延誤",
+"ex": "There's a delay of one hour.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 681,
+"w": "on time",
+"pos": "adv",
+"zh": "準時",
+"ex": "The train is on time.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 682,
+"w": "timetable",
+"pos": "n",
+"zh": "時刻表",
+"ex": "Check the bus timetable.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 683,
+"w": "fare",
+"pos": "n",
+"zh": "車資",
+"ex": "How much is the fare?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 684,
+"w": "one-way",
+"pos": "adj",
+"zh": "單程的",
+"ex": "A one-way ticket, please.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 685,
+"w": "return ticket",
+"pos": "n",
+"zh": "來回票",
+"ex": "A return ticket to Tainan, please.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 686,
+"w": "sign",
+"pos": "n",
+"zh": "標誌；招牌",
+"ex": "Follow the signs to the station.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 687,
+"w": "sidewalk",
+"pos": "n",
+"zh": "人行道",
+"ex": "Kids play on the sidewalk.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 688,
+"w": "highway",
+"pos": "n",
+"zh": "公路；高速公路",
+"ex": "The highway is very busy.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 689,
+"w": "helmet",
+"pos": "n",
+"zh": "安全帽",
+"ex": "Always wear a helmet.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 690,
+"w": "seatbelt",
+"pos": "n",
+"zh": "安全帶",
+"ex": "Put on your seatbelt.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 691,
+"w": "crash",
+"pos": "n",
+"zh": "撞車",
+"ex": "There was a crash on the highway.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 692,
+"w": "department store",
+"pos": "n",
+"zh": "百貨公司",
+"ex": "She works in a department store.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 693,
+"w": "refund",
+"pos": "n",
+"zh": "退款",
+"ex": "Can I get a refund?",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 694,
+"w": "bargain",
+"pos": "n",
+"zh": "划算的東西",
+"ex": "This dress was a real bargain.",
+"level": "A2",
+"topic": "places"
+},
+{
+"id": 695,
+"w": "work",
+"pos": "v",
+"zh": "工作",
+"ex": "I work in an office.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 696,
+"w": "job",
+"pos": "n",
+"zh": "工作",
+"ex": "I love my new job.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 697,
+"w": "office",
+"pos": "n",
+"zh": "辦公室",
+"ex": "She is in the office today.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 698,
+"w": "teacher",
+"pos": "n",
+"zh": "老師",
+"ex": "My English teacher is from Canada.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 699,
+"w": "student",
+"pos": "n",
+"zh": "學生",
+"ex": "There are thirty students in my class.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 700,
+"w": "class",
+"pos": "n",
+"zh": "班級；課",
+"ex": "My class starts at nine.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 701,
+"w": "lesson",
+"pos": "n",
+"zh": "課",
+"ex": "We have an English lesson today.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 702,
+"w": "study",
+"pos": "v",
+"zh": "讀書；學習",
+"ex": "I study English every day.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 703,
+"w": "learn",
+"pos": "v",
+"zh": "學習",
+"ex": "I want to learn Japanese.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 704,
+"w": "teach",
+"pos": "v",
+"zh": "教",
+"ex": "She teaches maths.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 705,
+"w": "read",
+"pos": "v",
+"zh": "讀",
+"ex": "I read before bed.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 706,
+"w": "write",
+"pos": "v",
+"zh": "寫",
+"ex": "Write your name here.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 707,
+"w": "word",
+"pos": "n",
+"zh": "單字",
+"ex": "What does this word mean?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 708,
+"w": "question",
+"pos": "n",
+"zh": "問題",
+"ex": "Can I ask a question?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 709,
+"w": "answer",
+"pos": "n",
+"zh": "答案",
+"ex": "What's the answer?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 710,
+"w": "homework",
+"pos": "n",
+"zh": "回家作業",
+"ex": "I finished my homework.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 711,
+"w": "test",
+"pos": "n",
+"zh": "測驗",
+"ex": "I have a test tomorrow.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 712,
+"w": "English",
+"pos": "n",
+"zh": "英文",
+"ex": "I'm learning English.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 713,
+"w": "language",
+"pos": "n",
+"zh": "語言",
+"ex": "How many languages do you speak?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 714,
+"w": "computer",
+"pos": "n",
+"zh": "電腦",
+"ex": "I work on a computer all day.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 715,
+"w": "email",
+"pos": "n",
+"zh": "電子郵件",
+"ex": "I sent you an email.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 716,
+"w": "internet",
+"pos": "n",
+"zh": "網路",
+"ex": "The internet is slow today.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 717,
+"w": "music",
+"pos": "n",
+"zh": "音樂",
+"ex": "I listen to music on the bus.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 718,
+"w": "song",
+"pos": "n",
+"zh": "歌",
+"ex": "This is my favourite song.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 719,
+"w": "sing",
+"pos": "v",
+"zh": "唱歌",
+"ex": "She sings beautifully.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 720,
+"w": "dance",
+"pos": "v",
+"zh": "跳舞",
+"ex": "Let's dance!",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 721,
+"w": "game",
+"pos": "n",
+"zh": "遊戲；比賽",
+"ex": "Let's play a game.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 722,
+"w": "play",
+"pos": "v",
+"zh": "玩；打（球）",
+"ex": "The kids play in the park.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 723,
+"w": "sport",
+"pos": "n",
+"zh": "運動",
+"ex": "What's your favourite sport?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 724,
+"w": "football",
+"pos": "n",
+"zh": "足球",
+"ex": "He plays football every weekend.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 725,
+"w": "basketball",
+"pos": "n",
+"zh": "籃球",
+"ex": "Let's play basketball.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 726,
+"w": "tennis",
+"pos": "n",
+"zh": "網球",
+"ex": "She plays tennis well.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 727,
+"w": "swim",
+"pos": "v",
+"zh": "游泳",
+"ex": "Can you swim?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 728,
+"w": "run",
+"pos": "v",
+"zh": "跑步",
+"ex": "I run in the park every morning.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 729,
+"w": "film",
+"pos": "n",
+"zh": "電影",
+"ex": "Let's watch a film tonight.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 730,
+"w": "movie",
+"pos": "n",
+"zh": "電影",
+"ex": "That movie was great.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 731,
+"w": "hobby",
+"pos": "n",
+"zh": "嗜好",
+"ex": "My hobby is drawing.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 732,
+"w": "draw",
+"pos": "v",
+"zh": "畫畫",
+"ex": "My daughter loves to draw.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 733,
+"w": "paint",
+"pos": "v",
+"zh": "上色；畫畫",
+"ex": "I paint on weekends.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 734,
+"w": "guitar",
+"pos": "n",
+"zh": "吉他",
+"ex": "He plays the guitar.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 735,
+"w": "piano",
+"pos": "n",
+"zh": "鋼琴",
+"ex": "She plays the piano.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 736,
+"w": "nurse",
+"pos": "n",
+"zh": "護理師",
+"ex": "My sister is a nurse.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 737,
+"w": "police officer",
+"pos": "n",
+"zh": "警察",
+"ex": "Ask that police officer.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 738,
+"w": "driver",
+"pos": "n",
+"zh": "司機",
+"ex": "The bus driver is friendly.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 739,
+"w": "busy",
+"pos": "adj",
+"zh": "忙碌的",
+"ex": "I'm very busy this week.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 740,
+"w": "easy",
+"pos": "adj",
+"zh": "簡單的",
+"ex": "This test is easy.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 741,
+"w": "difficult",
+"pos": "adj",
+"zh": "困難的",
+"ex": "English grammar is difficult.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 742,
+"w": "example",
+"pos": "n",
+"zh": "例子",
+"ex": "Can you give me an example?",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 743,
+"w": "page",
+"pos": "n",
+"zh": "頁",
+"ex": "Open your books to page ten.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 744,
+"w": "company",
+"pos": "n",
+"zh": "公司",
+"ex": "She works for a big company.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 745,
+"w": "boss",
+"pos": "n",
+"zh": "老闆",
+"ex": "My boss is very nice.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 746,
+"w": "manager",
+"pos": "n",
+"zh": "經理",
+"ex": "I'd like to speak to the manager.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 747,
+"w": "colleague",
+"pos": "n",
+"zh": "同事",
+"ex": "My colleagues are friendly.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 748,
+"w": "meeting",
+"pos": "n",
+"zh": "會議",
+"ex": "I have a meeting at two.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 749,
+"w": "business",
+"pos": "n",
+"zh": "生意；商業",
+"ex": "He has his own business.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 750,
+"w": "career",
+"pos": "n",
+"zh": "職業生涯",
+"ex": "She wants a career in fashion.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 751,
+"w": "salary",
+"pos": "n",
+"zh": "薪水",
+"ex": "The salary is good.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 752,
+"w": "interview",
+"pos": "n",
+"zh": "面試",
+"ex": "I have a job interview tomorrow.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 753,
+"w": "employ",
+"pos": "v",
+"zh": "僱用",
+"ex": "The shop employs ten people.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 754,
+"w": "earn",
+"pos": "v",
+"zh": "賺（錢）",
+"ex": "She earns a lot of money.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 755,
+"w": "engineer",
+"pos": "n",
+"zh": "工程師",
+"ex": "My husband is an engineer.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 756,
+"w": "secretary",
+"pos": "n",
+"zh": "秘書",
+"ex": "Ask the secretary for help.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 757,
+"w": "waitress",
+"pos": "n",
+"zh": "女服務生",
+"ex": "The waitress was very kind.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 758,
+"w": "shop assistant",
+"pos": "n",
+"zh": "店員",
+"ex": "The shop assistant helped me.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 759,
+"w": "farmer",
+"pos": "n",
+"zh": "農夫",
+"ex": "The farmer grows rice.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 760,
+"w": "lawyer",
+"pos": "n",
+"zh": "律師",
+"ex": "She wants to be a lawyer.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 761,
+"w": "artist",
+"pos": "n",
+"zh": "藝術家",
+"ex": "He is a famous artist.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 762,
+"w": "writer",
+"pos": "n",
+"zh": "作家",
+"ex": "She is a writer.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 763,
+"w": "journalist",
+"pos": "n",
+"zh": "記者",
+"ex": "My cousin is a journalist.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 764,
+"w": "scientist",
+"pos": "n",
+"zh": "科學家",
+"ex": "Scientists study the weather.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 765,
+"w": "dentist",
+"pos": "n",
+"zh": "牙醫",
+"ex": "I'm going to the dentist.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 766,
+"w": "pilot",
+"pos": "n",
+"zh": "機師",
+"ex": "He wants to be a pilot.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 767,
+"w": "chef",
+"pos": "n",
+"zh": "主廚",
+"ex": "The chef made a special dish.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 768,
+"w": "university",
+"pos": "n",
+"zh": "大學",
+"ex": "She studies at a university in Taipei.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 769,
+"w": "college",
+"pos": "n",
+"zh": "學院；大學",
+"ex": "My son is in college.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 770,
+"w": "subject",
+"pos": "n",
+"zh": "科目",
+"ex": "My favourite subject is art.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 771,
+"w": "maths",
+"pos": "n",
+"zh": "數學（英式）",
+"ex": "I'm not good at maths.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 772,
+"w": "science",
+"pos": "n",
+"zh": "科學",
+"ex": "Science is interesting.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 773,
+"w": "history",
+"pos": "n",
+"zh": "歷史",
+"ex": "I love history.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 774,
+"w": "geography",
+"pos": "n",
+"zh": "地理",
+"ex": "We have geography on Monday.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 775,
+"w": "exam",
+"pos": "n",
+"zh": "考試",
+"ex": "I passed the exam!",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 776,
+"w": "pass",
+"pos": "v",
+"zh": "通過（考試）",
+"ex": "Did you pass the test?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 777,
+"w": "fail",
+"pos": "v",
+"zh": "不及格；失敗",
+"ex": "He failed his driving test.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 778,
+"w": "grade",
+"pos": "n",
+"zh": "成績；年級",
+"ex": "I got a good grade.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 779,
+"w": "mistake",
+"pos": "n",
+"zh": "錯誤",
+"ex": "Everyone makes mistakes.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 780,
+"w": "practise",
+"pos": "v",
+"zh": "練習",
+"ex": "I practise English every day.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 781,
+"w": "explain",
+"pos": "v",
+"zh": "解釋",
+"ex": "Can you explain this word?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 782,
+"w": "understand",
+"pos": "v",
+"zh": "理解；懂",
+"ex": "I don't understand.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 783,
+"w": "remember",
+"pos": "v",
+"zh": "記得",
+"ex": "I can't remember his name.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 784,
+"w": "forget",
+"pos": "v",
+"zh": "忘記",
+"ex": "Don't forget your homework.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 785,
+"w": "spell",
+"pos": "v",
+"zh": "拼字",
+"ex": "How do you spell your name?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 786,
+"w": "dictionary",
+"pos": "n",
+"zh": "字典",
+"ex": "Look it up in the dictionary.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 787,
+"w": "notebook",
+"pos": "n",
+"zh": "筆記本",
+"ex": "Write it in your notebook.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 788,
+"w": "pencil",
+"pos": "n",
+"zh": "鉛筆",
+"ex": "Can I borrow a pencil?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 789,
+"w": "rubber",
+"pos": "n",
+"zh": "橡皮擦（英式）",
+"ex": "I need a rubber.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 790,
+"w": "course",
+"pos": "n",
+"zh": "課程",
+"ex": "I'm taking an English course.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 791,
+"w": "information",
+"pos": "n",
+"zh": "資訊",
+"ex": "I need more information.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 792,
+"w": "project",
+"pos": "n",
+"zh": "專案；企劃",
+"ex": "We're working on a new project.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 793,
+"w": "report",
+"pos": "n",
+"zh": "報告",
+"ex": "I have to finish this report.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 794,
+"w": "plan",
+"pos": "n",
+"zh": "計畫",
+"ex": "What are your plans for the weekend?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 795,
+"w": "idea",
+"pos": "n",
+"zh": "主意；想法",
+"ex": "That's a great idea!",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 796,
+"w": "laptop",
+"pos": "n",
+"zh": "筆記型電腦",
+"ex": "I work on my laptop.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 797,
+"w": "screen",
+"pos": "n",
+"zh": "螢幕",
+"ex": "My phone screen is broken.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 798,
+"w": "keyboard",
+"pos": "n",
+"zh": "鍵盤",
+"ex": "This keyboard is too small.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 799,
+"w": "mobile phone",
+"pos": "n",
+"zh": "手機",
+"ex": "Turn off your mobile phone.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 800,
+"w": "app",
+"pos": "n",
+"zh": "應用程式",
+"ex": "I use this app to learn words.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 801,
+"w": "website",
+"pos": "n",
+"zh": "網站",
+"ex": "Check our website for details.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 802,
+"w": "online",
+"pos": "adv",
+"zh": "在網路上",
+"ex": "I buy clothes online.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 803,
+"w": "password",
+"pos": "n",
+"zh": "密碼",
+"ex": "I forgot my password.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 804,
+"w": "message",
+"pos": "n",
+"zh": "訊息",
+"ex": "I sent you a message.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 805,
+"w": "text",
+"pos": "v",
+"zh": "傳簡訊",
+"ex": "Text me when you arrive.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 806,
+"w": "call",
+"pos": "v",
+"zh": "打電話",
+"ex": "I'll call you tomorrow.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 807,
+"w": "download",
+"pos": "v",
+"zh": "下載",
+"ex": "Download the app for free.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 808,
+"w": "click",
+"pos": "v",
+"zh": "點擊",
+"ex": "Click here to start.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 809,
+"w": "camera",
+"pos": "n",
+"zh": "相機",
+"ex": "I bought a new camera.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 810,
+"w": "video",
+"pos": "n",
+"zh": "影片",
+"ex": "Watch this funny video.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 811,
+"w": "radio",
+"pos": "n",
+"zh": "收音機；廣播",
+"ex": "I listen to the radio in the car.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 812,
+"w": "newspaper",
+"pos": "n",
+"zh": "報紙",
+"ex": "My dad reads the newspaper.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 813,
+"w": "magazine",
+"pos": "n",
+"zh": "雜誌",
+"ex": "She reads fashion magazines.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 814,
+"w": "news",
+"pos": "n",
+"zh": "新聞",
+"ex": "Did you see the news?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 815,
+"w": "concert",
+"pos": "n",
+"zh": "音樂會",
+"ex": "We went to a concert last night.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 816,
+"w": "band",
+"pos": "n",
+"zh": "樂團",
+"ex": "My favourite band is playing tonight.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 817,
+"w": "team",
+"pos": "n",
+"zh": "隊伍；團隊",
+"ex": "Which team do you support?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 818,
+"w": "match",
+"pos": "n",
+"zh": "比賽",
+"ex": "Did you watch the match?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 819,
+"w": "win",
+"pos": "v",
+"zh": "贏",
+"ex": "Our team won!",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 820,
+"w": "lose",
+"pos": "v",
+"zh": "輸；遺失",
+"ex": "We lost the game.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 821,
+"w": "player",
+"pos": "n",
+"zh": "球員；玩家",
+"ex": "He's a great player.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 822,
+"w": "gym",
+"pos": "n",
+"zh": "健身房",
+"ex": "I go to the gym three times a week.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 823,
+"w": "exercise",
+"pos": "n",
+"zh": "運動",
+"ex": "Exercise is good for you.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 824,
+"w": "yoga",
+"pos": "n",
+"zh": "瑜伽",
+"ex": "I do yoga on Sundays.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 825,
+"w": "climb",
+"pos": "v",
+"zh": "爬",
+"ex": "We climbed the mountain.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 826,
+"w": "ski",
+"pos": "v",
+"zh": "滑雪",
+"ex": "Can you ski?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 827,
+"w": "camping",
+"pos": "n",
+"zh": "露營",
+"ex": "We went camping last weekend.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 828,
+"w": "fishing",
+"pos": "n",
+"zh": "釣魚",
+"ex": "My dad loves fishing.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 829,
+"w": "photography",
+"pos": "n",
+"zh": "攝影",
+"ex": "Photography is my hobby.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 830,
+"w": "collect",
+"pos": "v",
+"zh": "收集",
+"ex": "I collect stamps.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 831,
+"w": "join",
+"pos": "v",
+"zh": "加入",
+"ex": "Do you want to join us?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 832,
+"w": "practice",
+"pos": "n",
+"zh": "練習",
+"ex": "Practice makes perfect.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 833,
+"w": "competition",
+"pos": "n",
+"zh": "比賽",
+"ex": "She won a singing competition.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 834,
+"w": "prize",
+"pos": "n",
+"zh": "獎品",
+"ex": "He won first prize.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 835,
+"w": "ready",
+"pos": "adj",
+"zh": "準備好的",
+"ex": "Are you ready?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 836,
+"w": "finish",
+"pos": "v",
+"zh": "完成",
+"ex": "I finished my work early.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 837,
+"w": "start",
+"pos": "v",
+"zh": "開始",
+"ex": "The class starts at nine.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 838,
+"w": "begin",
+"pos": "v",
+"zh": "開始",
+"ex": "Let's begin.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 839,
+"w": "help",
+"pos": "v",
+"zh": "幫忙",
+"ex": "Can you help me?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 840,
+"w": "classroom",
+"pos": "n",
+"zh": "教室",
+"ex": "The classroom is on the second floor.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 841,
+"w": "ruler",
+"pos": "n",
+"zh": "尺",
+"ex": "I need a ruler.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 842,
+"w": "alphabet",
+"pos": "n",
+"zh": "字母表",
+"ex": "The English alphabet has 26 letters.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 843,
+"w": "sentence",
+"pos": "n",
+"zh": "句子",
+"ex": "Read the sentence aloud.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 844,
+"w": "story",
+"pos": "n",
+"zh": "故事",
+"ex": "Tell me a story.",
+"level": "A1",
+"topic": "work"
+},
+{
+"id": 845,
+"w": "vocabulary",
+"pos": "n",
+"zh": "字彙",
+"ex": "I want to learn more vocabulary.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 846,
+"w": "grammar",
+"pos": "n",
+"zh": "文法",
+"ex": "English grammar is not easy.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 847,
+"w": "pronunciation",
+"pos": "n",
+"zh": "發音",
+"ex": "Her pronunciation is very good.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 848,
+"w": "meaning",
+"pos": "n",
+"zh": "意思",
+"ex": "What's the meaning of this word?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 849,
+"w": "translate",
+"pos": "v",
+"zh": "翻譯",
+"ex": "Can you translate this into English?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 850,
+"w": "conversation",
+"pos": "n",
+"zh": "對話",
+"ex": "We had a long conversation.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 851,
+"w": "instruction",
+"pos": "n",
+"zh": "指示；說明",
+"ex": "Read the instructions first.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 852,
+"w": "rule",
+"pos": "n",
+"zh": "規則",
+"ex": "Those are the rules.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 853,
+"w": "skill",
+"pos": "n",
+"zh": "技能",
+"ex": "Cooking is a useful skill.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 854,
+"w": "experience",
+"pos": "n",
+"zh": "經驗",
+"ex": "Do you have any work experience?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 855,
+"w": "graduate",
+"pos": "v",
+"zh": "畢業",
+"ex": "I graduated in 2018.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 856,
+"w": "apply",
+"pos": "v",
+"zh": "申請",
+"ex": "I applied for a new job.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 857,
+"w": "staff",
+"pos": "n",
+"zh": "員工",
+"ex": "The staff are very friendly.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 858,
+"w": "part-time",
+"pos": "adj",
+"zh": "兼職的",
+"ex": "She has a part-time job.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 859,
+"w": "full-time",
+"pos": "adj",
+"zh": "全職的",
+"ex": "I work full-time.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 860,
+"w": "retire",
+"pos": "v",
+"zh": "退休",
+"ex": "My dad retired last year.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 861,
+"w": "printer",
+"pos": "n",
+"zh": "印表機",
+"ex": "The printer isn't working.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 862,
+"w": "print",
+"pos": "v",
+"zh": "列印",
+"ex": "Can you print this for me?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 863,
+"w": "file",
+"pos": "n",
+"zh": "檔案",
+"ex": "Save the file on your desktop.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 864,
+"w": "social media",
+"pos": "n",
+"zh": "社群媒體",
+"ex": "She spends hours on social media.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 865,
+"w": "selfie",
+"pos": "n",
+"zh": "自拍照",
+"ex": "Let's take a selfie!",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 866,
+"w": "channel",
+"pos": "n",
+"zh": "頻道",
+"ex": "What channel is the match on?",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 867,
+"w": "programme",
+"pos": "n",
+"zh": "節目",
+"ex": "My favourite programme is on tonight.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 868,
+"w": "cartoon",
+"pos": "n",
+"zh": "卡通",
+"ex": "The kids love cartoons.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 869,
+"w": "comedy",
+"pos": "n",
+"zh": "喜劇",
+"ex": "I prefer comedies.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 870,
+"w": "actor",
+"pos": "n",
+"zh": "男演員",
+"ex": "He's a famous actor.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 871,
+"w": "actress",
+"pos": "n",
+"zh": "女演員",
+"ex": "She's a great actress.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 872,
+"w": "singer",
+"pos": "n",
+"zh": "歌手",
+"ex": "She's my favourite singer.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 873,
+"w": "drum",
+"pos": "n",
+"zh": "鼓",
+"ex": "He plays the drums.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 874,
+"w": "violin",
+"pos": "n",
+"zh": "小提琴",
+"ex": "She plays the violin.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 875,
+"w": "race",
+"pos": "n",
+"zh": "賽跑；比賽",
+"ex": "She won the race.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 876,
+"w": "goal",
+"pos": "n",
+"zh": "目標；球門得分",
+"ex": "My goal is to speak English well.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 877,
+"w": "score",
+"pos": "v",
+"zh": "得分",
+"ex": "He scored a goal.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 878,
+"w": "badminton",
+"pos": "n",
+"zh": "羽毛球",
+"ex": "We play badminton on Sundays.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 879,
+"w": "volleyball",
+"pos": "n",
+"zh": "排球",
+"ex": "Let's play volleyball on the beach.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 880,
+"w": "baseball",
+"pos": "n",
+"zh": "棒球",
+"ex": "Baseball is popular in Taiwan.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 881,
+"w": "jog",
+"pos": "v",
+"zh": "慢跑",
+"ex": "I jog every morning.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 882,
+"w": "stretch",
+"pos": "v",
+"zh": "伸展",
+"ex": "Stretch before you run.",
+"level": "A2",
+"topic": "work"
+},
+{
+"id": 883,
+"w": "time",
+"pos": "n",
+"zh": "時間",
+"ex": "What time is it?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 884,
+"w": "day",
+"pos": "n",
+"zh": "天；白天",
+"ex": "Have a nice day!",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 885,
+"w": "week",
+"pos": "n",
+"zh": "週",
+"ex": "I go swimming twice a week.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 886,
+"w": "month",
+"pos": "n",
+"zh": "月",
+"ex": "My birthday is next month.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 887,
+"w": "year",
+"pos": "n",
+"zh": "年",
+"ex": "She is ten years old.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 888,
+"w": "hour",
+"pos": "n",
+"zh": "小時",
+"ex": "The film is two hours long.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 889,
+"w": "minute",
+"pos": "n",
+"zh": "分鐘",
+"ex": "Wait a minute, please.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 890,
+"w": "second",
+"pos": "n",
+"zh": "秒",
+"ex": "It takes only a few seconds.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 891,
+"w": "morning",
+"pos": "n",
+"zh": "早上",
+"ex": "I run in the morning.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 892,
+"w": "afternoon",
+"pos": "n",
+"zh": "下午",
+"ex": "See you this afternoon.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 893,
+"w": "evening",
+"pos": "n",
+"zh": "傍晚；晚上",
+"ex": "What are you doing this evening?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 894,
+"w": "night",
+"pos": "n",
+"zh": "夜晚",
+"ex": "Good night!",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 895,
+"w": "today",
+"pos": "adv",
+"zh": "今天",
+"ex": "It's hot today.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 896,
+"w": "tomorrow",
+"pos": "adv",
+"zh": "明天",
+"ex": "See you tomorrow.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 897,
+"w": "yesterday",
+"pos": "adv",
+"zh": "昨天",
+"ex": "I was busy yesterday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 898,
+"w": "now",
+"pos": "adv",
+"zh": "現在",
+"ex": "I'm busy now.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 899,
+"w": "weekend",
+"pos": "n",
+"zh": "週末",
+"ex": "What did you do at the weekend?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 900,
+"w": "birthday",
+"pos": "n",
+"zh": "生日",
+"ex": "Happy birthday!",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 901,
+"w": "Monday",
+"pos": "n",
+"zh": "星期一",
+"ex": "I start work on Monday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 902,
+"w": "Friday",
+"pos": "n",
+"zh": "星期五",
+"ex": "Let's go out on Friday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 903,
+"w": "Sunday",
+"pos": "n",
+"zh": "星期日",
+"ex": "We visit Grandma on Sunday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 904,
+"w": "January",
+"pos": "n",
+"zh": "一月",
+"ex": "It's cold in January.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 905,
+"w": "summer",
+"pos": "n",
+"zh": "夏天",
+"ex": "Summer in Taiwan is hot.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 906,
+"w": "winter",
+"pos": "n",
+"zh": "冬天",
+"ex": "I love winter.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 907,
+"w": "spring",
+"pos": "n",
+"zh": "春天",
+"ex": "Flowers bloom in spring.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 908,
+"w": "autumn",
+"pos": "n",
+"zh": "秋天",
+"ex": "Autumn is my favourite season.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 909,
+"w": "early",
+"pos": "adj",
+"zh": "早的",
+"ex": "I'm an early riser.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 910,
+"w": "late",
+"pos": "adj",
+"zh": "晚的；遲到的",
+"ex": "Sorry I'm late.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 911,
+"w": "number",
+"pos": "n",
+"zh": "數字；號碼",
+"ex": "What's your phone number?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 912,
+"w": "one",
+"pos": "num",
+"zh": "一",
+"ex": "I have one sister.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 913,
+"w": "ten",
+"pos": "num",
+"zh": "十",
+"ex": "There are ten people here.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 914,
+"w": "twenty",
+"pos": "num",
+"zh": "二十",
+"ex": "She is twenty.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 915,
+"w": "hundred",
+"pos": "num",
+"zh": "百",
+"ex": "It costs a hundred dollars.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 916,
+"w": "first",
+"pos": "adj",
+"zh": "第一的",
+"ex": "This is my first trip abroad.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 917,
+"w": "weather",
+"pos": "n",
+"zh": "天氣",
+"ex": "What's the weather like?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 918,
+"w": "sun",
+"pos": "n",
+"zh": "太陽",
+"ex": "The sun is very strong today.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 919,
+"w": "rain",
+"pos": "n",
+"zh": "雨",
+"ex": "I love the sound of rain.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 920,
+"w": "snow",
+"pos": "n",
+"zh": "雪",
+"ex": "Have you ever seen snow?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 921,
+"w": "wind",
+"pos": "n",
+"zh": "風",
+"ex": "The wind is very strong.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 922,
+"w": "warm",
+"pos": "adj",
+"zh": "溫暖的",
+"ex": "It's warm and sunny.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 923,
+"w": "sunny",
+"pos": "adj",
+"zh": "晴朗的",
+"ex": "It's sunny today.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 924,
+"w": "tree",
+"pos": "n",
+"zh": "樹",
+"ex": "There's a bird in the tree.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 925,
+"w": "flower",
+"pos": "n",
+"zh": "花",
+"ex": "She gave me some flowers.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 926,
+"w": "animal",
+"pos": "n",
+"zh": "動物",
+"ex": "What's your favourite animal?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 927,
+"w": "bird",
+"pos": "n",
+"zh": "鳥",
+"ex": "The bird is singing.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 928,
+"w": "horse",
+"pos": "n",
+"zh": "馬",
+"ex": "Can you ride a horse?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 929,
+"w": "cow",
+"pos": "n",
+"zh": "母牛",
+"ex": "The cow gives milk.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 930,
+"w": "sky",
+"pos": "n",
+"zh": "天空",
+"ex": "The sky is blue.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 931,
+"w": "colour",
+"pos": "n",
+"zh": "顏色",
+"ex": "What's your favourite colour?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 932,
+"w": "red",
+"pos": "adj",
+"zh": "紅色的",
+"ex": "She has a red car.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 933,
+"w": "blue",
+"pos": "adj",
+"zh": "藍色的",
+"ex": "The sea is blue.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 934,
+"w": "green",
+"pos": "adj",
+"zh": "綠色的",
+"ex": "Green tea is healthy.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 935,
+"w": "black",
+"pos": "adj",
+"zh": "黑色的",
+"ex": "I always wear black.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 936,
+"w": "white",
+"pos": "adj",
+"zh": "白色的",
+"ex": "He has a white cat.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 937,
+"w": "yellow",
+"pos": "adj",
+"zh": "黃色的",
+"ex": "Bananas are yellow.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 938,
+"w": "date",
+"pos": "n",
+"zh": "日期；約會",
+"ex": "What's the date today?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 939,
+"w": "calendar",
+"pos": "n",
+"zh": "日曆",
+"ex": "Write it on the calendar.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 940,
+"w": "century",
+"pos": "n",
+"zh": "世紀",
+"ex": "This house is a century old.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 941,
+"w": "future",
+"pos": "n",
+"zh": "未來",
+"ex": "What are your plans for the future?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 942,
+"w": "past",
+"pos": "n",
+"zh": "過去",
+"ex": "Don't worry about the past.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 943,
+"w": "moment",
+"pos": "n",
+"zh": "片刻",
+"ex": "Just a moment, please.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 944,
+"w": "midnight",
+"pos": "n",
+"zh": "午夜",
+"ex": "The party ended at midnight.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 945,
+"w": "noon",
+"pos": "n",
+"zh": "中午",
+"ex": "Let's meet at noon.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 946,
+"w": "quarter",
+"pos": "n",
+"zh": "一刻鐘；四分之一",
+"ex": "It's a quarter past three.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 947,
+"w": "half",
+"pos": "n",
+"zh": "一半",
+"ex": "I'll be there in half an hour.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 948,
+"w": "o'clock",
+"pos": "adv",
+"zh": "…點鐘",
+"ex": "The meeting is at ten o'clock.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 949,
+"w": "ago",
+"pos": "adv",
+"zh": "…以前",
+"ex": "I moved here two years ago.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 950,
+"w": "soon",
+"pos": "adv",
+"zh": "很快",
+"ex": "See you soon.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 951,
+"w": "later",
+"pos": "adv",
+"zh": "稍後",
+"ex": "I'll call you later.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 952,
+"w": "already",
+"pos": "adv",
+"zh": "已經",
+"ex": "I've already eaten.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 953,
+"w": "still",
+"pos": "adv",
+"zh": "仍然",
+"ex": "Are you still at work?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 954,
+"w": "yet",
+"pos": "adv",
+"zh": "還（沒）；已經",
+"ex": "Have you finished yet?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 955,
+"w": "since",
+"pos": "prep",
+"zh": "自從",
+"ex": "I've lived here since 2020.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 956,
+"w": "until",
+"pos": "prep",
+"zh": "直到",
+"ex": "The shop is open until nine.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 957,
+"w": "during",
+"pos": "prep",
+"zh": "在…期間",
+"ex": "Don't talk during the film.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 958,
+"w": "while",
+"pos": "conj",
+"zh": "當…的時候",
+"ex": "I listen to music while I cook.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 959,
+"w": "once",
+"pos": "adv",
+"zh": "一次；曾經",
+"ex": "I go swimming once a week.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 960,
+"w": "twice",
+"pos": "adv",
+"zh": "兩次",
+"ex": "I've been there twice.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 961,
+"w": "always",
+"pos": "adv",
+"zh": "總是",
+"ex": "I always drink coffee in the morning.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 962,
+"w": "usually",
+"pos": "adv",
+"zh": "通常",
+"ex": "I usually walk to work.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 963,
+"w": "often",
+"pos": "adv",
+"zh": "常常",
+"ex": "We often eat out.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 964,
+"w": "sometimes",
+"pos": "adv",
+"zh": "有時候",
+"ex": "Sometimes I work from home.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 965,
+"w": "never",
+"pos": "adv",
+"zh": "從不",
+"ex": "I never eat breakfast.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 966,
+"w": "season",
+"pos": "n",
+"zh": "季節",
+"ex": "Spring is the best season.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 967,
+"w": "thousand",
+"pos": "num",
+"zh": "千",
+"ex": "The ticket costs a thousand dollars.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 968,
+"w": "million",
+"pos": "num",
+"zh": "百萬",
+"ex": "The city has two million people.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 969,
+"w": "half past",
+"pos": "phr",
+"zh": "…點半",
+"ex": "It's half past seven.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 970,
+"w": "dozen",
+"pos": "n",
+"zh": "一打（十二個）",
+"ex": "I bought a dozen eggs.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 971,
+"w": "cloud",
+"pos": "n",
+"zh": "雲",
+"ex": "There isn't a cloud in the sky.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 972,
+"w": "cloudy",
+"pos": "adj",
+"zh": "多雲的",
+"ex": "It's cloudy today.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 973,
+"w": "rainy",
+"pos": "adj",
+"zh": "下雨的",
+"ex": "I hate rainy days.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 974,
+"w": "windy",
+"pos": "adj",
+"zh": "颳風的",
+"ex": "It's windy by the sea.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 975,
+"w": "foggy",
+"pos": "adj",
+"zh": "有霧的",
+"ex": "It's foggy this morning.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 976,
+"w": "storm",
+"pos": "n",
+"zh": "暴風雨",
+"ex": "There's a storm coming.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 977,
+"w": "typhoon",
+"pos": "n",
+"zh": "颱風",
+"ex": "The typhoon closed the schools.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 978,
+"w": "ice",
+"pos": "n",
+"zh": "冰",
+"ex": "Do you want ice in your drink?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 979,
+"w": "temperature",
+"pos": "n",
+"zh": "溫度",
+"ex": "The temperature is 30 degrees.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 980,
+"w": "degree",
+"pos": "n",
+"zh": "度",
+"ex": "It's 35 degrees today!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 981,
+"w": "wet",
+"pos": "adj",
+"zh": "濕的",
+"ex": "My shoes are wet.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 982,
+"w": "dry",
+"pos": "adj",
+"zh": "乾的",
+"ex": "Is the washing dry?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 983,
+"w": "nature",
+"pos": "n",
+"zh": "自然",
+"ex": "I love being in nature.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 984,
+"w": "environment",
+"pos": "n",
+"zh": "環境",
+"ex": "We must protect the environment.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 985,
+"w": "air",
+"pos": "n",
+"zh": "空氣",
+"ex": "The air is clean in the mountains.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 986,
+"w": "grass",
+"pos": "n",
+"zh": "草",
+"ex": "Don't walk on the grass.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 987,
+"w": "leaf",
+"pos": "n",
+"zh": "葉子",
+"ex": "The leaves turn red in autumn.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 988,
+"w": "rock",
+"pos": "n",
+"zh": "岩石",
+"ex": "We sat on a big rock.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 989,
+"w": "hill",
+"pos": "n",
+"zh": "小山丘",
+"ex": "Our house is on a hill.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 990,
+"w": "moon",
+"pos": "n",
+"zh": "月亮",
+"ex": "The moon is full tonight.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 991,
+"w": "star",
+"pos": "n",
+"zh": "星星",
+"ex": "Look at all the stars!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 992,
+"w": "planet",
+"pos": "n",
+"zh": "行星",
+"ex": "Earth is our planet.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 993,
+"w": "earth",
+"pos": "n",
+"zh": "地球",
+"ex": "The earth goes around the sun.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 994,
+"w": "insect",
+"pos": "n",
+"zh": "昆蟲",
+"ex": "I'm scared of insects.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 995,
+"w": "mouse",
+"pos": "n",
+"zh": "老鼠；滑鼠",
+"ex": "There's a mouse in the kitchen.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 996,
+"w": "rabbit",
+"pos": "n",
+"zh": "兔子",
+"ex": "My daughter has a pet rabbit.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 997,
+"w": "duck",
+"pos": "n",
+"zh": "鴨子",
+"ex": "The ducks are on the lake.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 998,
+"w": "pig",
+"pos": "n",
+"zh": "豬",
+"ex": "The pig is very fat.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 999,
+"w": "sheep",
+"pos": "n",
+"zh": "綿羊",
+"ex": "There are sheep on the hill.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1000,
+"w": "monkey",
+"pos": "n",
+"zh": "猴子",
+"ex": "The monkey is eating a banana.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1001,
+"w": "elephant",
+"pos": "n",
+"zh": "大象",
+"ex": "Elephants have big ears.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1002,
+"w": "lion",
+"pos": "n",
+"zh": "獅子",
+"ex": "The lion is sleeping.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1003,
+"w": "tiger",
+"pos": "n",
+"zh": "老虎",
+"ex": "Tigers are beautiful animals.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1004,
+"w": "bear",
+"pos": "n",
+"zh": "熊",
+"ex": "We saw a bear in the forest.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1005,
+"w": "snake",
+"pos": "n",
+"zh": "蛇",
+"ex": "I'm afraid of snakes.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1006,
+"w": "wild",
+"pos": "adj",
+"zh": "野生的",
+"ex": "They saw wild animals in Africa.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1007,
+"w": "pink",
+"pos": "adj",
+"zh": "粉紅色的",
+"ex": "She loves pink.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1008,
+"w": "purple",
+"pos": "adj",
+"zh": "紫色的",
+"ex": "I bought a purple dress.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1009,
+"w": "brown",
+"pos": "adj",
+"zh": "棕色的",
+"ex": "He has brown eyes.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1010,
+"w": "grey",
+"pos": "adj",
+"zh": "灰色的",
+"ex": "The sky is grey today.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1011,
+"w": "dark",
+"pos": "adj",
+"zh": "暗的；深色的",
+"ex": "It gets dark at six.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1012,
+"w": "bright",
+"pos": "adj",
+"zh": "明亮的",
+"ex": "The room is very bright.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1013,
+"w": "daily",
+"pos": "adj",
+"zh": "每天的",
+"ex": "Exercise is part of my daily routine.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1014,
+"w": "weekly",
+"pos": "adj",
+"zh": "每週的",
+"ex": "We have a weekly meeting.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1015,
+"w": "next",
+"pos": "adj",
+"zh": "下一個的",
+"ex": "See you next week.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1016,
+"w": "last",
+"pos": "adj",
+"zh": "上一個的；最後的",
+"ex": "I saw her last Friday.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1017,
+"w": "two",
+"pos": "num",
+"zh": "二",
+"ex": "I have two cats.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1018,
+"w": "three",
+"pos": "num",
+"zh": "三",
+"ex": "We have three children.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1019,
+"w": "four",
+"pos": "num",
+"zh": "四",
+"ex": "The table has four legs.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1020,
+"w": "five",
+"pos": "num",
+"zh": "五",
+"ex": "I get up at five.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1021,
+"w": "six",
+"pos": "num",
+"zh": "六",
+"ex": "The shop opens at six.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1022,
+"w": "seven",
+"pos": "num",
+"zh": "七",
+"ex": "There are seven days in a week.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1023,
+"w": "eight",
+"pos": "num",
+"zh": "八",
+"ex": "I sleep eight hours.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1024,
+"w": "nine",
+"pos": "num",
+"zh": "九",
+"ex": "Class starts at nine.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1025,
+"w": "eleven",
+"pos": "num",
+"zh": "十一",
+"ex": "My son is eleven.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1026,
+"w": "twelve",
+"pos": "num",
+"zh": "十二",
+"ex": "There are twelve months in a year.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1027,
+"w": "thirteen",
+"pos": "num",
+"zh": "十三",
+"ex": "She is thirteen.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1028,
+"w": "fifteen",
+"pos": "num",
+"zh": "十五",
+"ex": "Wait fifteen minutes.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1029,
+"w": "thirty",
+"pos": "num",
+"zh": "三十",
+"ex": "It's thirty degrees today.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1030,
+"w": "forty",
+"pos": "num",
+"zh": "四十",
+"ex": "My mom is forty.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1031,
+"w": "fifty",
+"pos": "num",
+"zh": "五十",
+"ex": "It costs fifty dollars.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1032,
+"w": "zero",
+"pos": "num",
+"zh": "零",
+"ex": "It's zero degrees outside.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1033,
+"w": "third",
+"pos": "adj",
+"zh": "第三的",
+"ex": "She came third in the race.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1034,
+"w": "Tuesday",
+"pos": "n",
+"zh": "星期二",
+"ex": "I have yoga on Tuesday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1035,
+"w": "Wednesday",
+"pos": "n",
+"zh": "星期三",
+"ex": "The shop is closed on Wednesday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1036,
+"w": "Thursday",
+"pos": "n",
+"zh": "星期四",
+"ex": "See you on Thursday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1037,
+"w": "Saturday",
+"pos": "n",
+"zh": "星期六",
+"ex": "We go shopping on Saturday.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1038,
+"w": "February",
+"pos": "n",
+"zh": "二月",
+"ex": "Chinese New Year is often in February.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1039,
+"w": "March",
+"pos": "n",
+"zh": "三月",
+"ex": "My birthday is in March.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1040,
+"w": "April",
+"pos": "n",
+"zh": "四月",
+"ex": "It rains a lot in April.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1041,
+"w": "May",
+"pos": "n",
+"zh": "五月",
+"ex": "We're going to Japan in May.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1042,
+"w": "June",
+"pos": "n",
+"zh": "六月",
+"ex": "School finishes in June.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1043,
+"w": "July",
+"pos": "n",
+"zh": "七月",
+"ex": "July is very hot.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1044,
+"w": "August",
+"pos": "n",
+"zh": "八月",
+"ex": "We go to the beach in August.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1045,
+"w": "September",
+"pos": "n",
+"zh": "九月",
+"ex": "School starts in September.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1046,
+"w": "October",
+"pos": "n",
+"zh": "十月",
+"ex": "Taiwan's National Day is in October.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1047,
+"w": "November",
+"pos": "n",
+"zh": "十一月",
+"ex": "It gets cooler in November.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1048,
+"w": "December",
+"pos": "n",
+"zh": "十二月",
+"ex": "Christmas is in December.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1049,
+"w": "then",
+"pos": "adv",
+"zh": "然後；那時",
+"ex": "First wash, then dry.",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1050,
+"w": "tonight",
+"pos": "adv",
+"zh": "今晚",
+"ex": "What are you doing tonight?",
+"level": "A1",
+"topic": "time"
+},
+{
+"id": 1051,
+"w": "Christmas",
+"pos": "n",
+"zh": "聖誕節",
+"ex": "Merry Christmas!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1052,
+"w": "New Year",
+"pos": "n",
+"zh": "新年",
+"ex": "Happy New Year!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1053,
+"w": "festival",
+"pos": "n",
+"zh": "節日；慶典",
+"ex": "The Lantern Festival is beautiful.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1054,
+"w": "party",
+"pos": "n",
+"zh": "派對",
+"ex": "Come to my party on Saturday.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1055,
+"w": "wedding",
+"pos": "n",
+"zh": "婚禮",
+"ex": "We went to my cousin's wedding.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1056,
+"w": "anniversary",
+"pos": "n",
+"zh": "週年紀念日",
+"ex": "Today is our wedding anniversary.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1057,
+"w": "recently",
+"pos": "adv",
+"zh": "最近",
+"ex": "I've been busy recently.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1058,
+"w": "nowadays",
+"pos": "adv",
+"zh": "現今",
+"ex": "Nowadays everyone has a phone.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1059,
+"w": "immediately",
+"pos": "adv",
+"zh": "立刻",
+"ex": "Call me immediately.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1060,
+"w": "lately",
+"pos": "adv",
+"zh": "最近",
+"ex": "Have you seen her lately?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1061,
+"w": "frog",
+"pos": "n",
+"zh": "青蛙",
+"ex": "A frog jumped into the pond.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1062,
+"w": "butterfly",
+"pos": "n",
+"zh": "蝴蝶",
+"ex": "Look at that butterfly!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1063,
+"w": "bee",
+"pos": "n",
+"zh": "蜜蜂",
+"ex": "Bees make honey.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1064,
+"w": "whale",
+"pos": "n",
+"zh": "鯨魚",
+"ex": "We saw a whale from the boat.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1065,
+"w": "dolphin",
+"pos": "n",
+"zh": "海豚",
+"ex": "Dolphins are very clever.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1066,
+"w": "shark",
+"pos": "n",
+"zh": "鯊魚",
+"ex": "Is it safe? Are there sharks?",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1067,
+"w": "puppy",
+"pos": "n",
+"zh": "小狗",
+"ex": "What a cute puppy!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1068,
+"w": "kitten",
+"pos": "n",
+"zh": "小貓",
+"ex": "The kitten is playing.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1069,
+"w": "desert",
+"pos": "n",
+"zh": "沙漠",
+"ex": "It's very dry in the desert.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1070,
+"w": "ocean",
+"pos": "n",
+"zh": "海洋",
+"ex": "The Pacific Ocean is huge.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1071,
+"w": "wave",
+"pos": "n",
+"zh": "波浪",
+"ex": "The waves are big today.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1072,
+"w": "sand",
+"pos": "n",
+"zh": "沙子",
+"ex": "The kids are playing in the sand.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1073,
+"w": "stone",
+"pos": "n",
+"zh": "石頭",
+"ex": "He threw a stone into the river.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1074,
+"w": "field",
+"pos": "n",
+"zh": "田野；場地",
+"ex": "The cows are in the field.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1075,
+"w": "sunrise",
+"pos": "n",
+"zh": "日出",
+"ex": "We watched the sunrise.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1076,
+"w": "sunset",
+"pos": "n",
+"zh": "日落",
+"ex": "The sunset was beautiful.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1077,
+"w": "thunder",
+"pos": "n",
+"zh": "雷聲",
+"ex": "The dog is afraid of thunder.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1078,
+"w": "heat",
+"pos": "n",
+"zh": "熱；高溫",
+"ex": "I can't stand the heat.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1079,
+"w": "freezing",
+"pos": "adj",
+"zh": "極冷的",
+"ex": "It's freezing outside!",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1080,
+"w": "gold",
+"pos": "adj",
+"zh": "金色的；金的",
+"ex": "She has a gold watch.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1081,
+"w": "silver",
+"pos": "adj",
+"zh": "銀色的；銀的",
+"ex": "I bought a silver ring.",
+"level": "A2",
+"topic": "time"
+},
+{
+"id": 1082,
+"w": "be",
+"pos": "v",
+"zh": "是；在",
+"ex": "I want to be a teacher.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1083,
+"w": "have",
+"pos": "v",
+"zh": "有；吃",
+"ex": "I have two cats.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1084,
+"w": "do",
+"pos": "v",
+"zh": "做",
+"ex": "What do you do on weekends?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1085,
+"w": "make",
+"pos": "v",
+"zh": "製作；做",
+"ex": "Let's make a cake.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1086,
+"w": "get",
+"pos": "v",
+"zh": "得到；拿",
+"ex": "I got a letter today.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1087,
+"w": "take",
+"pos": "v",
+"zh": "拿；搭（車）",
+"ex": "Take an umbrella.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1088,
+"w": "give",
+"pos": "v",
+"zh": "給",
+"ex": "Give me the book, please.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1089,
+"w": "put",
+"pos": "v",
+"zh": "放",
+"ex": "Put your bag on the chair.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1090,
+"w": "see",
+"pos": "v",
+"zh": "看見",
+"ex": "I can see the sea from here.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1091,
+"w": "look",
+"pos": "v",
+"zh": "看",
+"ex": "Look at this photo.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1092,
+"w": "listen",
+"pos": "v",
+"zh": "聽",
+"ex": "Listen to the teacher.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1093,
+"w": "hear",
+"pos": "v",
+"zh": "聽到",
+"ex": "Can you hear me?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1094,
+"w": "say",
+"pos": "v",
+"zh": "說",
+"ex": "What did you say?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1095,
+"w": "speak",
+"pos": "v",
+"zh": "說（語言）",
+"ex": "Do you speak English?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1096,
+"w": "talk",
+"pos": "v",
+"zh": "談話",
+"ex": "Can we talk later?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1097,
+"w": "tell",
+"pos": "v",
+"zh": "告訴",
+"ex": "Tell me about your day.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1098,
+"w": "ask",
+"pos": "v",
+"zh": "問",
+"ex": "Can I ask you something?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1099,
+"w": "know",
+"pos": "v",
+"zh": "知道；認識",
+"ex": "I know the answer.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1100,
+"w": "think",
+"pos": "v",
+"zh": "想；認為",
+"ex": "I think you're right.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1101,
+"w": "need",
+"pos": "v",
+"zh": "需要",
+"ex": "I need some help.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1102,
+"w": "sit",
+"pos": "v",
+"zh": "坐",
+"ex": "Please sit down.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1103,
+"w": "stand",
+"pos": "v",
+"zh": "站",
+"ex": "Stand up, please.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1104,
+"w": "wait",
+"pos": "v",
+"zh": "等待",
+"ex": "Wait for me!",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1105,
+"w": "find",
+"pos": "v",
+"zh": "找到",
+"ex": "I can't find my phone.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1106,
+"w": "use",
+"pos": "v",
+"zh": "使用",
+"ex": "Can I use your pen?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1107,
+"w": "try",
+"pos": "v",
+"zh": "嘗試",
+"ex": "Try this cake.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1108,
+"w": "meet",
+"pos": "v",
+"zh": "見面；認識",
+"ex": "Nice to meet you.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1109,
+"w": "carry",
+"pos": "v",
+"zh": "攜帶；搬",
+"ex": "Can you carry this bag?",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1110,
+"w": "bring",
+"pos": "v",
+"zh": "帶來",
+"ex": "Bring your friends to the party.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1111,
+"w": "send",
+"pos": "v",
+"zh": "寄；傳送",
+"ex": "Send me a photo.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1112,
+"w": "show",
+"pos": "v",
+"zh": "給…看",
+"ex": "Show me your new phone.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1113,
+"w": "jump",
+"pos": "v",
+"zh": "跳",
+"ex": "The kids love to jump.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1114,
+"w": "go out",
+"pos": "v",
+"zh": "出去",
+"ex": "Let's go out tonight.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1115,
+"w": "come back",
+"pos": "v",
+"zh": "回來",
+"ex": "Come back soon!",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1116,
+"w": "sit down",
+"pos": "v",
+"zh": "坐下",
+"ex": "Please sit down.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1117,
+"w": "stand up",
+"pos": "v",
+"zh": "站起來",
+"ex": "Stand up and stretch.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1118,
+"w": "become",
+"pos": "v",
+"zh": "變成；成為",
+"ex": "She became a doctor.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1119,
+"w": "believe",
+"pos": "v",
+"zh": "相信",
+"ex": "I don't believe you.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1120,
+"w": "borrow",
+"pos": "v",
+"zh": "借（入）",
+"ex": "Can I borrow your umbrella?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1121,
+"w": "lend",
+"pos": "v",
+"zh": "借（出）",
+"ex": "Can you lend me some money?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1122,
+"w": "break",
+"pos": "v",
+"zh": "打破；弄壞",
+"ex": "I broke my phone.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1123,
+"w": "build",
+"pos": "v",
+"zh": "建造",
+"ex": "They're building a new school.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1124,
+"w": "check",
+"pos": "v",
+"zh": "檢查",
+"ex": "Check your answers.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1125,
+"w": "choose",
+"pos": "v",
+"zh": "選擇",
+"ex": "Choose a colour.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1126,
+"w": "count",
+"pos": "v",
+"zh": "數；計算",
+"ex": "Can you count to ten in English?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1127,
+"w": "cover",
+"pos": "v",
+"zh": "覆蓋",
+"ex": "Cover the pot with a lid.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1128,
+"w": "cross",
+"pos": "v",
+"zh": "穿越",
+"ex": "Cross the road carefully.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1129,
+"w": "decide",
+"pos": "v",
+"zh": "決定",
+"ex": "I can't decide what to wear.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1130,
+"w": "describe",
+"pos": "v",
+"zh": "描述",
+"ex": "Can you describe the man?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1131,
+"w": "drop",
+"pos": "v",
+"zh": "掉落；丟下",
+"ex": "I dropped my glasses.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1132,
+"w": "fall",
+"pos": "v",
+"zh": "跌倒；落下",
+"ex": "Be careful. Don't fall.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1133,
+"w": "fill",
+"pos": "v",
+"zh": "裝滿",
+"ex": "Fill the bottle with water.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1134,
+"w": "follow",
+"pos": "v",
+"zh": "跟隨",
+"ex": "Follow me.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1135,
+"w": "grow",
+"pos": "v",
+"zh": "成長；種植",
+"ex": "My son is growing fast.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1136,
+"w": "guess",
+"pos": "v",
+"zh": "猜",
+"ex": "Guess what happened!",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1137,
+"w": "happen",
+"pos": "v",
+"zh": "發生",
+"ex": "What happened?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1138,
+"w": "hide",
+"pos": "v",
+"zh": "躲藏；隱藏",
+"ex": "The cat is hiding under the bed.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1139,
+"w": "hit",
+"pos": "v",
+"zh": "打；撞",
+"ex": "He hit the ball hard.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1140,
+"w": "hold",
+"pos": "v",
+"zh": "握住；拿著",
+"ex": "Hold my hand.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1141,
+"w": "hurry",
+"pos": "v",
+"zh": "趕快",
+"ex": "Hurry up! We're late.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1142,
+"w": "improve",
+"pos": "v",
+"zh": "改善；進步",
+"ex": "I want to improve my English.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1143,
+"w": "invite",
+"pos": "v",
+"zh": "邀請",
+"ex": "She invited me to her party.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1144,
+"w": "keep",
+"pos": "v",
+"zh": "保持；保留",
+"ex": "Keep the change.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1145,
+"w": "kick",
+"pos": "v",
+"zh": "踢",
+"ex": "He kicked the ball.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1146,
+"w": "knock",
+"pos": "v",
+"zh": "敲",
+"ex": "Please knock before you come in.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1147,
+"w": "let",
+"pos": "v",
+"zh": "讓",
+"ex": "Let me help you.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1148,
+"w": "lie",
+"pos": "v",
+"zh": "躺；說謊",
+"ex": "I lay on the sofa.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1149,
+"w": "look for",
+"pos": "v",
+"zh": "尋找",
+"ex": "I'm looking for my keys.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1150,
+"w": "look after",
+"pos": "v",
+"zh": "照顧",
+"ex": "Can you look after my cat?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1151,
+"w": "mean",
+"pos": "v",
+"zh": "意思是",
+"ex": "What does this word mean?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1152,
+"w": "mind",
+"pos": "v",
+"zh": "介意",
+"ex": "Do you mind if I sit here?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1153,
+"w": "offer",
+"pos": "v",
+"zh": "提供",
+"ex": "She offered me a cup of tea.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1154,
+"w": "pick up",
+"pos": "v",
+"zh": "撿起；接人",
+"ex": "Can you pick me up at six?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1155,
+"w": "point",
+"pos": "v",
+"zh": "指",
+"ex": "Don't point at people.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1156,
+"w": "prefer",
+"pos": "v",
+"zh": "比較喜歡",
+"ex": "I prefer tea to coffee.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1157,
+"w": "prepare",
+"pos": "v",
+"zh": "準備",
+"ex": "I'm preparing dinner.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1158,
+"w": "promise",
+"pos": "v",
+"zh": "承諾",
+"ex": "I promise I'll call you.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1159,
+"w": "pull",
+"pos": "v",
+"zh": "拉",
+"ex": "Pull the door to open it.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1160,
+"w": "push",
+"pos": "v",
+"zh": "推",
+"ex": "Push the button.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1161,
+"w": "reach",
+"pos": "v",
+"zh": "到達；伸手拿到",
+"ex": "We reached the top.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1162,
+"w": "receive",
+"pos": "v",
+"zh": "收到",
+"ex": "I received your email.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1163,
+"w": "recommend",
+"pos": "v",
+"zh": "推薦",
+"ex": "Can you recommend a good restaurant?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1164,
+"w": "reply",
+"pos": "v",
+"zh": "回覆",
+"ex": "Please reply to my message.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1165,
+"w": "seem",
+"pos": "v",
+"zh": "似乎",
+"ex": "You seem tired.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1166,
+"w": "shout",
+"pos": "v",
+"zh": "大喊",
+"ex": "Don't shout at me.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1167,
+"w": "shut",
+"pos": "v",
+"zh": "關上",
+"ex": "Shut the window.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1168,
+"w": "sound",
+"pos": "v",
+"zh": "聽起來",
+"ex": "That sounds great!",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1169,
+"w": "steal",
+"pos": "v",
+"zh": "偷",
+"ex": "Someone stole my bike.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1170,
+"w": "suggest",
+"pos": "v",
+"zh": "建議",
+"ex": "I suggest we leave early.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1171,
+"w": "throw",
+"pos": "v",
+"zh": "丟；扔",
+"ex": "Throw the ball to me.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1172,
+"w": "touch",
+"pos": "v",
+"zh": "觸摸",
+"ex": "Don't touch that!",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1173,
+"w": "turn",
+"pos": "v",
+"zh": "轉彎；轉動",
+"ex": "Turn left here.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1174,
+"w": "wish",
+"pos": "v",
+"zh": "希望；祝",
+"ex": "I wish you a happy birthday.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1175,
+"w": "agree",
+"pos": "v",
+"zh": "同意",
+"ex": "I agree with you.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1176,
+"w": "allow",
+"pos": "v",
+"zh": "允許",
+"ex": "Dogs are not allowed here.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1177,
+"w": "appear",
+"pos": "v",
+"zh": "出現",
+"ex": "A man appeared at the door.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1178,
+"w": "arrange",
+"pos": "v",
+"zh": "安排",
+"ex": "Let's arrange a meeting.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1179,
+"w": "avoid",
+"pos": "v",
+"zh": "避免",
+"ex": "Avoid fast food.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1180,
+"w": "celebrate",
+"pos": "v",
+"zh": "慶祝",
+"ex": "We celebrated her birthday.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1181,
+"w": "compare",
+"pos": "v",
+"zh": "比較",
+"ex": "Compare the two prices.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1182,
+"w": "continue",
+"pos": "v",
+"zh": "繼續",
+"ex": "Please continue.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1183,
+"w": "deliver",
+"pos": "v",
+"zh": "遞送",
+"ex": "They deliver pizza until midnight.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1184,
+"w": "depend",
+"pos": "v",
+"zh": "取決於",
+"ex": "It depends on the weather.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1185,
+"w": "discuss",
+"pos": "v",
+"zh": "討論",
+"ex": "Let's discuss it tomorrow.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1186,
+"w": "enter",
+"pos": "v",
+"zh": "進入",
+"ex": "Please enter the room quietly.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1187,
+"w": "expect",
+"pos": "v",
+"zh": "預期",
+"ex": "I expect it will rain.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1188,
+"w": "fight",
+"pos": "v",
+"zh": "打架；爭吵",
+"ex": "My brothers often fight.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1189,
+"w": "forgive",
+"pos": "v",
+"zh": "原諒",
+"ex": "Please forgive me.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1190,
+"w": "imagine",
+"pos": "v",
+"zh": "想像",
+"ex": "Imagine you are on a beach.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1191,
+"w": "include",
+"pos": "v",
+"zh": "包含",
+"ex": "The price includes breakfast.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1192,
+"w": "introduce",
+"pos": "v",
+"zh": "介紹",
+"ex": "Let me introduce my friend.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1193,
+"w": "notice",
+"pos": "v",
+"zh": "注意到",
+"ex": "Did you notice her new hair?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1194,
+"w": "own",
+"pos": "v",
+"zh": "擁有",
+"ex": "They own two cars.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1195,
+"w": "produce",
+"pos": "v",
+"zh": "生產",
+"ex": "This factory produces cars.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1196,
+"w": "protect",
+"pos": "v",
+"zh": "保護",
+"ex": "Wear a hat to protect your face.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1197,
+"w": "provide",
+"pos": "v",
+"zh": "提供",
+"ex": "We provide free Wi-Fi.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1198,
+"w": "realise",
+"pos": "v",
+"zh": "意識到",
+"ex": "I didn't realise it was so late.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1199,
+"w": "refuse",
+"pos": "v",
+"zh": "拒絕",
+"ex": "She refused to help.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1200,
+"w": "repeat",
+"pos": "v",
+"zh": "重複",
+"ex": "Can you repeat that, please?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1201,
+"w": "search",
+"pos": "v",
+"zh": "搜尋",
+"ex": "I searched everywhere for my keys.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1202,
+"w": "shake",
+"pos": "v",
+"zh": "搖動",
+"ex": "Shake the bottle before use.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1203,
+"w": "solve",
+"pos": "v",
+"zh": "解決",
+"ex": "We need to solve this problem.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1204,
+"w": "stay up",
+"pos": "v",
+"zh": "熬夜",
+"ex": "I stayed up late last night.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1205,
+"w": "take off",
+"pos": "v",
+"zh": "起飛；脫掉",
+"ex": "Take off your shoes, please.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1206,
+"w": "put on",
+"pos": "v",
+"zh": "穿上",
+"ex": "Put on your coat.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1207,
+"w": "give up",
+"pos": "v",
+"zh": "放棄",
+"ex": "Don't give up!",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1208,
+"w": "find out",
+"pos": "v",
+"zh": "查明；發現",
+"ex": "I want to find out the truth.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1209,
+"w": "look forward to",
+"pos": "v",
+"zh": "期待",
+"ex": "I'm looking forward to the holiday.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1210,
+"w": "turn up",
+"pos": "v",
+"zh": "調大聲；出現",
+"ex": "Turn up the music!",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1211,
+"w": "turn down",
+"pos": "v",
+"zh": "調小聲；拒絕",
+"ex": "Please turn down the TV.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1212,
+"w": "grow up",
+"pos": "v",
+"zh": "長大",
+"ex": "I grew up in Hualien.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1213,
+"w": "set off",
+"pos": "v",
+"zh": "出發",
+"ex": "We set off early in the morning.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1214,
+"w": "go on",
+"pos": "v",
+"zh": "繼續",
+"ex": "Go on, I'm listening.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1215,
+"w": "wake",
+"pos": "v",
+"zh": "叫醒；醒來",
+"ex": "Don't wake the baby.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1216,
+"w": "come in",
+"pos": "v",
+"zh": "進來",
+"ex": "Come in, please.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1217,
+"w": "go home",
+"pos": "v",
+"zh": "回家",
+"ex": "It's late. Let's go home.",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1218,
+"w": "have fun",
+"pos": "v",
+"zh": "玩得開心",
+"ex": "Have fun at the party!",
+"level": "A1",
+"topic": "actions"
+},
+{
+"id": 1219,
+"w": "dream",
+"pos": "v",
+"zh": "做夢；夢想",
+"ex": "I dreamed about you.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1220,
+"w": "feed",
+"pos": "v",
+"zh": "餵",
+"ex": "Don't forget to feed the cat.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1221,
+"w": "pack",
+"pos": "v",
+"zh": "打包",
+"ex": "I need to pack my suitcase.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1222,
+"w": "smoke",
+"pos": "v",
+"zh": "抽菸",
+"ex": "Please don't smoke here.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1223,
+"w": "kill",
+"pos": "v",
+"zh": "殺死",
+"ex": "The cold killed the plants.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1224,
+"w": "sail",
+"pos": "v",
+"zh": "航行",
+"ex": "We sailed around the island.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1225,
+"w": "bite",
+"pos": "v",
+"zh": "咬",
+"ex": "Does your dog bite?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1226,
+"w": "burn",
+"pos": "v",
+"zh": "燒；燙傷",
+"ex": "I burned my finger.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1227,
+"w": "fold",
+"pos": "v",
+"zh": "摺疊",
+"ex": "Fold the paper in half.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1228,
+"w": "wrap",
+"pos": "v",
+"zh": "包裝",
+"ex": "Can you wrap this gift?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1229,
+"w": "whisper",
+"pos": "v",
+"zh": "小聲說",
+"ex": "She whispered something to me.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1230,
+"w": "nod",
+"pos": "v",
+"zh": "點頭",
+"ex": "He nodded and smiled.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1231,
+"w": "shake hands",
+"pos": "v",
+"zh": "握手",
+"ex": "They shook hands.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1232,
+"w": "take a photo",
+"pos": "v",
+"zh": "拍照",
+"ex": "Can you take a photo of us?",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1233,
+"w": "go shopping",
+"pos": "v",
+"zh": "去購物",
+"ex": "Let's go shopping this weekend.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1234,
+"w": "go for a walk",
+"pos": "v",
+"zh": "去散步",
+"ex": "Let's go for a walk.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1235,
+"w": "take a break",
+"pos": "v",
+"zh": "休息一下",
+"ex": "Let's take a break.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1236,
+"w": "make sure",
+"pos": "v",
+"zh": "確定",
+"ex": "Make sure the door is locked.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1237,
+"w": "pay attention",
+"pos": "v",
+"zh": "注意",
+"ex": "Pay attention to the teacher.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1238,
+"w": "run out of",
+"pos": "v",
+"zh": "用完",
+"ex": "We've run out of milk.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1239,
+"w": "look up",
+"pos": "v",
+"zh": "查（字典）",
+"ex": "Look up the word in the dictionary.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1240,
+"w": "fill in",
+"pos": "v",
+"zh": "填寫",
+"ex": "Fill in this form, please.",
+"level": "A2",
+"topic": "actions"
+},
+{
+"id": 1241,
+"w": "good",
+"pos": "adj",
+"zh": "好的",
+"ex": "This is a good book.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1242,
+"w": "bad",
+"pos": "adj",
+"zh": "壞的；糟的",
+"ex": "The weather is bad today.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1243,
+"w": "big",
+"pos": "adj",
+"zh": "大的",
+"ex": "They have a big house.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1244,
+"w": "small",
+"pos": "adj",
+"zh": "小的",
+"ex": "My room is small.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1245,
+"w": "new",
+"pos": "adj",
+"zh": "新的",
+"ex": "I have a new job.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1246,
+"w": "old",
+"pos": "adj",
+"zh": "舊的；老的",
+"ex": "This is an old photo.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1247,
+"w": "young",
+"pos": "adj",
+"zh": "年輕的",
+"ex": "She looks young.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1248,
+"w": "long",
+"pos": "adj",
+"zh": "長的",
+"ex": "It's a long story.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1249,
+"w": "nice",
+"pos": "adj",
+"zh": "好的；不錯的",
+"ex": "Have a nice day!",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1250,
+"w": "great",
+"pos": "adj",
+"zh": "很棒的",
+"ex": "That's a great idea.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1251,
+"w": "fine",
+"pos": "adj",
+"zh": "好的；不錯的",
+"ex": "I'm fine, thanks.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1252,
+"w": "wrong",
+"pos": "adj",
+"zh": "錯的",
+"ex": "That answer is wrong.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1253,
+"w": "same",
+"pos": "adj",
+"zh": "相同的",
+"ex": "We have the same phone.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1254,
+"w": "different",
+"pos": "adj",
+"zh": "不同的",
+"ex": "They are very different.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1255,
+"w": "important",
+"pos": "adj",
+"zh": "重要的",
+"ex": "This is very important.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1256,
+"w": "interesting",
+"pos": "adj",
+"zh": "有趣的",
+"ex": "This book is interesting.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1257,
+"w": "boring",
+"pos": "adj",
+"zh": "無聊的",
+"ex": "The film was boring.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1258,
+"w": "favourite",
+"pos": "adj",
+"zh": "最喜歡的",
+"ex": "What's your favourite food?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1259,
+"w": "fast",
+"pos": "adj",
+"zh": "快的",
+"ex": "He is a fast runner.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1260,
+"w": "slow",
+"pos": "adj",
+"zh": "慢的",
+"ex": "The bus is very slow.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1261,
+"w": "quick",
+"pos": "adj",
+"zh": "快速的",
+"ex": "Can I ask a quick question?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1262,
+"w": "heavy",
+"pos": "adj",
+"zh": "重的",
+"ex": "This box is heavy.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1263,
+"w": "free",
+"pos": "adj",
+"zh": "免費的；有空的",
+"ex": "Are you free tonight?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1264,
+"w": "quiet",
+"pos": "adj",
+"zh": "安靜的",
+"ex": "The library is quiet.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1265,
+"w": "loud",
+"pos": "adj",
+"zh": "大聲的",
+"ex": "The music is too loud.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1266,
+"w": "dirty",
+"pos": "adj",
+"zh": "髒的",
+"ex": "My shoes are dirty.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1267,
+"w": "empty",
+"pos": "adj",
+"zh": "空的",
+"ex": "The fridge is empty.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1268,
+"w": "very",
+"pos": "adv",
+"zh": "非常",
+"ex": "It's very hot.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1269,
+"w": "really",
+"pos": "adv",
+"zh": "真的",
+"ex": "I really like it.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1270,
+"w": "too",
+"pos": "adv",
+"zh": "也；太",
+"ex": "I like it too.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1271,
+"w": "also",
+"pos": "adv",
+"zh": "也",
+"ex": "She also speaks French.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1272,
+"w": "again",
+"pos": "adv",
+"zh": "再一次",
+"ex": "Say it again, please.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1273,
+"w": "only",
+"pos": "adv",
+"zh": "只",
+"ex": "I have only one brother.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1274,
+"w": "all",
+"pos": "det",
+"zh": "全部的",
+"ex": "All my friends are here.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1275,
+"w": "some",
+"pos": "det",
+"zh": "一些",
+"ex": "I need some help.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1276,
+"w": "many",
+"pos": "det",
+"zh": "很多（可數）",
+"ex": "I have many friends.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1277,
+"w": "much",
+"pos": "det",
+"zh": "很多（不可數）",
+"ex": "I don't have much time.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1278,
+"w": "every",
+"pos": "det",
+"zh": "每一個",
+"ex": "I run every day.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1279,
+"w": "other",
+"pos": "adj",
+"zh": "其他的",
+"ex": "Where are the other students?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1280,
+"w": "because",
+"pos": "conj",
+"zh": "因為",
+"ex": "I'm tired because I worked late.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1281,
+"w": "but",
+"pos": "conj",
+"zh": "但是",
+"ex": "I like it, but it's expensive.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1282,
+"w": "or",
+"pos": "conj",
+"zh": "或者",
+"ex": "Tea or coffee?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1283,
+"w": "so",
+"pos": "conj",
+"zh": "所以",
+"ex": "It was raining, so we stayed home.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1284,
+"w": "with",
+"pos": "prep",
+"zh": "和…一起",
+"ex": "I live with my parents.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1285,
+"w": "without",
+"pos": "prep",
+"zh": "沒有",
+"ex": "I drink coffee without sugar.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1286,
+"w": "about",
+"pos": "prep",
+"zh": "關於",
+"ex": "This book is about love.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1287,
+"w": "under",
+"pos": "prep",
+"zh": "在…下面",
+"ex": "The cat is under the table.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1288,
+"w": "maybe",
+"pos": "adv",
+"zh": "也許",
+"ex": "Maybe I'll come.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1289,
+"w": "please",
+"pos": "adv",
+"zh": "請",
+"ex": "Please sit down.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1290,
+"w": "sorry",
+"pos": "adj",
+"zh": "抱歉的",
+"ex": "I'm sorry I'm late.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1291,
+"w": "thank you",
+"pos": "phr",
+"zh": "謝謝",
+"ex": "Thank you for your help.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1292,
+"w": "amazing",
+"pos": "adj",
+"zh": "令人驚嘆的",
+"ex": "The view is amazing!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1293,
+"w": "wonderful",
+"pos": "adj",
+"zh": "美好的",
+"ex": "We had a wonderful time.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1294,
+"w": "terrible",
+"pos": "adj",
+"zh": "糟糕的",
+"ex": "The food was terrible.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1295,
+"w": "awful",
+"pos": "adj",
+"zh": "很糟的",
+"ex": "What awful weather!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1296,
+"w": "excellent",
+"pos": "adj",
+"zh": "極好的",
+"ex": "Your English is excellent.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1297,
+"w": "perfect",
+"pos": "adj",
+"zh": "完美的",
+"ex": "The weather is perfect today.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1298,
+"w": "popular",
+"pos": "adj",
+"zh": "受歡迎的",
+"ex": "This song is very popular.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1299,
+"w": "famous",
+"pos": "adj",
+"zh": "有名的",
+"ex": "He's a famous singer.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1300,
+"w": "dangerous",
+"pos": "adj",
+"zh": "危險的",
+"ex": "It's dangerous to swim here.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1301,
+"w": "safe",
+"pos": "adj",
+"zh": "安全的",
+"ex": "Is it safe to walk at night?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1302,
+"w": "possible",
+"pos": "adj",
+"zh": "可能的",
+"ex": "Is it possible to change the date?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1303,
+"w": "impossible",
+"pos": "adj",
+"zh": "不可能的",
+"ex": "Nothing is impossible.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1304,
+"w": "necessary",
+"pos": "adj",
+"zh": "必要的",
+"ex": "Is it necessary to book?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1305,
+"w": "useful",
+"pos": "adj",
+"zh": "有用的",
+"ex": "This app is very useful.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1306,
+"w": "special",
+"pos": "adj",
+"zh": "特別的",
+"ex": "Today is a special day.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1307,
+"w": "strange",
+"pos": "adj",
+"zh": "奇怪的",
+"ex": "That's strange.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1308,
+"w": "normal",
+"pos": "adj",
+"zh": "正常的",
+"ex": "Is this normal?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1309,
+"w": "real",
+"pos": "adj",
+"zh": "真的；真實的",
+"ex": "Is this a real diamond?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1310,
+"w": "true",
+"pos": "adj",
+"zh": "真實的",
+"ex": "Is it true?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1311,
+"w": "simple",
+"pos": "adj",
+"zh": "簡單的",
+"ex": "The question is simple.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1312,
+"w": "hard",
+"pos": "adj",
+"zh": "困難的；硬的",
+"ex": "This exercise is hard.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1313,
+"w": "soft",
+"pos": "adj",
+"zh": "柔軟的",
+"ex": "This bed is very soft.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1314,
+"w": "strong",
+"pos": "adj",
+"zh": "強壯的；濃的",
+"ex": "I like strong coffee.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1315,
+"w": "weak",
+"pos": "adj",
+"zh": "虛弱的；淡的",
+"ex": "This tea is weak.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1316,
+"w": "deep",
+"pos": "adj",
+"zh": "深的",
+"ex": "The river is very deep.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1317,
+"w": "wide",
+"pos": "adj",
+"zh": "寬的",
+"ex": "The road is wide.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1318,
+"w": "narrow",
+"pos": "adj",
+"zh": "窄的",
+"ex": "The street is very narrow.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1319,
+"w": "high",
+"pos": "adj",
+"zh": "高的",
+"ex": "The mountain is very high.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1320,
+"w": "low",
+"pos": "adj",
+"zh": "低的",
+"ex": "The price is low.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1321,
+"w": "large",
+"pos": "adj",
+"zh": "大的",
+"ex": "I'd like a large coffee.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1322,
+"w": "huge",
+"pos": "adj",
+"zh": "巨大的",
+"ex": "They have a huge garden.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1323,
+"w": "tiny",
+"pos": "adj",
+"zh": "微小的",
+"ex": "The flat is tiny.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1324,
+"w": "whole",
+"pos": "adj",
+"zh": "整個的",
+"ex": "I ate the whole pizza.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1325,
+"w": "enough",
+"pos": "det",
+"zh": "足夠的",
+"ex": "Do we have enough time?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1326,
+"w": "few",
+"pos": "det",
+"zh": "很少的；幾個",
+"ex": "I have a few questions.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1327,
+"w": "little",
+"pos": "det",
+"zh": "一點點的",
+"ex": "I have a little money.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1328,
+"w": "most",
+"pos": "det",
+"zh": "大部分的",
+"ex": "Most people like music.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1329,
+"w": "both",
+"pos": "det",
+"zh": "兩者都",
+"ex": "Both my sisters are teachers.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1330,
+"w": "each",
+"pos": "det",
+"zh": "每一個",
+"ex": "Each student has a book.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1331,
+"w": "any",
+"pos": "det",
+"zh": "任何的",
+"ex": "Do you have any questions?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1332,
+"w": "another",
+"pos": "det",
+"zh": "另一個",
+"ex": "Can I have another cup?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1333,
+"w": "else",
+"pos": "adv",
+"zh": "其他的",
+"ex": "Anything else?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1334,
+"w": "almost",
+"pos": "adv",
+"zh": "幾乎",
+"ex": "I'm almost ready.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1335,
+"w": "quite",
+"pos": "adv",
+"zh": "相當",
+"ex": "It's quite cold today.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1336,
+"w": "probably",
+"pos": "adv",
+"zh": "大概",
+"ex": "I'll probably be late.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1337,
+"w": "perhaps",
+"pos": "adv",
+"zh": "也許",
+"ex": "Perhaps you're right.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1338,
+"w": "exactly",
+"pos": "adv",
+"zh": "確切地；正是",
+"ex": "That's exactly what I mean.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1339,
+"w": "especially",
+"pos": "adv",
+"zh": "尤其",
+"ex": "I love fruit, especially mangoes.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1340,
+"w": "suddenly",
+"pos": "adv",
+"zh": "突然",
+"ex": "Suddenly the lights went out.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1341,
+"w": "finally",
+"pos": "adv",
+"zh": "終於",
+"ex": "We finally arrived.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1342,
+"w": "quickly",
+"pos": "adv",
+"zh": "快速地",
+"ex": "Come quickly!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1343,
+"w": "slowly",
+"pos": "adv",
+"zh": "慢慢地",
+"ex": "Please speak slowly.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1344,
+"w": "carefully",
+"pos": "adv",
+"zh": "小心地",
+"ex": "Drive carefully.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1345,
+"w": "easily",
+"pos": "adv",
+"zh": "輕易地",
+"ex": "She passed the test easily.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1346,
+"w": "loudly",
+"pos": "adv",
+"zh": "大聲地",
+"ex": "He laughs loudly.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1347,
+"w": "quietly",
+"pos": "adv",
+"zh": "安靜地",
+"ex": "Please talk quietly.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1348,
+"w": "even",
+"pos": "adv",
+"zh": "甚至",
+"ex": "Even my dad likes this song.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1349,
+"w": "instead",
+"pos": "adv",
+"zh": "取而代之",
+"ex": "Let's walk instead.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1350,
+"w": "though",
+"pos": "adv",
+"zh": "不過",
+"ex": "It's expensive. I like it, though.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1351,
+"w": "however",
+"pos": "adv",
+"zh": "然而",
+"ex": "It's cheap. However, it's not good.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1352,
+"w": "although",
+"pos": "conj",
+"zh": "雖然",
+"ex": "Although it was raining, we went out.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1353,
+"w": "if",
+"pos": "conj",
+"zh": "如果",
+"ex": "If it rains, we'll stay home.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1354,
+"w": "unless",
+"pos": "conj",
+"zh": "除非",
+"ex": "I'll go unless it rains.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1355,
+"w": "than",
+"pos": "conj",
+"zh": "比",
+"ex": "She is taller than me.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1356,
+"w": "as",
+"pos": "conj",
+"zh": "如同；當",
+"ex": "Do as I say.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1357,
+"w": "whether",
+"pos": "conj",
+"zh": "是否",
+"ex": "I don't know whether he's coming.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1358,
+"w": "whose",
+"pos": "pron",
+"zh": "誰的",
+"ex": "Whose bag is this?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1359,
+"w": "which",
+"pos": "det",
+"zh": "哪一個",
+"ex": "Which dress do you like?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1360,
+"w": "either",
+"pos": "det",
+"zh": "兩者之一",
+"ex": "You can take either bus.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1361,
+"w": "neither",
+"pos": "det",
+"zh": "兩者都不",
+"ex": "Neither answer is right.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1362,
+"w": "anything",
+"pos": "pron",
+"zh": "任何事",
+"ex": "Do you need anything?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1363,
+"w": "something",
+"pos": "pron",
+"zh": "某事",
+"ex": "I have something for you.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1364,
+"w": "nothing",
+"pos": "pron",
+"zh": "沒有東西",
+"ex": "There's nothing in the box.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1365,
+"w": "everything",
+"pos": "pron",
+"zh": "每件事",
+"ex": "Everything is fine.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1366,
+"w": "somewhere",
+"pos": "adv",
+"zh": "某處",
+"ex": "Let's go somewhere quiet.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1367,
+"w": "anywhere",
+"pos": "adv",
+"zh": "任何地方",
+"ex": "You can sit anywhere.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1368,
+"w": "everywhere",
+"pos": "adv",
+"zh": "到處",
+"ex": "I looked everywhere.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1369,
+"w": "correct",
+"pos": "adj",
+"zh": "正確的",
+"ex": "Your answer is correct.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1370,
+"w": "clear",
+"pos": "adj",
+"zh": "清楚的",
+"ex": "Is that clear?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1371,
+"w": "certain",
+"pos": "adj",
+"zh": "確定的",
+"ex": "Are you certain?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1372,
+"w": "sure",
+"pos": "adj",
+"zh": "確定的",
+"ex": "I'm not sure.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1373,
+"w": "available",
+"pos": "adj",
+"zh": "有空的；可用的",
+"ex": "Is this seat available?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1374,
+"w": "main",
+"pos": "adj",
+"zh": "主要的",
+"ex": "This is the main road.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1375,
+"w": "public",
+"pos": "adj",
+"zh": "公共的",
+"ex": "Use public transport.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1376,
+"w": "private",
+"pos": "adj",
+"zh": "私人的",
+"ex": "This is a private beach.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1377,
+"w": "modern",
+"pos": "adj",
+"zh": "現代的",
+"ex": "They live in a modern flat.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1378,
+"w": "traditional",
+"pos": "adj",
+"zh": "傳統的",
+"ex": "We had a traditional meal.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1379,
+"w": "local",
+"pos": "adj",
+"zh": "當地的",
+"ex": "Try the local food.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1380,
+"w": "international",
+"pos": "adj",
+"zh": "國際的",
+"ex": "It's an international school.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1381,
+"w": "crazy",
+"pos": "adj",
+"zh": "瘋狂的",
+"ex": "That's a crazy idea.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1382,
+"w": "silly",
+"pos": "adj",
+"zh": "愚蠢的；傻的",
+"ex": "Don't be silly.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1383,
+"w": "cute",
+"pos": "adj",
+"zh": "可愛的",
+"ex": "What a cute puppy!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1384,
+"w": "lovely",
+"pos": "adj",
+"zh": "可愛的；美好的",
+"ex": "What a lovely day!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1385,
+"w": "brilliant",
+"pos": "adj",
+"zh": "很棒的；聰明的",
+"ex": "That's a brilliant idea!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1386,
+"w": "fantastic",
+"pos": "adj",
+"zh": "極好的",
+"ex": "The concert was fantastic.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1387,
+"w": "I",
+"pos": "pron",
+"zh": "我",
+"ex": "I am a student.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1388,
+"w": "you",
+"pos": "pron",
+"zh": "你；妳；你們",
+"ex": "Are you OK?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1389,
+"w": "he",
+"pos": "pron",
+"zh": "他",
+"ex": "He is my brother.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1390,
+"w": "she",
+"pos": "pron",
+"zh": "她",
+"ex": "She is my best friend.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1391,
+"w": "it",
+"pos": "pron",
+"zh": "它；牠",
+"ex": "It is a nice day.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1392,
+"w": "we",
+"pos": "pron",
+"zh": "我們",
+"ex": "We live in Taipei.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1393,
+"w": "they",
+"pos": "pron",
+"zh": "他們",
+"ex": "They are my parents.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1394,
+"w": "me",
+"pos": "pron",
+"zh": "我（受詞）",
+"ex": "Can you help me?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1395,
+"w": "him",
+"pos": "pron",
+"zh": "他（受詞）",
+"ex": "I called him yesterday.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1396,
+"w": "her",
+"pos": "pron",
+"zh": "她；她的",
+"ex": "I like her dress.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1397,
+"w": "us",
+"pos": "pron",
+"zh": "我們（受詞）",
+"ex": "Come with us.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1398,
+"w": "them",
+"pos": "pron",
+"zh": "他們（受詞）",
+"ex": "I love them.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1399,
+"w": "my",
+"pos": "det",
+"zh": "我的",
+"ex": "This is my bag.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1400,
+"w": "your",
+"pos": "det",
+"zh": "你的；妳的",
+"ex": "Is this your phone?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1401,
+"w": "his",
+"pos": "det",
+"zh": "他的",
+"ex": "His name is Tom.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1402,
+"w": "our",
+"pos": "det",
+"zh": "我們的",
+"ex": "This is our house.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1403,
+"w": "their",
+"pos": "det",
+"zh": "他們的",
+"ex": "Their kids are cute.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1404,
+"w": "this",
+"pos": "det",
+"zh": "這個",
+"ex": "This is my sister.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1405,
+"w": "that",
+"pos": "det",
+"zh": "那個",
+"ex": "Who is that man?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1406,
+"w": "these",
+"pos": "det",
+"zh": "這些",
+"ex": "These shoes are new.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1407,
+"w": "those",
+"pos": "det",
+"zh": "那些",
+"ex": "Look at those flowers.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1408,
+"w": "what",
+"pos": "pron",
+"zh": "什麼",
+"ex": "What is your name?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1409,
+"w": "where",
+"pos": "adv",
+"zh": "哪裡",
+"ex": "Where do you live?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1410,
+"w": "who",
+"pos": "pron",
+"zh": "誰",
+"ex": "Who is she?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1411,
+"w": "when",
+"pos": "adv",
+"zh": "什麼時候",
+"ex": "When is your birthday?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1412,
+"w": "why",
+"pos": "adv",
+"zh": "為什麼",
+"ex": "Why are you sad?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1413,
+"w": "how",
+"pos": "adv",
+"zh": "如何；怎麼",
+"ex": "How are you?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1414,
+"w": "and",
+"pos": "conj",
+"zh": "和",
+"ex": "I like tea and coffee.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1415,
+"w": "in",
+"pos": "prep",
+"zh": "在…裡面",
+"ex": "The keys are in my bag.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1416,
+"w": "on",
+"pos": "prep",
+"zh": "在…上面",
+"ex": "The book is on the table.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1417,
+"w": "at",
+"pos": "prep",
+"zh": "在（某地點、時間）",
+"ex": "I'm at home.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1418,
+"w": "to",
+"pos": "prep",
+"zh": "到；往",
+"ex": "I go to school by bus.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1419,
+"w": "from",
+"pos": "prep",
+"zh": "從；來自",
+"ex": "I'm from Taiwan.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1420,
+"w": "for",
+"pos": "prep",
+"zh": "為了；給",
+"ex": "This gift is for you.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1421,
+"w": "of",
+"pos": "prep",
+"zh": "…的",
+"ex": "A cup of tea, please.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1422,
+"w": "by",
+"pos": "prep",
+"zh": "搭乘；在…旁邊",
+"ex": "I go to work by bus.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1423,
+"w": "after",
+"pos": "prep",
+"zh": "在…之後",
+"ex": "Let's go out after dinner.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1424,
+"w": "before",
+"pos": "prep",
+"zh": "在…之前",
+"ex": "Wash your hands before lunch.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1425,
+"w": "up",
+"pos": "adv",
+"zh": "向上",
+"ex": "Look up at the sky.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1426,
+"w": "down",
+"pos": "adv",
+"zh": "向下",
+"ex": "Put it down, please.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1427,
+"w": "out",
+"pos": "adv",
+"zh": "在外；出去",
+"ex": "She's out right now.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1428,
+"w": "yes",
+"pos": "adv",
+"zh": "是；對",
+"ex": "Yes, I'd love to.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1429,
+"w": "no",
+"pos": "adv",
+"zh": "不；沒有",
+"ex": "No, thank you.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1430,
+"w": "not",
+"pos": "adv",
+"zh": "不",
+"ex": "I'm not hungry.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1431,
+"w": "can",
+"pos": "v",
+"zh": "能；可以",
+"ex": "I can swim.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1432,
+"w": "will",
+"pos": "v",
+"zh": "將會",
+"ex": "I will call you tomorrow.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1433,
+"w": "hello",
+"pos": "exc",
+"zh": "你好",
+"ex": "Hello! How are you?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1434,
+"w": "goodbye",
+"pos": "exc",
+"zh": "再見",
+"ex": "Goodbye, see you soon.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1435,
+"w": "OK",
+"pos": "adj",
+"zh": "好的；沒問題",
+"ex": "Is that OK?",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1436,
+"w": "rich",
+"pos": "adj",
+"zh": "有錢的",
+"ex": "He wants to be rich.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1437,
+"w": "poor",
+"pos": "adj",
+"zh": "貧窮的；可憐的",
+"ex": "The poor dog is cold.",
+"level": "A1",
+"topic": "describe"
+},
+{
+"id": 1438,
+"w": "could",
+"pos": "v",
+"zh": "能（can 的過去式）；可以",
+"ex": "Could you help me?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1439,
+"w": "should",
+"pos": "v",
+"zh": "應該",
+"ex": "You should drink more water.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1440,
+"w": "must",
+"pos": "v",
+"zh": "必須",
+"ex": "You must wear a seatbelt.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1441,
+"w": "may",
+"pos": "v",
+"zh": "可能；可以",
+"ex": "May I come in?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1442,
+"w": "might",
+"pos": "v",
+"zh": "可能",
+"ex": "It might rain later.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1443,
+"w": "would",
+"pos": "v",
+"zh": "將會；願意",
+"ex": "I would like a coffee.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1444,
+"w": "have to",
+"pos": "v",
+"zh": "必須",
+"ex": "I have to go now.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1445,
+"w": "over",
+"pos": "prep",
+"zh": "在…上方；超過",
+"ex": "The plane flew over the city.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1446,
+"w": "into",
+"pos": "prep",
+"zh": "進入",
+"ex": "She walked into the room.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1447,
+"w": "through",
+"pos": "prep",
+"zh": "穿過",
+"ex": "We walked through the park.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1448,
+"w": "around",
+"pos": "prep",
+"zh": "在…周圍；大約",
+"ex": "We walked around the lake.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1449,
+"w": "off",
+"pos": "adv",
+"zh": "離開；關掉",
+"ex": "Turn the light off.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1450,
+"w": "against",
+"pos": "prep",
+"zh": "反對；靠著",
+"ex": "I'm against the idea.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1451,
+"w": "below",
+"pos": "prep",
+"zh": "在…下方",
+"ex": "The temperature is below zero.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1452,
+"w": "above",
+"pos": "prep",
+"zh": "在…上方",
+"ex": "There's a picture above the bed.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1453,
+"w": "noisy",
+"pos": "adj",
+"zh": "吵鬧的",
+"ex": "The street is very noisy.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1454,
+"w": "cool",
+"pos": "adj",
+"zh": "涼爽的；很酷的",
+"ex": "Your new bike is cool!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1455,
+"w": "round",
+"pos": "adj",
+"zh": "圓的",
+"ex": "We have a round table.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1456,
+"w": "extra",
+"pos": "adj",
+"zh": "額外的",
+"ex": "Can I have an extra pillow?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1457,
+"w": "glad",
+"pos": "adj",
+"zh": "高興的",
+"ex": "I'm glad you came.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1458,
+"w": "fair",
+"pos": "adj",
+"zh": "公平的",
+"ex": "That's not fair!",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1459,
+"w": "a lot of",
+"pos": "det",
+"zh": "很多",
+"ex": "I have a lot of work.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1460,
+"w": "lots of",
+"pos": "det",
+"zh": "很多（口語）",
+"ex": "She has lots of friends.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1461,
+"w": "plenty",
+"pos": "pron",
+"zh": "很多；充足",
+"ex": "We have plenty of time.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1462,
+"w": "just",
+"pos": "adv",
+"zh": "剛剛；只是",
+"ex": "I just got home.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1463,
+"w": "ever",
+"pos": "adv",
+"zh": "曾經",
+"ex": "Have you ever been to Japan?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1464,
+"w": "actually",
+"pos": "adv",
+"zh": "事實上",
+"ex": "Actually, I don't like coffee.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1465,
+"w": "anyway",
+"pos": "adv",
+"zh": "無論如何；總之",
+"ex": "Anyway, see you tomorrow.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1466,
+"w": "of course",
+"pos": "adv",
+"zh": "當然",
+"ex": "Of course you can.",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1467,
+"w": "anyone",
+"pos": "pron",
+"zh": "任何人",
+"ex": "Is anyone home?",
+"level": "A2",
+"topic": "describe"
+},
+{
+"id": 1468,
+"w": "somebody",
+"pos": "pron",
+"zh": "某人",
+"ex": "Somebody called you.",
+"level": "A2",
+"topic": "describe"
+}
+]
+}

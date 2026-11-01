@@ -1,0 +1,17 @@
+{
+  "name": "Word Gym 單字健身房",
+  "short_name": "單字健身房",
+  "description": "A1→A2 單字卡：看英文、想中文、翻面，間隔複習練成長期記憶。",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff4f8",
+  "theme_color": "#ff4f8b",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
