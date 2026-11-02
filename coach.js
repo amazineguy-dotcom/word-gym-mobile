@@ -1,5 +1,5 @@
 // Coach Mia: a sporty, warm big-sister coach. Encourages a lot, teases a little. Speaks to "妳".
-// Her face is a generic cartoon (high ponytail, pink sweatband, teal tank top, whistle on the chest),
+// Her face is a generic cartoon (short dark bob, headphones around the neck, purple zip jacket),
 // not any real person.
 
 const pick = a => a[Math.floor(Math.random() * a.length)];
@@ -41,24 +41,23 @@ export const lobbyLine = st => {
 export const say = (event, vars = {}) => fill(pick(EVENTS[event] || [""]), vars);
 
 export const MIA_SVG = `<svg viewBox="0 0 64 64" aria-hidden="true">
-  <path d="M8 64 C9 56 17 51 25 49 L39 49 C47 51 55 56 56 64 Z" fill="#e9b291"/>
-  <path d="M14 64 C15 58 18 55 22 53 L25 64 Z M50 64 C49 58 46 55 42 53 L39 64 Z" fill="#14b8a6"/>
-  <path d="M27 46 L37 46 L38 51 C35 52.5 29 52.5 26 51 Z" fill="#e3a585"/>
-  <path d="M44 14 C58 14 62 32 56 46 C53 38 50 30 44 24 Z" fill="#3b2418"/>
-  <circle cx="17" cy="32" r="3.2" fill="#eab08f"/><circle cx="47" cy="32" r="3.2" fill="#eab08f"/>
-  <circle cx="17" cy="36.5" r="1.3" fill="#ffd166"/><circle cx="47" cy="36.5" r="1.3" fill="#ffd166"/>
-  <path d="M17 27 C17 15 24 9 32 9 C40 9 47 15 47 27 L47 34 C47 43 40 50 32 50 C24 50 17 43 17 34 Z" fill="#f4c4a4"/>
-  <path d="M16 27 C14 13 23 5 32 5 C41 5 50 12 48 27 C45 20 40 16 33 17 C26 16 20 20 16 27 Z" fill="#3b2418"/>
-  <path d="M20 21 C24 15 32 14 37 17 C32 20 26 22 20 25 Z" fill="#3b2418"/>
-  <path d="M15.5 21 C24 14 40 14 48.5 21 L48 24.5 C40 18 24 18 16 24.5 Z" fill="#ff6fa8"/>
-  <circle cx="45" cy="15" r="3" fill="#ff6fa8"/>
-  <path d="M21 27.5 C23.5 26 27 26 29 27.2 M35 27.2 C37 26 40.5 26 43 27.5" stroke="#3b2418" stroke-width="1.6" fill="none" stroke-linecap="round"/>
-  <path d="M21.5 32 C23.5 29.8 27 29.8 29 32 M35 32 C37 29.8 40.5 29.8 42.5 32" stroke="#2a1712" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <path d="M21 30.6 L19.6 29.6 M43 30.6 L44.4 29.6" stroke="#2a1712" stroke-width="1.2" stroke-linecap="round"/>
-  <circle cx="22" cy="37.5" r="2.6" fill="#ff8fb1" opacity=".5"/><circle cx="42" cy="37.5" r="2.6" fill="#ff8fb1" opacity=".5"/>
-  <path d="M32 31 L31 36.5 C31.8 37.6 33 37.6 33.6 36.8" stroke="#c98a6b" stroke-width="1.1" fill="none" stroke-linecap="round"/>
-  <path d="M25.5 40 C28 46 36 46 38.5 40 Z" fill="#fff" stroke="#b8325a" stroke-width="1.4" stroke-linejoin="round"/>
-  <path d="M26 40 L38 40" stroke="#b8325a" stroke-width="1"/>
-  <path d="M25.5 51 L32 59.5 L38.5 51" stroke="#ffffff" stroke-width="1.1" fill="none" stroke-linejoin="round"/>
-  <path d="M29.8 59.6 C29.8 57.9 31.1 56.9 32.6 56.9 C34.3 56.9 35.5 58 35.5 59.6 C35.5 61.2 34.3 62.3 32.6 62.3 C31.1 62.3 29.8 61.2 29.8 59.6 Z M35 58.4 L38.8 58.4 L38.8 60.3 L35 60.3 Z" fill="#c9ced3" stroke="#5f666c" stroke-width=".7"/>
+  <path d="M6 64 C7 55 15 50 24 48.5 L40 48.5 C49 50 57 55 58 64 Z" fill="#7c4dff"/>
+  <path d="M26 48.6 L32 57 L38 48.6 Z" fill="#ff6fa8"/>
+  <path d="M27 43 L37 43 L37.6 50 C35 52 29 52 26.4 50 Z" fill="#e3a585"/>
+  <path d="M24 48.5 L27.5 47.2 L32 57 L25.5 53.5 Z M40 48.5 L36.5 47.2 L32 57 L38.5 53.5 Z" fill="#9b7bff"/>
+  <path d="M32 57 L32 64" stroke="#fff" stroke-width="1.1"/>
+  <path d="M14 28 C13 16 21 7 32 7 C43 7 51 16 50 28 L50.6 42 C50.6 45.2 47.2 46.2 45 44.2 L44 36 L20 36 L19 44.2 C16.8 46.2 13.4 45.2 13.4 42 Z" fill="#2b1b14"/>
+  <path d="M17 27 C17 15 24 9 32 9 C40 9 47 15 47 27 L47 34 C47 43 40 49.5 32 49.5 C24 49.5 17 43 17 34 Z" fill="#f4c4a4"/>
+  <path d="M16 26 C15 13 23 6.5 32 6.5 C42 6.5 50 13 48.5 26 C46 20 42 17 37 16.5 C31 18 23 20 17 25 Z" fill="#2b1b14"/>
+  <path d="M37.5 9.5 C42 10.5 45.5 13.5 47 17.5" stroke="#5a3a2a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <path d="M21 26.8 C23.5 25.3 27 25.3 29 26.5 M35 26.5 C37 25.3 40.5 25.3 43 26.8" stroke="#2b1b14" stroke-width="1.7" fill="none" stroke-linecap="round"/>
+  <ellipse cx="25" cy="31.2" rx="2" ry="2.5" fill="#2a1712"/><ellipse cx="39" cy="31.2" rx="2" ry="2.5" fill="#2a1712"/>
+  <circle cx="25.7" cy="30.2" r=".75" fill="#fff"/><circle cx="39.7" cy="30.2" r=".75" fill="#fff"/>
+  <path d="M22.6 29.6 L21.4 28.6 M41.4 29.6 L42.6 28.6" stroke="#2a1712" stroke-width="1.1" stroke-linecap="round"/>
+  <circle cx="22" cy="37" r="2.6" fill="#ff8fb1" opacity=".5"/><circle cx="42" cy="37" r="2.6" fill="#ff8fb1" opacity=".5"/>
+  <path d="M32 31.5 L31 36 C31.8 37.1 33 37.1 33.6 36.3" stroke="#c98a6b" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+  <path d="M26.5 40 C28.5 44.8 35.5 44.8 37.5 40 C35 41 29 41 26.5 40 Z" fill="#fff" stroke="#b8325a" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M19.5 50.5 C22 57.5 42 57.5 44.5 50.5" stroke="#2f2f3a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <rect x="15.5" y="46.5" width="6.5" height="8.5" rx="2.6" fill="#14b8a6" stroke="#0f766e" stroke-width=".9"/>
+  <rect x="42" y="46.5" width="6.5" height="8.5" rx="2.6" fill="#14b8a6" stroke="#0f766e" stroke-width=".9"/>
 </svg>`;
