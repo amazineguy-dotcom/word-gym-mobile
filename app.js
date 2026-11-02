@@ -87,7 +87,6 @@ function streak() {
 }
 function renderGoal() {
   const c = counts(progress, data.words), f = forecast(progress, data);
-  $("goalLead").textContent = `全部 ${c.total} 個 A1＋A2 單字都記住、再進入長期記憶，就是 A2 的單字量。`;
   $("gbLong").style.width = (c.longTerm / c.total * 100) + "%";
   $("gbLearned").style.width = ((c.learned - c.longTerm) / c.total * 100) + "%";
   $("gnLeft").textContent = `已記住 ${c.learned}（${Math.floor(c.learned / c.total * 100)}%）　長期記憶 ${c.longTerm}`;
@@ -95,6 +94,16 @@ function renderGoal() {
   const road = $("road"); road.textContent = "";
   const ms = milestoneState(progress, data);
   const nextIdx = ms.findIndex(m => !m.done);
+  // The next medal sits at the top of the card; the full road is folded below.
+  const nx = $("nextMs"); nx.textContent = "";
+  if (nextIdx < 0) {
+    nx.append(el("span", "ic", "🏆"), el("div", null, ""), el("span", "when", "全部達成！"));
+    nx.children[1].append(el("b", null, "A2 單字量＋長期記憶都達成了"), el("small", null, "接下來只剩每 60 天的保養複習"));
+  } else {
+    const m = ms[nextIdx], date = f.milestoneDates.find(x => x.id === m.id)?.date || (m.id === "lt" ? f.finishDate : null);
+    const t = el("div"); t.append(el("b", null, `下一關：${m.zh}`), el("small", null, m.note || `記住 ${m.n} 個字`));
+    nx.append(el("span", "ic", m.icon), t, el("span", "when", `還差 ${m.n - m.have} 字${date ? `\n預計 ${md(date)}` : ""}`));
+  }
   ms.forEach((m, i) => {
     const li = el("li", m.done ? "done" : i === nextIdx ? "next" : "");
     const ic = el("span", "ic", m.icon);
@@ -386,15 +395,21 @@ function packReportBlock() {
 $("startBtn").onclick = startDrill;
 $("extraBtn").onclick = startExtra;
 for (const id of ["bodyFront", "bodyBack", "topics"]) $(id).addEventListener("click", pick);
-// 小提醒: folded by default; the phone remembers whether it was left open.
-function setTips(open) {
-  $("tipsBody").hidden = !open;
-  $("tipsToggle").setAttribute("aria-expanded", open);
-  $("tipsWord").textContent = open ? "收起 ▴" : "展開 ▾";
-  try { localStorage.setItem("wordgym-tips-open", open ? "1" : "0"); } catch {}
+// Folding sections (小提醒, the full medal road): folded by default; the phone remembers each one.
+function foldable(toggle, body, word, key) {
+  const set = open => {
+    $(body).hidden = !open;
+    $(toggle).setAttribute("aria-expanded", open);
+    $(word).textContent = open ? "收起 ▴" : "展開 ▾";
+    try { localStorage.setItem(key, open ? "1" : "0"); } catch {}
+  };
+  $(toggle).onclick = () => set($(body).hidden);
+  let open = false;
+  try { open = localStorage.getItem(key) === "1"; } catch {}
+  set(open);
 }
-$("tipsToggle").onclick = () => setTips($("tipsBody").hidden);
-try { setTips(localStorage.getItem("wordgym-tips-open") === "1"); } catch { setTips(false); }
+foldable("tipsToggle", "tipsBody", "tipsWord", "wordgym-tips-open");
+foldable("roadToggle", "road", "roadWord", "wordgym-road-open");
 $("flipBtn").onclick = flip;
 $("flash").onclick = flip;            // tap the card to flip it
 $("yesBtn").onclick = () => answer(true);
