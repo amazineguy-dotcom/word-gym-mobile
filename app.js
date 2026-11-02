@@ -262,7 +262,7 @@ function showCard() {
   f.append(el("span", "tag" + (relearn ? " again" : item.isNew ? " new" : drill.extra ? " extra" : ""),
               relearn ? "再一次" : item.isNew ? "新單字" : drill.extra ? "加練" : `複習 · ${STAGE_ZH[stage]}`),
            el("span", "lvl", `${w.level} · ${data.topics.find(t => t.id === w.topic).zh}`),
-           el("span", "word", w.w), el("span", "pos", w.pos), el("span", "think", "想一想：它的中文意思是？"));
+           el("span", "word", w.w), el("span", "pos", w.pos), el("span", "say", "🗣️ 跟著大聲念一次"), el("span", "think", "再想一想：它的中文意思是？"));
   const sp = el("button", "spk", "🔊 再聽一次"); sp.type = "button"; sp.onclick = e => { e.stopPropagation(); sayWord(w); }; f.append(sp);
   $("flipBtn").hidden = false; $("answer").hidden = true;
   updateTop();
@@ -276,8 +276,10 @@ function flip() {
   const { w } = drill.queue[drill.pos];
   const f = $("flash");
   f.querySelector(".think")?.remove();
+  f.querySelector(".say")?.remove();
   f.querySelector(".spk")?.remove();
   f.append(el("span", "zh", w.zh), highlight(w.ex, w.w));
+  f.append(el("span", "say", "🗣️ 聽完跟著念例句"));
   const sp = el("button", "spk", "🔊 聽例句"); sp.type = "button"; sp.onclick = e => { e.stopPropagation(); sayEx(w); }; f.append(sp);
   $("flipBtn").hidden = true; $("answer").hidden = false;
 }
