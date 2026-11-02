@@ -85,19 +85,12 @@ function streak() {
   for (let d = days.has(today()) ? today() : addDays(today(), -1); days.has(d); d = addDays(d, -1)) n++;
   return n;
 }
-function renderKpis() {
-  const c = counts(progress, data.words);
-  $("kStreak").textContent = streak();
-  $("kLearned").textContent = c.learned;
-  $("kLong").textContent = c.longTerm;
-  $("kPct").textContent = Math.floor(c.learned / c.total * 100) + "%";
-}
 function renderGoal() {
   const c = counts(progress, data.words), f = forecast(progress, data);
-  $("goalLead").textContent = `全部 ${c.total} 個 A1＋A2 單字都記住、再進入長期記憶，就是 A2 的單字量。每天練 30 個新字，預計 ${ymd(f.finishDate)} 到終點。`;
+  $("goalLead").textContent = `全部 ${c.total} 個 A1＋A2 單字都記住、再進入長期記憶，就是 A2 的單字量。`;
   $("gbLong").style.width = (c.longTerm / c.total * 100) + "%";
   $("gbLearned").style.width = ((c.learned - c.longTerm) / c.total * 100) + "%";
-  $("gnLeft").textContent = `已記住 ${c.learned}　長期記憶 ${c.longTerm}`;
+  $("gnLeft").textContent = `已記住 ${c.learned}（${Math.floor(c.learned / c.total * 100)}%）　長期記憶 ${c.longTerm}`;
   $("gnRight").textContent = `目標 ${c.total} 字`;
   const road = $("road"); road.textContent = "";
   const ms = milestoneState(progress, data);
@@ -112,33 +105,58 @@ function renderGoal() {
     li.append(ic, nm, when);
     road.append(li);
   });
-  const tp = $("topics"); tp.textContent = "";
-  for (const t of topicStats(progress, data)) {
-    const row = el("div", "topic");
-    row.append(el("span", null, `${t.zh}（${REGION_ZH[t.region]}）`), el("small", null, `${t.learned}/${t.total}`));
-    const bar = el("div", "bar"); const a = el("i", "t"), b = el("i", "l");
-    a.style.width = (t.longTerm / t.total * 100) + "%"; b.style.width = ((t.learned - t.longTerm) / t.total * 100) + "%";
-    bar.append(a, b); row.append(bar); tp.append(row);
-  }
 }
+// The figure and the 8 region bars are one view: each topic of words trains one body part.
+// Tap a body part or a bar to pick it; both light up together and the line below explains it.
+let picked = null;
+const REGION_ORDER = Object.keys(REGION_ZH);
 function renderBody() {
   const st = regionStages(progress, data);
   $("bodyFront").innerHTML = figure("front", st, REGION_ZH, flash);
   $("bodyBack").innerHTML = figure("back", st, REGION_ZH, flash);
   flash = new Set();
+  const tp = $("topics"); tp.textContent = "";
+  const stats = topicStats(progress, data).sort((x, y) => REGION_ORDER.indexOf(x.region) - REGION_ORDER.indexOf(y.region));
+  for (const t of stats) {
+    const row = el("button", "topic"); row.type = "button"; row.dataset.region = t.region;
+    const name = el("span"); name.append(el("b", null, REGION_ZH[t.region]), `・${t.zh}`);
+    row.append(name, el("small", null, `${t.learned}/${t.total}`));
+    const bar = el("div", "bar"); const lt = el("i", "t"), ln = el("i", "l");
+    lt.style.width = (t.longTerm / t.total * 100) + "%"; ln.style.width = ((t.learned - t.longTerm) / t.total * 100) + "%";
+    bar.append(lt, ln); row.append(bar); tp.append(row);
+  }
   const lg = $("legend"); lg.textContent = "";
   lg.append("還沒練");
   TONE.forEach((c, i) => { const x = el("i"); x.style.background = c; x.title = STAGE_ZH[i]; lg.append(x); });
   lg.append("長期記憶");
+  showPick();
+}
+function showPick() {
+  const st = regionStages(progress, data);
+  for (const n of document.querySelectorAll("[data-region]")) n.classList.toggle("sel", n.dataset.region === picked);
+  for (const id of ["bodyFront", "bodyBack", "topics"]) $(id).classList.toggle("picking", !!picked);
+  if (picked) {
+    const t = topicStats(progress, data).find(x => x.region === picked);
+    const fresh = data.words.filter(w => w.topic === t.id && !progress.words[w.id]).length;
+    $("bodyLine").textContent = `${REGION_ZH[picked]}＝「${t.zh}」${t.total} 字：已記住 ${t.learned}、長期記憶 ${t.longTerm}、還沒學 ${fresh}。再點一次取消。`;
+    return;
+  }
   const best = Object.entries(st).sort((a, b) => b[1] - a[1])[0];
-  $("bodyLine").textContent = best && best[1] > 0 ? `目前最結實的是「${REGION_ZH[best[0]]}」。每個主題的單字記得越多，那個部位線條越明顯。` : "每個主題的單字記得越多，那個部位線條越明顯。";
+  $("bodyLine").textContent = (best && best[1] > 0 ? `目前最結實的是「${REGION_ZH[best[0]]}」。` : "")
+    + "每個主題的單字記得越多，那個部位線條越明顯。點身體或下面的進度條看細節。";
+}
+function pick(e) {
+  const r = e.target.closest("[data-region]")?.dataset.region;
+  if (!r) return;
+  picked = picked === r ? null : r;
+  showPick();
 }
 function renderPack() {
   const box = $("packCard"); box.textContent = "";
   const ps = packStatus(progress), f = forecast(progress, data);
   const head = el("div", "ph");
   head.append(el("b", null, ps.closedToday ? `第 ${ps.no} 包結業！🎉` : ps.doneToday ? `第 ${ps.no} 包 · 今天已簽到 ✓（${ps.inPack}/${PACK_DAYS}）` : `第 ${ps.no} 包 · 今天是第 ${ps.inPack + 1}/${PACK_DAYS} 天`),
-              el("small", null, `全部約 ${f.totalPacks} 包`));
+              el("small", null, (streak() >= 2 ? `連續 ${streak()} 天 🔥・` : "") + `全部約 ${f.totalPacks} 包`));
   const stamps = el("div", "stamps");
   for (let i = 0; i < PACK_DAYS; i++) {
     const on = i < ps.inPack, isToday = !ps.doneToday && i === ps.inPack;
@@ -170,7 +188,7 @@ function renderToday() {
 const todayWords = () => data.words.filter(w => progress.words[w.id]?.last === today());
 function renderAll() {
   if (!data) return;
-  renderKpis(); renderGoal(); renderBody(); renderPack(); renderToday();
+  renderGoal(); renderBody(); renderPack(); renderToday();
 }
 function miaSay(text) { $("miaText").textContent = text; }
 function lobbyMia() {
@@ -367,6 +385,16 @@ function packReportBlock() {
 /* ---------- controls ---------- */
 $("startBtn").onclick = startDrill;
 $("extraBtn").onclick = startExtra;
+for (const id of ["bodyFront", "bodyBack", "topics"]) $(id).addEventListener("click", pick);
+// 小提醒: folded by default; the phone remembers whether it was left open.
+function setTips(open) {
+  $("tipsBody").hidden = !open;
+  $("tipsToggle").setAttribute("aria-expanded", open);
+  $("tipsWord").textContent = open ? "收起 ▴" : "展開 ▾";
+  try { localStorage.setItem("wordgym-tips-open", open ? "1" : "0"); } catch {}
+}
+$("tipsToggle").onclick = () => setTips($("tipsBody").hidden);
+try { setTips(localStorage.getItem("wordgym-tips-open") === "1"); } catch { setTips(false); }
 $("flipBtn").onclick = flip;
 $("flash").onclick = flip;            // tap the card to flip it
 $("yesBtn").onclick = () => answer(true);
