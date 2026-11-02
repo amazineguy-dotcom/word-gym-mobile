@@ -1,5 +1,6 @@
 // Offline support. Registered as sw.js?v=<VERSION> (see app.js), so each release installs fresh.
-// App files: network first (updates arrive right away), the saved copy when offline.
+// App files: network first, always re-checked with the server (updates arrive right away),
+// the saved copy when offline.
 // Audio clips: saved the first time they are heard, then played from the phone.
 const VERSION = new URL(location).searchParams.get("v") || "0";
 const SHELL_CACHE = "wg-shell-" + VERSION;
@@ -37,7 +38,9 @@ self.addEventListener("fetch", e => {
     return;
   }
 
-  e.respondWith(fetch(req).then(res => {
+  // cache: "no-cache" = always ask GitHub whether the file changed (a quick check), so a new
+  // version shows up on the next open instead of up to 10 minutes later.
+  e.respondWith(fetch(req.mode === "navigate" ? req.url : req, { cache: "no-cache" }).then(res => {
     if (res.ok) caches.open(SHELL_CACHE).then(c => c.put(req, res.clone()));
     return res;
   }).catch(async () => (await caches.match(req, { ignoreSearch: true }))

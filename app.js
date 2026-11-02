@@ -399,6 +399,31 @@ window.wordGym = { get progress() { return progress; }, get data() { return data
 
 /* ---------- home screen + offline ---------- */
 if ("serviceWorker" in navigator) navigator.serviceWorker.register(`sw.js?v=${VERSION}`).catch(() => {});
+
+// Update check: each time the app opens or comes back to the front, ask GitHub for the current
+// version. If it is newer, reload once (never in the middle of a drill) so the phone runs it.
+async function checkUpdate() {
+  if (drill || !navigator.onLine) return;
+  try {
+    const txt = await fetch(`version.js?t=${Date.now()}`, { cache: "no-store" }).then(r => r.ok ? r.text() : "");
+    const latest = (txt.match(/VERSION = "([^"]+)"/) || [])[1];
+    if (!latest || latest === VERSION) return;
+    // Do not loop if the reload still serves the old files (e.g. a slow CDN): one try per version.
+    if (sessionStorage.getItem("wordgym-updating") === latest) return;
+    sessionStorage.setItem("wordgym-updating", latest);
+    saveProgress(true);
+    notice(`更新到 v${latest}…`);
+    // A plain reload can still use the browser's saved copies of the program files (kept up to
+    // 10 minutes), so fetch each one fresh first; the reload then runs the new version.
+    await Promise.all(["./", "index.html", "app.js", "srs.js", "coach.js", "figure.js", "version.js", "words.json"]
+      .map(u => fetch(u, { cache: "reload" }).catch(() => {})));
+    const reg = await navigator.serviceWorker?.getRegistration().catch(() => null);
+    await reg?.update().catch(() => {});
+    location.reload();
+  } catch {}
+}
+addEventListener("load", () => setTimeout(checkUpdate, 1500));
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") checkUpdate(); });
 const standalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
 let installEvent = null;
 addEventListener("beforeinstallprompt", e => { e.preventDefault(); installEvent = e; if (data) installTip(); });
