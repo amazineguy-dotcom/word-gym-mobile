@@ -13,8 +13,8 @@ export const KEEP_GAP = 60;                     // upkeep check for long-term wo
 export const LEARNED = 3;                       // stage 3+ = 記住了 (survived a 4-day rest)
 export const STAGE_ZH = ["還沒學", "剛認識", "有印象", "記住了", "很熟悉", "很扎實", "長期記憶"];
 
-// One fixed daily load (the user's choice, v1.1.0): 30 new words a day, at most 200 reviews.
-export const DAILY = { newWords: 30, reviews: 200 };
+// One fixed daily load (the user's choice): 20 new words a day since v1.6.0 (was 30), at most 200 reviews.
+export const DAILY = { newWords: 20, reviews: 200 };
 export const loadOf = () => DAILY;
 
 // Seconds per card (estimates): a new word (see it, flip, usually 不熟 once, see it again) and a review.
@@ -194,7 +194,7 @@ export function forecast(p, data) {
   const avg = list => list.length ? Math.round(list.reduce((a, d) => a + d.minutes, 0) / list.length) : 0;
   const n0 = trainingDates(p).length;
   const ms = milestones(data).filter(m => m.what === "learned").map(m => ({ ...m, date: days.find(d => d.learned >= m.n)?.date || null }));
-  const out = { key: "daily30", finishDate: days.at(-1)?.date || t0, remaining: days.length, minutes: avg(main),
+  const out = { key: "daily20", finishDate: days.at(-1)?.date || t0, remaining: days.length, minutes: avg(main),
                 tailDays: days.length - main.length, totalPacks: Math.ceil((n0 + days.length) / PACK_DAYS), milestoneDates: ms };
   if (forecastCache.size > 12) forecastCache.clear();
   forecastCache.set(memo, out);

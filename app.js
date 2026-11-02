@@ -16,7 +16,7 @@ const ymd = d => `${d.slice(0, 4)}/${+d.slice(5, 7)}/${+d.slice(8)}`;
 
 let data = null, progress = emptyProgress(), drill = null, flash = new Set();
 
-// v1.1.0 removed the settings (fixed 30 words a day, normal speed); drop the old saved choice.
+// v1.1.0 removed the settings (fixed daily load, normal speed); drop the old saved choice.
 try { localStorage.removeItem("wordgym-settings"); } catch {}
 
 /* ---------- progress: saved in this phone's browser ---------- */
