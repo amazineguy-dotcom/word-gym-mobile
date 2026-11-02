@@ -162,7 +162,12 @@ function renderToday() {
   const b = $("startBtn");
   b.disabled = !d.fresh.length && !d.review.length;
   b.textContent = b.disabled ? "今天的份量完成了，明天見 ♥" : ps.doneToday ? "繼續今天剩下的卡（今天已簽到）" : "開始今天的單字（練完自動簽到）";
+  const n = todayWords().length, x = $("extraBtn");
+  x.hidden = !n;
+  x.textContent = `再練一次今天的 ${n} 個字（加練）`;
 }
+// Words answered today: the ones the extra round goes over.
+const todayWords = () => data.words.filter(w => progress.words[w.id]?.last === today());
 function renderAll() {
   if (!data) return;
   renderKpis(); renderGoal(); renderBody(); renderPack(); renderToday();
@@ -185,6 +190,19 @@ function buildQueue(deck) {
   rev.forEach((w, i) => { out.push({ w, isNew: false }); if (every && (i + 1) % every === 0 && f < deck.fresh.length) out.push({ w: deck.fresh[f++], isNew: true }); });
   while (f < deck.fresh.length) out.push({ w: deck.fresh[f++], isNew: true });
   return out;
+}
+// Extra round: today's words again, as many times as she likes. Answers here never change the
+// schedule (only the day's first answer counts) and do not count as a session or check-in.
+function startExtra() {
+  const list = todayWords().sort(() => Math.random() - .5);
+  if (!list.length) return;
+  $("sum").hidden = true;
+  drill = { extra: true, queue: list.map(w => ({ w, isNew: false })), pos: 0, first: new Map(), again: new Map(), known: 0, unknown: 0,
+            flipped: false, startedAt: Date.now(), total: list.length };
+  $("drill").hidden = false;
+  $("miaMini").innerHTML = MIA_SVG;
+  $("miaMiniText").textContent = say("extra");
+  showCard();
 }
 function startDrill() {
   const deck = todayDeck(progress, data.words);
@@ -214,7 +232,8 @@ function showCard() {
   const relearn = drill.first.has(w.id);
   const f = $("flash"); f.textContent = "";
   const stage = stageOf(progress, w.id);
-  f.append(el("span", "tag" + (relearn ? " again" : item.isNew ? " new" : ""), relearn ? "再一次" : item.isNew ? "新單字" : `複習 · ${STAGE_ZH[stage]}`),
+  f.append(el("span", "tag" + (relearn ? " again" : item.isNew ? " new" : drill.extra ? " extra" : ""),
+              relearn ? "再一次" : item.isNew ? "新單字" : drill.extra ? "加練" : `複習 · ${STAGE_ZH[stage]}`),
            el("span", "lvl", `${w.level} · ${data.topics.find(t => t.id === w.topic).zh}`),
            el("span", "word", w.w), el("span", "pos", w.pos), el("span", "think", "想一想：它的中文意思是？"));
   const sp = el("button", "spk", "🔊 再聽一次"); sp.type = "button"; sp.onclick = e => { e.stopPropagation(); sayWord(w); }; f.append(sp);
@@ -242,9 +261,8 @@ function answer(knew) {
   if (!drill.first.has(w.id)) {
     // The first answer of the day decides the schedule; later showings are just relearning.
     drill.first.set(w.id, knew);
-    progress.words[w.id] = grade(progress.words[w.id], knew, item.isNew);
     knew ? drill.known++ : drill.unknown++;
-    saveProgress();
+    if (!drill.extra) { progress.words[w.id] = grade(progress.words[w.id], knew, item.isNew); saveProgress(); }
   }
   if (!knew) {
     const n = (drill.again.get(w.id) || 0) + 1;
@@ -266,6 +284,7 @@ function finishDrill(quit = false) {
   $("drill").hidden = true;
   player.pause();
   if (!d.first.size) { lobbyMia(); renderAll(); return; }
+  if (d.extra) { showExtraSummary(d, quit); renderAll(); miaSay(say("extraDone")); return; }
   const minutes = Math.max(1, Math.round((Date.now() - d.startedAt) / 60000));
   progress.sessions.push({ date: today(), cards: d.first.size, known: d.known, unknown: d.unknown, newWords: [...d.first.keys()].filter(id => d.newIds.has(id)).length, minutes, quit });
   const packClosed = maybeSnapshot(progress, data);
@@ -308,9 +327,27 @@ function showSummary(d, minutes, medals, packClosed, quit) {
   r("明天的份量", `新字 ${tomorrow.fresh.length}、複習 ${tomorrow.review.length}，約 ${tomorrow.minutes} 分鐘`);
   sh.append(rows);
   if (packClosed) sh.append(packReportBlock());
-  const ok = el("button", "btn", "回到健身房"); ok.type = "button"; ok.onclick = () => { $("sum").hidden = true; };
-  sh.append(ok);
+  sh.append(sumButtons());
   $("sum").hidden = false;
+}
+function showExtraSummary(d, quit) {
+  const sh = $("sheet"); sh.textContent = "";
+  sh.append(el("h2", null, quit ? "加練先到這裡 ♥" : "加練完成！💪"));
+  const stats = el("div", "stats");
+  for (const [v, l] of [[d.first.size, "練了幾個字"], [d.known, "熟"], [d.unknown, "不熟"]]) {
+    const s = el("div", "stat"); s.append(el("b", null, String(v)), el("span", null, l)); stats.append(s);
+  }
+  sh.append(stats, el("p", "lead", "加練只是加深印象，不會改變這些字什麼時候再出現。真正的考驗是明天和之後的複習。"));
+  sh.append(sumButtons());
+  $("sum").hidden = false;
+}
+// Bottom of a summary: practise today's words again, or go back to the lobby.
+function sumButtons() {
+  const box = el("div", "sumBtns");
+  const again = el("button", "btn2", "再練一次今天的字"); again.type = "button"; again.onclick = startExtra;
+  const ok = el("button", "btn", "回到健身房"); ok.type = "button"; ok.onclick = () => { $("sum").hidden = true; };
+  box.append(again, ok);
+  return box;
 }
 function packReportBlock() {
   const r = packReport(progress);
@@ -329,6 +366,7 @@ function packReportBlock() {
 
 /* ---------- controls ---------- */
 $("startBtn").onclick = startDrill;
+$("extraBtn").onclick = startExtra;
 $("flipBtn").onclick = flip;
 $("flash").onclick = flip;            // tap the card to flip it
 $("yesBtn").onclick = () => answer(true);

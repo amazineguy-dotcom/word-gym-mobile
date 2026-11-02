@@ -112,6 +112,11 @@ h1,h2,h3{margin:0;line-height:1.25}
 .topic .bar .l{background:var(--accent)} .topic .bar .t{background:var(--purple)}
 .topic small{color:var(--muted)}
 .note{font-size:12.5px;color:var(--muted);margin:0}
+.tipH{font-size:14px;margin:4px 0 0}
+.tips{margin:0;padding-left:18px;font-size:13px;color:var(--soft);display:flex;flex-direction:column;gap:6px;line-height:1.55}
+.btn2{border:1.5px solid var(--accent);border-radius:16px;padding:12px 18px;font-weight:700;font-size:15px;background:#fff;color:var(--accent);width:100%}
+.btn2:active{transform:scale(.98)}
+.flash .tag.extra{color:#0f8a7e;background:#dcf5f1}
 
 /* drill: full screen, buttons in thumb reach */
 .drill{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;gap:10px;padding:calc(10px + var(--safe-t)) 14px calc(14px + var(--safe-b));z-index:5;max-width:560px;margin:0 auto}
@@ -151,6 +156,7 @@ h1,h2,h3{margin:0;line-height:1.25}
 .sheet{background:#fff;border-radius:24px 24px 0 0;padding:20px 16px calc(16px + var(--safe-b));width:min(560px,100%);max-height:88vh;overflow:auto;display:flex;flex-direction:column;gap:12px;animation:up .3s ease-out}
 @keyframes up{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
 .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.sumBtns{display:flex;flex-direction:column;gap:8px}
 .stat{background:var(--surface-2);border-radius:14px;padding:10px;text-align:center}
 .stat b{display:block;font-size:24px}
 .stat span{font-size:12px;color:var(--muted)}
@@ -179,6 +185,7 @@ h1,h2,h3{margin:0;line-height:1.25}
       <div><b id="tMin">0</b><span>約幾分鐘</span></div>
     </div>
     <button class="btn" id="startBtn" type="button" disabled>準備中…</button>
+    <button class="btn2" id="extraBtn" type="button" hidden>再練一次今天的字</button>
     <p class="note">看英文 → 想中文 → 點卡片翻面 → 按「熟」或「不熟」。不熟的卡等一下會再出現。</p>
   </section>
 
@@ -214,7 +221,24 @@ h1,h2,h3{margin:0;line-height:1.25}
 
   <section class="card">
     <h2>小提醒</h2>
-    <p class="note">每天固定 30 個新單字，加上到期的複習字（最多 200 個）。</p>
+    <h3 class="tipH">這個 App 的目標</h3>
+    <p class="note">把 1,469 個 A1＋A2 單字全部記進<b>長期記憶</b>，也就是 A2 的單字量。重點不是「今天看過」，而是「幾個月後還想得起來」，而且每天只花十幾到三十分鐘。</p>
+    <h3 class="tipH">為什麼這樣練有效</h3>
+    <ul class="tips">
+      <li><b>先想再翻面（主動回想）</b>：自己努力想出意思，比直接看答案記得牢很多。想不起來也沒關係，「想」這個動作本身就在練記憶。</li>
+      <li><b>快忘記時再複習（間隔複習）</b>：記憶會隨時間慢慢消失。在快忘記的時候再想起來一次，記憶會變得更牢，下次就能撐更久，所以複習間隔是 1、2、4、7、15、30 天，越拉越長。</li>
+      <li><b>馬上知道對錯（立即回饋）</b>：翻面就看到答案；不熟的字幾張卡後馬上再出現，隔天也一定再見，錯的地方不會被放著不管。</li>
+      <li><b>聽聲音、看例句</b>：每個字都有 Ava 念單字和例句，聲音加上句子裡的用法，比只背中文意思更容易想起來。</li>
+      <li><b>主題混在一起出</b>：很像的字一起學容易搞混，所以不同主題的字會打散。</li>
+    </ul>
+    <h3 class="tipH">規則為什麼這樣定</h3>
+    <ul class="tips">
+      <li><b>每天固定 30 個新字</b>：份量固定，每天的練習量才穩定，不會某天突然爆量。</li>
+      <li><b>誠實按熟／不熟</b>：App 靠妳的答案決定每個字什麼時候再出現。假裝熟，它就會太晚回來，到時候已經忘了。</li>
+      <li><b>每天只有第一次的答案算數</b>：同一天看很多次，當下一定覺得熟，但那是「剛看過」不是「記住了」。所以加練可以加深印象，但不會改變排程。</li>
+      <li><b>每天簽到、7 天一包</b>：間隔複習要靠每天回來才有效。沒來不會扣分，只是終點往後延。</li>
+      <li><b>複習最多 200 個</b>：好幾天沒練時，到期的字會堆很多。一天最多拿出 200 個，剩下的排到隔天，不會一次壓垮妳。</li>
+    </ul>
     <p class="note">進度只存在這支手機裡，跟電腦版是分開的。換手機或清除瀏覽器資料，進度會從頭開始。</p>
   </section>
 </div>
