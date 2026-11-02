@@ -13,12 +13,9 @@ export const KEEP_GAP = 60;                     // upkeep check for long-term wo
 export const LEARNED = 3;                       // stage 3+ = 記住了 (survived a 4-day rest)
 export const STAGE_ZH = ["還沒學", "剛認識", "有印象", "記住了", "很熟悉", "很扎實", "長期記憶"];
 
-export const INTENSITY = {
-  light:    { zh: "輕鬆", newWords: 10, reviews: 80 },
-  standard: { zh: "標準", newWords: 20, reviews: 140 },
-  strong:   { zh: "衝刺", newWords: 30, reviews: 200 },
-};
-export const loadOf = p => INTENSITY[p.intensity] || INTENSITY.standard;
+// One fixed daily load (the user's choice, v1.1.0): 30 new words a day, at most 200 reviews.
+export const DAILY = { newWords: 30, reviews: 200 };
+export const loadOf = () => DAILY;
 
 // Seconds per card (estimates): a new word (see it, flip, usually 不熟 once, see it again) and a review.
 const SEC = { newCard: 16, review: 6, start: 20 };
@@ -37,11 +34,11 @@ export function daysBetween(a, b) {
 }
 
 export function emptyProgress() {
-  return { version: 1, words: {}, sessions: [], intensity: "standard", snapshots: [], medals: [] };
+  return { version: 1, words: {}, sessions: [], snapshots: [], medals: [] };
 }
 export function upgradeProgress(p) {
   return { ...emptyProgress(), ...p, words: p.words || {}, sessions: p.sessions || [],
-           intensity: p.intensity in INTENSITY ? p.intensity : "standard", snapshots: p.snapshots || [], medals: p.medals || [] };
+           intensity: undefined, snapshots: p.snapshots || [], medals: p.medals || [] };
 }
 export const stageOf = (p, id) => p.words[id]?.box || 0;
 
@@ -178,11 +175,10 @@ export function packReport(p) {
 /* ---------- forecast: run the schedule forward, assuming you train every day ---------- */
 // New words are assumed to need one relearn (不熟 the first time); reviews are assumed 熟.
 const forecastCache = new Map();
-export function forecast(p, data, key = p.intensity) {
-  const memo = [today(), key, p.sessions.length, Object.keys(p.words).length].join("|");
+export function forecast(p, data) {
+  const memo = [today(), p.sessions.length, Object.keys(p.words).length].join("|");
   if (forecastCache.has(memo)) return forecastCache.get(memo);
   const sim = structuredClone(p);
-  sim.intensity = key in INTENSITY ? key : "standard";
   const t0 = today();
   const start = sim.sessions.some(s => s.date === t0) ? 1 : 0;
   const words = data.words;
@@ -198,7 +194,7 @@ export function forecast(p, data, key = p.intensity) {
   const avg = list => list.length ? Math.round(list.reduce((a, d) => a + d.minutes, 0) / list.length) : 0;
   const n0 = trainingDates(p).length;
   const ms = milestones(data).filter(m => m.what === "learned").map(m => ({ ...m, date: days.find(d => d.learned >= m.n)?.date || null }));
-  const out = { key: sim.intensity, finishDate: days.at(-1)?.date || t0, remaining: days.length, minutes: avg(main),
+  const out = { key: "daily30", finishDate: days.at(-1)?.date || t0, remaining: days.length, minutes: avg(main),
                 tailDays: days.length - main.length, totalPacks: Math.ceil((n0 + days.length) / PACK_DAYS), milestoneDates: ms };
   if (forecastCache.size > 12) forecastCache.clear();
   forecastCache.set(memo, out);

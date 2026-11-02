@@ -4,7 +4,7 @@
 import { VERSION } from "./version.js";
 import { MIA_SVG, lobbyLine, say } from "./coach.js";
 import { figure, TONE } from "./figure.js";
-import { INTENSITY, STAGE_ZH, MAX_STAGE, LEARNED, emptyProgress, upgradeProgress, todayDeck, grade, counts, regionStages,
+import { STAGE_ZH, MAX_STAGE, LEARNED, emptyProgress, upgradeProgress, todayDeck, grade, counts, regionStages,
          topicStats, milestoneState, packStatus, maybeSnapshot, packReport, forecast, today, addDays, daysBetween,
          trainingDates, PACK_DAYS, stageOf } from "./srs.js";
 
@@ -16,10 +16,8 @@ const ymd = d => `${d.slice(0, 4)}/${+d.slice(5, 7)}/${+d.slice(8)}`;
 
 let data = null, progress = emptyProgress(), drill = null, flash = new Set();
 
-/* ---------- settings (this phone only) ---------- */
-const settings = { speed: "normal" };
-try { Object.assign(settings, JSON.parse(localStorage.getItem("wordgym-settings") || "{}")); } catch {}
-const saveSettings = () => { try { localStorage.setItem("wordgym-settings", JSON.stringify(settings)); } catch {} };
+// v1.1.0 removed the settings (fixed 30 words a day, normal speed); drop the old saved choice.
+try { localStorage.removeItem("wordgym-settings"); } catch {}
 
 /* ---------- progress: saved in this phone's browser ---------- */
 const STORE = "wordgym-progress";
@@ -46,8 +44,7 @@ function notice(text) {
 
 /* ---------- voice: Ava, pre-recorded ---------- */
 // Clips are fetched (the offline cache keeps every clip you have heard) and played from memory,
-// which avoids iPhone problems with cached audio. Speed changes playback rate, not pitch.
-const RATE = { slow: 0.85, normal: 1, fast: 1.12 };
+// which avoids iPhone problems with cached audio. Always normal speed.
 const clipCache = new Map();
 function clip(url) {
   if (!clipCache.has(url)) {
@@ -59,7 +56,6 @@ function clip(url) {
 const wordUrl = w => `audio/w/${w.id}.mp3`, exUrl = w => `audio/e/${w.id}.mp3`;
 const prefetch = url => { if (url) clip(url).catch(() => {}); };
 const player = new Audio();   // one element, reused: phones only let a tapped page play sound
-player.preservesPitch = true;
 let speakToken = 0;
 async function speak(url, fallbackText) {
   const my = ++speakToken;
@@ -68,13 +64,13 @@ async function speak(url, fallbackText) {
     if (my !== speakToken) return;
     player.pause();
     player.src = src;
-    player.playbackRate = RATE[settings.speed] || 1;
+    player.playbackRate = 1;
     await player.play();
   } catch {
     // Offline and never heard before: use the phone's own voice as a backup.
     if (my === speakToken && fallbackText && "speechSynthesis" in window) {
       const u = new SpeechSynthesisUtterance(fallbackText);
-      u.lang = "en-US"; u.rate = RATE[settings.speed] || 1;
+      u.lang = "en-US";
       speechSynthesis.cancel(); speechSynthesis.speak(u);
     }
   }
@@ -83,16 +79,6 @@ const sayWord = w => speak(wordUrl(w), w.w);
 const sayEx = w => speak(exUrl(w), w.ex);
 
 /* ---------- lobby ---------- */
-function chips(id, map, get, set) {
-  const box = $(id); box.textContent = "";
-  for (const [val, o] of Object.entries(map)) {
-    const b = el("button", "chip"); b.type = "button";
-    b.setAttribute("aria-pressed", get() === val);
-    b.append(el("span", null, o.zh), el("small", null, o.en || ""));
-    b.onclick = () => { if (get() !== val) { set(val); renderAll(); } };
-    box.append(b);
-  }
-}
 function streak() {
   const days = new Set(trainingDates(progress));
   let n = 0;
@@ -108,7 +94,7 @@ function renderKpis() {
 }
 function renderGoal() {
   const c = counts(progress, data.words), f = forecast(progress, data);
-  $("goalLead").textContent = `全部 ${c.total} 個 A1＋A2 單字都記住、再進入長期記憶，就是 A2 的單字量。照「${INTENSITY[f.key].zh}」份量每天練，預計 ${ymd(f.finishDate)} 到終點。`;
+  $("goalLead").textContent = `全部 ${c.total} 個 A1＋A2 單字都記住、再進入長期記憶，就是 A2 的單字量。每天練 30 個新字，預計 ${ymd(f.finishDate)} 到終點。`;
   $("gbLong").style.width = (c.longTerm / c.total * 100) + "%";
   $("gbLearned").style.width = ((c.learned - c.longTerm) / c.total * 100) + "%";
   $("gnLeft").textContent = `已記住 ${c.learned}　長期記憶 ${c.longTerm}`;
@@ -177,19 +163,9 @@ function renderToday() {
   b.disabled = !d.fresh.length && !d.review.length;
   b.textContent = b.disabled ? "今天的份量完成了，明天見 ♥" : ps.doneToday ? "繼續今天剩下的卡（今天已簽到）" : "開始今天的單字（練完自動簽到）";
 }
-function renderSettings() {
-  const loads = {};
-  for (const [k, v] of Object.entries(INTENSITY)) {
-    const f = forecast(progress, data, k);
-    loads[k] = { zh: `${v.zh}・每天 ${v.newWords} 個新字`, en: `約 ${f.minutes} 分鐘，${ymd(f.finishDate)} 到 A2` };
-  }
-  chips("loadChips", loads, () => progress.intensity, v => { progress.intensity = v; progress.target = null; saveProgress(); miaSay(v === "strong" ? "衝刺模式！好有企圖心，我陪妳。" : v === "light" ? "輕鬆練也很好，重點是每天都來～" : "標準份量，穩穩前進！"); });
-  chips("speedChips", { slow: { zh: "慢", en: "聽清楚每個音" }, normal: { zh: "正常" }, fast: { zh: "快" } }, () => settings.speed,
-    v => { settings.speed = v; saveSettings(); speak("audio/hello.mp3", "Hello! Let's learn some words."); });
-}
 function renderAll() {
   if (!data) return;
-  renderKpis(); renderGoal(); renderBody(); renderPack(); renderToday(); renderSettings();
+  renderKpis(); renderGoal(); renderBody(); renderPack(); renderToday();
 }
 function miaSay(text) { $("miaText").textContent = text; }
 function lobbyMia() {
